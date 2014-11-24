@@ -11,28 +11,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141124160013) do
+ActiveRecord::Schema.define(version: 20141124161013) do
 
   create_table "cities", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "zipcode"
   end
 
   create_table "users", force: true do |t|
     t.string   "email"
     t.string   "role"
-    t.integer  "city_id"
     t.string   "referrer_url"
     t.string   "referral_url"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "zipcode"
   end
 
   create_table "wishes", force: true do |t|
     t.integer  "user_id"
     t.text     "wish"
-    t.integer  "city_id"
     t.integer  "vote"
     t.string   "wish_url"
     t.datetime "created_at"
