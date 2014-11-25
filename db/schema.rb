@@ -11,32 +11,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141124161013) do
+ActiveRecord::Schema.define(version: 20141124155903) do
 
   create_table "cities", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "zipcode"
   end
 
   create_table "users", force: true do |t|
     t.string   "email"
     t.string   "role"
-    t.string   "referrer_url"
-    t.string   "referral_url"
+    t.integer  "city_id"
+    t.integer  "referrer_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "zipcode"
   end
 
-  create_table "wishes", force: true do |t|
-    t.integer  "user_id"
-    t.text     "wish"
-    t.integer  "vote"
-    t.string   "wish_url"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
+  add_index "users", ["city_id"], name: "index_users_on_city_id"
+  add_index "users", ["referrer_id"], name: "index_users_on_referrer_id"
 
 end

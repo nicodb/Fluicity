@@ -1,0 +1,28 @@
+$link-color: #2ecc71;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+@import "navbar";
+
+.page-header {
+  background-image: asset-url('fluicity_cover.png');
+  background-size: cover;
+  font-size: 24px;
+  height: 600px;
+  color: white;
+  padding-top: 250px;
+  text-shadow: 1px 1px 1px black;
+  position: relative;
+
+  .header-form {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1em 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}

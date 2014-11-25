@@ -4,10 +4,12 @@ class CreateUsers < ActiveRecord::Migration
       t.string :email
       t.string :role
       t.integer :city_id
-      t.string :referrer_url
-      t.string :referral_url
+      t.integer :referrer_id
 
       t.timestamps
     end
+
+    add_index :users, :city_id
+    add_index :users, :referrer_id
   end
 end
