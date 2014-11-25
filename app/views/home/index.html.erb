@@ -13,21 +13,18 @@
       <h2> Get notified first </h2>
       <%= form_for(@user) do |f| %>
 
-        <div class="form-group">
-          <%= f.email_field :email, class: 'form-control', placeholder: 'Email' %>
-
-          <input type="text" class="form-inline city input-large input-contrast" autocomplete="off" id="city" name="city" placeholder="Dans quelle ville habitez-vous&nbsp;?">
+          <input type="text"autocomplete="off" id=@email name="email" placeholder="E-mail">
+          <input type="text"autocomplete="off" id="city" name="city" placeholder="Dans quelle ville habitez-vous&nbsp;?">
 
           <p id="enter_location_error_message" class="bad hide">
           Merci d'entrer un emplacement
           </p>
 
-          <input type="text" id="role" class="form-inline checkin search-option input-large input-contrast ui-datepicker-target" name="role" placeholder="Quel rôle avez vous?">
-        </div>
-
+          <input type="text" id="role" name="role" placeholder="Quel rôle avez vous?">
 
       <% end %>
     </div>
+
 </header>
 
       <div class= "container">
