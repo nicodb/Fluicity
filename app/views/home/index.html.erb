@@ -1,29 +1,28 @@
 
 <header class='page-header text-center'>
-  <div class= "container">
-    <h1> FLUICITY </h1>
 
-    <div class= "slogan">
-      <p> Connecting Cities </p>
+
+    <div class= "container">
+      <h1> FLUICITY </h1>
+
+      <div class= "slogan">
+        <p> Connecting Cities </p>
+      </div>
     </div>
-  </div>
 
-  <div class='header-form form-inline'>
+    <div class='header-form form-inline'>
+        <h2> Get notified first </h2>
+        <%= form_for(@user) do |f| %>
+          <%= f.text_field :email, placeholder: "E-mail" %>
+          <%= f.collection_select(:city_id, City.all, :id, :name) %>
+          <%= f.text_field :role, placeholder: "Quel rôle avez vous?" %>
+            <p id="enter_location_error_message" class="bad hide">
+            Merci d'entrer un emplacement
+            </p>
+          <%= f.submit %>
+        <% end %>
+      </div>
 
-      <h2> Get notified first </h2>
-      <%= form_for(@user) do |f| %>
-
-          <input type="text"autocomplete="off" id=@email name="email" placeholder="E-mail">
-          <input type="text"autocomplete="off" id="city" name="city" placeholder="Dans quelle ville habitez-vous&nbsp;?">
-
-          <p id="enter_location_error_message" class="bad hide">
-          Merci d'entrer un emplacement
-          </p>
-
-          <input type="text" id="role" name="role" placeholder="Quel rôle avez vous?">
-
-      <% end %>
-    </div>
 
 </header>
 
