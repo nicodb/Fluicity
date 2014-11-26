@@ -1,8 +1,19 @@
+<div id="carousel-homepage" class="carousel slide" data-ride="carousel" style="float: left">
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" style="background-image: url(<%= asset_path "owl-caroussel/austrian-pavilion.png" %>)">
+    </div>
+    <div class="item"  style="background-image: url(<%= asset_path "owl-caroussel/fluicity_cover.png" %>)">
+    </div>
+    <div class="item active" style="background-image: url(<%= asset_path "owl-caroussel/houseoflords.png" %>)">
+    </div>
+     <div class="item active" style="background-image: url(<%= asset_path "owl-caroussel/EUPrize.png" %>)">
+    </div>
+  </div>
+</div>
 
 <header class='page-header text-center'>
 
-
-    <div class= "container">
+    <div class='page-header-text'>
       <h1> FLUICITY </h1>
 
       <div class= "slogan">
@@ -11,7 +22,6 @@
     </div>
 
     <div class='header-form form-inline'>
-        <h2> Get notified first </h2>
         <%= form_for(@user) do |f| %>
           <%= f.text_field :email, placeholder: "E-mail" %>
           <%= f.collection_select(:city_id, City.all, :id, :name) %>
@@ -19,9 +29,13 @@
             <p id="enter_location_error_message" class="bad hide">
             Merci d'entrer un emplacement
             </p>
-          <%= f.submit %>
+         <%=  link_to "/thanks", class: "btn btn-primary" do  %>
+         Be the first informed
+         <% end %>
         <% end %>
-      </div>
+    </div>
+
+</div>
 
 
 </header>
@@ -34,10 +48,21 @@
 
 
       <div class= "container">
-        <div class= 'form'>
-          <h1> form goes there </h1>
-        </div>
-      </div>
+        <div class='header-form form-inline'>
+        <h2> Get notified first </h2>
+        <%= form_for(@user) do |f| %>
+          <%= f.text_field :email, placeholder: "E-mail" %>
+          <%= f.collection_select(:city_id, City.all, :id, :name) %>
+          <%= f.text_field :role, placeholder: "Quel rôle avez vous?" %>
+            <p id="enter_location_error_message" class="bad hide">
+            Merci d'entrer un emplacement
+            </p>
+         <%=  link_to "/thanks", class: "btn btn-primary" do  %>
+         Be the first informed
+         <% end %>
+        <% end %>
+    </div>
+
 
         <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
 

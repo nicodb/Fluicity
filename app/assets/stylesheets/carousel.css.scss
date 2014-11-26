@@ -1,0 +1,8 @@
+#carousel-homepage {
+  height: $header-height;
+  width: 100%;
+  .item {
+    height: $header-height;
+    background-size: cover;
+  }
+}

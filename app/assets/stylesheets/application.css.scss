@@ -1,5 +1,7 @@
 $link-color: #2ecc71;
 
+$header-height: 600px;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -7,9 +9,38 @@ $link-color: #2ecc71;
 @import "font-awesome";
 
 @import "navbar";
+@import "carousel";
 
 
 .page-header {
+  // background-image: asset-url('austrian-pavilion.png');
+  // background-size: cover;
+  background: transparent;
+  font-size: 24px;
+  height: $header-height;
+  color: white;
+  padding-top: 250px;
+  text-shadow: 1px 1px 1px black;
+  position: relative;
+  margin-top: 0;
+
+  .page-header-text {
+    position: absolute;
+    width: 100%;
+    top: $header-height / 3;
+  }
+
+  .header-form {
+    color: yellow;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1em 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.notice {
   background-image: asset-url('fluicity_cover.png');
   background-size: cover;
   font-size: 24px;
@@ -20,7 +51,7 @@ $link-color: #2ecc71;
   position: relative;
   margin-top: 0;
 
-  .header-form {
+   .header-form {
     color: yellow;
     position: absolute;
     bottom: 0;
@@ -28,4 +59,9 @@ $link-color: #2ecc71;
     padding: 1em 0;
     background-color: rgba(0, 0, 0, 0.6);
   }
+}
+
+.footer {
+  background: #34495e;
+  color: white
 }
