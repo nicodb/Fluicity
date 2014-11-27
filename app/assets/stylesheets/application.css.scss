@@ -28,10 +28,12 @@ $header-height: 600px;
     position: absolute;
     width: 100%;
     top: $header-height / 3;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
   }
 
   .header-form {
-    color: yellow;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    color: grey;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -40,28 +42,72 @@ $header-height: 600px;
   }
 }
 
-.notice {
-  background-image: asset-url('fluicity_cover.png');
-  background-size: cover;
-  font-size: 24px;
-  height: 600px;
-  color: white;
-  padding-top: 250px;
-  text-shadow: 1px 1px 1px black;
-  position: relative;
-  margin-top: 0;
-
-   .header-form {
-    color: yellow;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 1em 0;
-    background-color: rgba(0, 0, 0, 0.6);
+.form-button {
+    color: #F9F60C
   }
-}
 
 .footer {
-  background: #34495e;
+  background: rgba(0, 0, 0, 0.7);
+  height: 60px;
+}
+
+.footer-col {
+  background: rgba(0, 0, 0, 0);
+  height: 50px;
+  padding-top: 10px;
+}
+
+.list-inline {
   color: white;
+}
+
+.home-section {
+  background-size: cover;
+  font-size: 24px;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  height: 400px;
+  color: rgb(137, 132, 132);
+  padding-top: 50px;
+  position: relative;
+  margin-top: 0;
+}
+
+.thanks-section {
+  background-image: asset-url('grey-pattern.png');
+  background-size: cover;
+  font-size: 24px;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  height: 400px;
+  color: rgb(137, 132, 132);
+  padding-top: 300px;
+  position: relative;
+  margin-top: 0;
+  height: 550px;
+}
+
+
+.contact-section {
+  background-image: asset-url('grey-pattern.png');
+  background-size: cover;
+  font-size: 24px;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  height: 400px;
+  color: rgb(137, 132, 132);
+  padding-top: 300px;
+  position: relative;
+  margin-top: 0;
+  height: 550px;
+}
+
+.wish-section {
+  background-image: asset-url('grey-pattern.png');
+  background-size: cover;
+  font-size: 24px;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  height: 400px;
+  color: rgb(137, 132, 132);
+  padding-top: 300px;
+  position: relative;
+  margin-top: 0;
+  height: 550px;
 }

@@ -4,59 +4,42 @@
     </div>
     <div class="item"  style="background-image: url(<%= asset_path "owl-caroussel/fluicity_cover.png" %>)">
     </div>
-    <div class="item active" style="background-image: url(<%= asset_path "owl-caroussel/houseoflords.png" %>)">
+     <div class="item active" style="background-image: url(<%= asset_path "owl-caroussel/zaha-hadid-hd.jpg" %>)">
     </div>
-     <div class="item active" style="background-image: url(<%= asset_path "owl-caroussel/EUPrize.png" %>)">
+    <div class="item active" style="background-image: url(<%= asset_path "owl-caroussel/peter-fritz.png" %>)">
     </div>
   </div>
 </div>
 
 <div class='page-header text-center'>
   <div class='page-header-text'>
-    <h1> FLUICITY </h1>
-
-    <div class= "slogan">
-      <p> Connecting Cities </p>
-    </div>
+    <h1> CONNECTING CITIES </h1>
   </div>
 
   <div class='header-form form-inline'>
     <%= form_for(@user) do |f| %>
       <%= f.text_field :email, placeholder: "E-mail" %>
-      <%= f.collection_select(:city_id, City.all, :id, :name) %>
-      <%= f.text_field :role, placeholder: "Quel rôle avez vous?" %>
+      <!-- Include Google Maps JS API -->
+      <input id="user_input_autocomplete_address" placeholder="Votre ville...">
+      <%= f.collection_select :role, @roles, :value, :text, {}, { class: "form-control" } %>
         <p id="enter_location_error_message" class="bad hide">
         Merci d'entrer un emplacement
         </p>
-     <%=  link_to "/thanks", class: "btn btn-primary" do  %>
-     Be the first informed
+     <%=  link_to "/thanks", class: "form-button <button>Add</button>" do  %>
+     Soyez le premier informé!
      <% end %>
     <% end %>
   </div>
 </div>
 
 
-</div>
 
-<div class= "container">
-  <div class= 'notice'>
-    <h1> notice goes there </h1>
+
+
+<div class="row home-section">
+  <div class="col-md-6 col-md-offset-3">
+    <p> Fluicity est une plateforme de communication clé en main pour les villes souhaitant impliquer les citoyens dans la prise de decision publique. Nous digitalisons, formatons et analysons un ensemble trèss vaste de données es pour intégrer autour de ce processus l'ensemble des parties prenantes : citoyens, organisations, élus. Nos clients sont principalement des municipalités et des collectivités locales.</p>
   </div>
 </div>
 
 
-<div class= "container">
-  <div class='header-form form-inline'>
-  <h2> Get notified first </h2>
-  <%= form_for(@user) do |f| %>
-    <%= f.text_field :email, placeholder: "E-mail" %>
-    <%= f.collection_select(:city_id, City.all, :id, :name) %>
-    <%= f.text_field :role, placeholder: "Quel rôle avez vous?" %>
-      <p id="enter_location_error_message" class="bad hide">
-      Merci d'entrer un emplacement
-      </p>
-   <%=  link_to "/thanks", class: "btn btn-primary" do  %>
-   Be the first informed
-   <% end %>
-  <% end %>
-</div>
