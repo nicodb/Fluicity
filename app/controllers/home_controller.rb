@@ -2,12 +2,7 @@ class HomeController < ApplicationController
   Role = Struct.new(:text, :value)
 
   def index
-    @user = User.new
-    @roles = [
-      Role.new("Je suis Citoyen", "citizen"),
-      Role.new("Je suis un élu", "representative"),
-      Role.new("Je représente une organisation", "organization")
-    ]
+    prepare_user
   end
 
   def thanks
@@ -15,10 +10,21 @@ class HomeController < ApplicationController
   end
 
   def contact
+    prepare_user
 
   end
 
   def wish
+
+  end
+
+  def prepare_user
+    @user = User.new
+    @roles = [
+      Role.new("Je suis Citoyen", "Citizen"),
+      Role.new("Je suis un Elu", "representative"),
+      Role.new("Je représente une organisation", "organization")
+    ]
 
   end
 

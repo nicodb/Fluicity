@@ -2,8 +2,11 @@ $link-color: #2ecc71;
 
 $header-height: 600px;
 
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "rails_bootstrap_forms";
 
 @import "font-awesome-sprockets";
 @import "font-awesome";
@@ -29,6 +32,7 @@ $header-height: 600px;
     width: 100%;
     top: $header-height / 3;
     font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-weight: 900;
   }
 
   .header-form {
@@ -43,7 +47,7 @@ $header-height: 600px;
 }
 
 .form-button {
-    color: #F9F60C
+    color: #FFCA00
   }
 
 .footer {
@@ -77,37 +81,53 @@ $header-height: 600px;
   background-size: cover;
   font-size: 24px;
   font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
-  height: 400px;
   color: rgb(137, 132, 132);
   padding-top: 300px;
   position: relative;
   margin-top: 0;
-  height: 550px;
+  height: $header-height;
 }
 
-
 .contact-section {
-  background-image: asset-url('grey-pattern.png');
+  background-image: asset-url('brussels-map.png');
+  background-color: rgba(0, 0, 0, 0.4);
   background-size: cover;
-  font-size: 24px;
-  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
-  height: 400px;
-  color: rgb(137, 132, 132);
-  padding-top: 300px;
+  padding-top: 150px;
+  padding-bottom: 300px;
   position: relative;
   margin-top: 0;
-  height: 550px;
+  height: $header-height;
+
+  .contact-form {
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    color: grey;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(255,202, 0, 0.4);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .wish-section {
-  background-image: asset-url('grey-pattern.png');
+  background-image: asset-url('make-a-wish.png');
   background-size: cover;
   font-size: 24px;
   font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
-  height: 400px;
-  color: rgb(137, 132, 132);
-  padding-top: 300px;
+  height: 00px;
+  color: black;
+  padding-top: 250px;
   position: relative;
   margin-top: 0;
-  height: 550px;
+  height: $header-height;
 }
+
+
+
+.footer a {
+  color: #FFCA00
+}
+
+

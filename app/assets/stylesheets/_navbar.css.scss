@@ -1,11 +1,12 @@
 // Set your navbar general settings
-$color: #ecf0f1;
+$color: white;
 $bg: rgba(0, 0, 0, 0.7);
 $height: 50px;
 $vertical-padding: 20px;
 $horizontal-padding: 20px;
 $border-bottom-width: 0;
 $border-bottom-color: blue;
+
 
 // Set your navbar button
 $btn-height: 50px;
@@ -28,7 +29,7 @@ $btn-left-border-color: transparent;
 .navbar-wagon{
   background-color: $bg;
   border: none;
-  font-weight: 400;
+  font-weight: 600;
   padding-left: $horizontal-padding;
   padding-right: $horizontal-padding;
   border-bottom: $border-bottom-width solid $border-bottom-color;

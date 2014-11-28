@@ -1,8 +1,37 @@
 <div class = "contact-section">
-  <div class = "container">
-    <div class="row">
+
       <div class="col-md-6 col-md-offset-3">
-        <p> INSERER UN FORMULAIRE DE CONTACT!</p>
+        <h2> Merci pour votre intérêt. Nous vous répondrons dès que possible </h2>
+
+          <div class='contact-form'>
+                <%= bootstrap_form_for(@user) do |f| %>
+              <div class = "col-sm-6">
+                <p class = "text-area">
+                  <%= f.text_field :email, placeholder: "E-mail" %>
+                </p>
+                <p class = "text-area">
+                <!-- Include Google Maps JS API -->
+                  <input id="user_input_autocomplete_address" placeholder="Votre ville...">
+                </p>
+                <p>
+                 <%= f.collection_select :role, @roles, :value, :text, {}%>
+                  <p id="enter_location_error_message" class="bad hide">
+                    Merci d'entrer un emplacement
+                  </p>
+                </p>
+                <p class = "text-area">
+                  <%= text_area_tag :text %>
+                </p>
+
+                <p>
+                  <%=  f.submit "Envoyer", class: "form-button <button>Add</button>" %>
+                </p>
+              </div>
+
+
+            <% end %>
+          </div>
+        </div>
       </div>
     </div>
   </div>
