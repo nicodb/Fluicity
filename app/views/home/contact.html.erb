@@ -20,7 +20,25 @@
               </div>
 
               <div class = "col-sm-6">
-                INSERER UN GOOGLE MAPS
+                <!-- app/views/flats/index.html.erb -->
+
+                <div id="map" style="width: 100%; height: 300px;"></div>
+
+                <% content_for(:js) do %>
+                  <%= javascript_tag do %>
+                    $(document).on('ready', function() {
+                      handler = Gmaps.build('Google');
+                      handler.buildMap({ internal: { id: 'map' } }, function(){
+                        markers = handler.addMarkers([
+                          { lat: 50.7361150, lng: 4.4743420, infowindow: "111, chaussée de bruxelles, 1310 La Hulpe, BELGIQUE" }
+                        ]);
+                        handler.bounds.extendWith(markers);
+                        handler.fitMapToBounds();
+                        handler.getMap().setZoom(9);
+                      });
+                    })
+                  <% end %>
+                <% end %>
              </div>
 
             <% end %>

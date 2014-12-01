@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
+source 'https://rails-assets.org'  # Add this at line 2
 
+gem "gmaps4rails"
+gem "rails-assets-underscore"
 
 gem 'bootstrap_form'
 gem 'bootstrap-sass', '~> 3.3.0'
