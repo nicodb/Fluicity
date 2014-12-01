@@ -33,6 +33,7 @@ $header-height: 600px;
     top: $header-height / 3;
     font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
     font-weight: 900;
+    font-size: 48px;
   }
 
   .header-form {
@@ -51,7 +52,7 @@ $header-height: 600px;
   }
 
 .footer {
-  background: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   height: 60px;
 }
 
@@ -88,10 +89,14 @@ $header-height: 600px;
   height: $header-height;
 }
 
-.contact-section {
+
+.home-contact {
   background-image: asset-url('brussels-map.png');
-  background-color: rgba(0, 0, 0, 0.4);
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.contact-section {
   padding-top: 150px;
   padding-bottom: 300px;
   position: relative;
@@ -111,9 +116,12 @@ $header-height: 600px;
   }
 }
 
-.wish-section {
+.home-wish {
   background-image: asset-url('make-a-wish.png');
   background-size: cover;
+}
+
+.wish-section {
   font-size: 24px;
   font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
   height: 00px;
@@ -122,12 +130,14 @@ $header-height: 600px;
   position: relative;
   margin-top: 0;
   height: $header-height;
+
+  .wish-section-text {
+    background-color: rgba(255,202, 0, 0.4);
+  }
 }
 
-
-
 .footer a {
-  color: #FFCA00
+  color: #FFCA00;
 }
 
 

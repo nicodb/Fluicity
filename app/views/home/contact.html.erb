@@ -1,38 +1,35 @@
-<div class = "contact-section">
+<div class = "container contact-section">
 
-      <div class="col-md-6 col-md-offset-3">
-        <h2> Merci pour votre intérêt. Nous vous répondrons dès que possible </h2>
+      <div class="col-md-8 col-md-offset-2">
 
-          <div class='contact-form'>
-                <%= bootstrap_form_for(@user) do |f| %>
+          <div class='row contact-form'>
+            <%= bootstrap_form_for(@user) do |f| %>
               <div class = "col-sm-6">
-                <p class = "text-area">
-                  <%= f.text_field :email, placeholder: "E-mail" %>
-                </p>
-                <p class = "text-area">
+                <%= f.text_field :email %>
                 <!-- Include Google Maps JS API -->
-                  <input id="user_input_autocomplete_address" placeholder="Votre ville...">
-                </p>
-                <p>
-                 <%= f.collection_select :role, @roles, :value, :text, {}%>
-                  <p id="enter_location_error_message" class="bad hide">
-                    Merci d'entrer un emplacement
-                  </p>
-                </p>
-                <p class = "text-area">
-                  <%= text_area_tag :text %>
-                </p>
-
-                <p>
-                  <%=  f.submit "Envoyer", class: "form-button <button>Add</button>" %>
-                </p>
+                <label> Votre ville </label>
+                <%= text_field_tag :user_input_autocomplete_address, "", class: "form-control"%>
+                <%= f.collection_select :role, @roles, :value, :text, {}%>
+                <p id="enter_location_error_message" class="bad hide">
+                  Merci d'entrer un emplacement
+                <div class="form-group">
+                  <label>Votre message</label>
+                  <%= text_area_tag :text, "", class: "form-control" %>
+                </div>
+                <%=  f.submit "Envoyer", class: "form-button <button>Add</button>" %>
               </div>
 
+              <div class = "col-sm-6">
+                INSERER UN GOOGLE MAPS
+             </div>
 
             <% end %>
           </div>
-        </div>
       </div>
+
+
+
+
     </div>
   </div>
 </div>
