@@ -44,6 +44,7 @@ $header-height: 600px;
     width: 100%;
     padding: 1em 0;
     background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
   }
 }
 
@@ -122,18 +123,17 @@ $header-height: 600px;
 }
 
 .wish-section {
-  font-size: 24px;
-  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
-  height: 00px;
-  color: black;
-  padding-top: 250px;
-  position: relative;
-  margin-top: 0;
-  height: $header-height;
+    height: 00px;
+    color: black;
+    padding-top: 250px;
+    position: relative;
+    margin-top: 0;
+    height: $header-height;
+}
 
-  .wish-section-text {
-    background-color: rgba(255,202, 0, 0.4);
-  }
+.wish-section-text {
+    font-size: 24px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
 }
 
 .footer a {
