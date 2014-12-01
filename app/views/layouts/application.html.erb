@@ -13,11 +13,14 @@
 
   <%= render "shared/footer"%>
 
-  <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAnInNCmJEkZBxn_qwwNPyIt_ZnZGB7GrU">
-  </script>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag "https://maps.google.com/maps/api/js?sensor=false&libraries=places&key=AIzaSyAnInNCmJEkZBxn_qwwNPyIt_ZnZGB7GrU" %>
+  <%= javascript_include_tag "https://google-maps-utility-library-v3.googlecode.com/svn/tags/markerclustererplus/2.0.14/src/markerclusterer_packed.js" %>
 
+  <%= javascript_include_tag "application" %>
+
+  <%= yield(:js) %>
 
   </body>
 </html>
+
+

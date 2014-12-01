@@ -12,4 +12,10 @@ class ApplicationController < ActionController::Base
   def default_url_options
     { locale: I18n.locale == I18n.default_locale ? nil : I18n.locale }
   end
+  # Let's DYNAMICALLY build the markers for the view.
+  def contact
+
+  end
 end
+
+
