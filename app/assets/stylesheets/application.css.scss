@@ -48,6 +48,25 @@ $header-height: 600px;
   }
 }
 
+.home-section {
+  background-size: cover;
+  font-size: 18px;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  height: 400px;
+  color: rgb(137, 132, 132);
+  padding-top: 50px;
+  position: relative;
+  margin-top: 0;
+  text-align: justify;
+}
+
+.icon {
+  font-size: 35px;
+  text-align: center;
+  color: black;
+}
+
+
 .form-button {
     color: #FFCA00
   }
@@ -65,17 +84,6 @@ $header-height: 600px;
 
 .list-inline {
   color: white;
-}
-
-.home-section {
-  background-size: cover;
-  font-size: 24px;
-  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
-  height: 400px;
-  color: rgb(137, 132, 132);
-  padding-top: 50px;
-  position: relative;
-  margin-top: 0;
 }
 
 .thanks-section {

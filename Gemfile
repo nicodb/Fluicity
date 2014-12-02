@@ -46,3 +46,7 @@ gem 'rails-i18n'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'letter_opener'
+
+gem 'binding_of_caller', group: :development
+gem 'better_errors', group: :development
