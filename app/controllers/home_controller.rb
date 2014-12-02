@@ -21,7 +21,7 @@ class HomeController < ApplicationController
   def prepare_user
     @user = User.new
     @roles = [
-      Role.new("Je suis Citoyen", "Citizen"),
+      Role.new("Je suis Citoyen", "citizen"),
       Role.new("Je suis un Elu", "representative"),
       Role.new("Je représente une organisation", "organization")
     ]
