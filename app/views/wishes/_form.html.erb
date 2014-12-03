@@ -1,0 +1,30 @@
+<div class = "wish-section">
+
+  <div class = "container">
+
+    <div class = "row form-group col-sm-12">
+
+          <h1>
+            Vous avez des idées pour votre ville?
+            Vous n'êtes pas le seul!
+          </h1>
+
+      <%= bootstrap_form_for(@wish, class: 'form') do |f| %>
+
+        <div class = "col-sx-12 col-lg-8 offset-2 .form-group">
+          <label> </label>
+          <% if @wish.user %>
+            <%= f.hidden_field :user_id %>
+          <% else %>
+            <%= f.email_field :email, placeholder: "E-mail" %>
+          <% end %>
+          <%= f.text_field :city, id: "user_input_autocomplete_address", placeholder: "Nom de la ville concernée" %>
+
+          <%= f.text_area :content, placeholder: "Décrivez votre voeux, aidez vos élus a améliorer votre ville " %>
+
+          <%= f.submit  "Faites un Voeux!", class: "btn btn-primary"%>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

@@ -10,6 +10,7 @@ class UsersController < ApplicationController
       else
         # TODO
       end
+      session[:user_id] = @user.id
       redirect_to thanks_path
     else
       render action: 'home/index'

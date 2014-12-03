@@ -14,10 +14,6 @@ class HomeController < ApplicationController
 
   end
 
-  def wish
-
-  end
-
   def prepare_user
     @user = User.new
     @roles = [

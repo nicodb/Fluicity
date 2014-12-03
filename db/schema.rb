@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141124155903) do
+ActiveRecord::Schema.define(version: 20141203135258) do
 
   create_table "cities", force: true do |t|
     t.string   "name"
@@ -30,5 +30,16 @@ ActiveRecord::Schema.define(version: 20141124155903) do
 
   add_index "users", ["city_id"], name: "index_users_on_city_id"
   add_index "users", ["referrer_id"], name: "index_users_on_referrer_id"
+
+  create_table "wishes", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "city_id"
+    t.text     "content"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "wishes", ["city_id"], name: "index_wishes_on_city_id"
+  add_index "wishes", ["user_id"], name: "index_wishes_on_user_id"
 
 end
