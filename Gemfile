@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 source 'https://rails-assets.org'  # Add this at line 2
 
+
+ruby '2.1.2'
+gem 'rails_12factor', group: :production
+
 gem "gmaps4rails"
 gem "rails-assets-underscore"
 
@@ -50,3 +54,5 @@ gem 'letter_opener'
 
 gem 'binding_of_caller', group: :development
 gem 'better_errors', group: :development
+
+gem 'acts_as_votable', '~> 0.10.0'

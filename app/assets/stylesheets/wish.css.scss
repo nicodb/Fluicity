@@ -19,7 +19,8 @@ $header-height: 600px;
 }
 
 .wish-index-page {
-  height: 600px;
+  min-height: 600px;
+  padding-top: 20px;
   background-image: image-url('brussels-map.png');
   background-size: cover;
   position: relative;

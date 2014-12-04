@@ -2,14 +2,29 @@
   <div class="container">
     <div class="wish-index-container">
 
+      <% if flash[:alert] %>
+        <div class="alert alert-danger">
+          <%= flash[:alert] %>
+        </div>
+      <% end %>
+
+      <% if flash[:notice] %>
+        <div class="alert alert-info">
+          <%= flash[:notice] %>
+        </div>
+      <% end %>
+
       <h1> Here is the list of wishes <i class="fa fa-binoculars text-center" ></i></h1>
       <% @wishes.each do |wish| %>
-        <div class = "row">
-              <div class = "col-sm-8">
-                <%= wish.content %>
-                <%= wish.city.name %>
-
-              </div>
+        <div class="row">
+          <div class="col-sm-8">
+            <%= wish.content %>
+            <%= wish.city.name %>
+            (<%= wish.votes_for.size %>)
+            <%= link_to(upvote_wish_path(wish), method: :put, class: 'btn btn-primary') do %>
+              Upvote
+            <% end %>
+          </div>
         </div>
       <% end %>
     </div>

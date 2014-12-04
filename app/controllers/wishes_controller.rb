@@ -22,4 +22,15 @@ class WishesController < ApplicationController
     @wishes = Wish.all
   end
 
+  def upvote
+    begin
+      @user = User.find(session[:user_id])
+      @wish = Wish.find(params[:id])
+      @wish.liked_by @user
+      redirect_to wishes_path, notice: "Thank you, your vote has been taken into account"
+    rescue
+      redirect_to wishes_path, alert: "You must specify your email to vote"
+    end
+  end
+
 end
