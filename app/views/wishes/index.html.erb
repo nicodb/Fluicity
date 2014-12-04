@@ -1,12 +1,18 @@
 <div class= "wish-index-page">
+  <div class="container">
+    <div class="wish-index-container">
 
-  <%= link_to wishes_path %>
+      <h1> Here is the list of wishes <i class="fa fa-binoculars text-center" ></i></h1>
+      <% @wishes.each do |wish| %>
+        <div class = "row">
+              <div class = "col-sm-8">
+                <%= wish.content %>
+                <%= wish.city.name %>
 
-    <div class = "row">
-      <div class = "col-sm-8">
-        <p MON TITRE>
-        </p>
-      </div>
+              </div>
+        </div>
+      <% end %>
     </div>
-
+  </div>
 </div>
+
