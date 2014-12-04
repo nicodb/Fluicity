@@ -11,6 +11,9 @@ $header-height: 600px;
     position: relative;
     margin-top: 0;
     height: $header-height;
+    background-image: image-url('rio-de-janeiro.jpg');
+    background-size: cover;
+    position: relative;
 }
 
 .wish-section-text {
@@ -21,7 +24,7 @@ $header-height: 600px;
 .wish-index-page {
   min-height: 600px;
   padding-top: 20px;
-  background-image: image-url('brussels-map.png');
+  background-image: image-url('tokyo.jpg');
   background-size: cover;
   position: relative;
 }

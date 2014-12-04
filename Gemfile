@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 source 'https://rails-assets.org'  # Add this at line 2
 
+gem 'activeadmin', github: 'activeadmin'
 
 ruby '2.1.2'
 gem 'rails_12factor', group: :production

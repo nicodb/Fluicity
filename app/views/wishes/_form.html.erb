@@ -4,14 +4,12 @@
 
     <div class = "row form-group col-sm-12">
 
-          <h1>
-            Vous avez des idées pour votre ville?
-            Vous n'êtes pas le seul!
-          </h1>
+          <h1> Vous avez des idées pour votre ville? </h1>
+          <h2>  Vous n'êtes pas le seul! </h2>
 
       <%= bootstrap_form_for(@wish, class: 'form') do |f| %>
 
-        <div class = "col-sx-12 col-lg-8 offset-2 .form-group">
+        <div class = "col-lg-6 form-group">
           <label> </label>
           <% if @wish.user %>
             <%= f.hidden_field :user_id %>
