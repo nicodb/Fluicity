@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20141204100617) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "cities", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
@@ -28,8 +31,8 @@ ActiveRecord::Schema.define(version: 20141204100617) do
     t.datetime "updated_at"
   end
 
-  add_index "users", ["city_id"], name: "index_users_on_city_id"
-  add_index "users", ["referrer_id"], name: "index_users_on_referrer_id"
+  add_index "users", ["city_id"], name: "index_users_on_city_id", using: :btree
+  add_index "users", ["referrer_id"], name: "index_users_on_referrer_id", using: :btree
 
   create_table "votes", force: true do |t|
     t.integer  "votable_id"
@@ -43,8 +46,8 @@ ActiveRecord::Schema.define(version: 20141204100617) do
     t.datetime "updated_at"
   end
 
-  add_index "votes", ["votable_id", "votable_type", "vote_scope"], name: "index_votes_on_votable_id_and_votable_type_and_vote_scope"
-  add_index "votes", ["voter_id", "voter_type", "vote_scope"], name: "index_votes_on_voter_id_and_voter_type_and_vote_scope"
+  add_index "votes", ["votable_id", "votable_type", "vote_scope"], name: "index_votes_on_votable_id_and_votable_type_and_vote_scope", using: :btree
+  add_index "votes", ["voter_id", "voter_type", "vote_scope"], name: "index_votes_on_voter_id_and_voter_type_and_vote_scope", using: :btree
 
   create_table "wishes", force: true do |t|
     t.integer  "user_id"
@@ -54,7 +57,7 @@ ActiveRecord::Schema.define(version: 20141204100617) do
     t.datetime "updated_at"
   end
 
-  add_index "wishes", ["city_id"], name: "index_wishes_on_city_id"
-  add_index "wishes", ["user_id"], name: "index_wishes_on_user_id"
+  add_index "wishes", ["city_id"], name: "index_wishes_on_city_id", using: :btree
+  add_index "wishes", ["user_id"], name: "index_wishes_on_user_id", using: :btree
 
 end
