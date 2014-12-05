@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 source 'https://rails-assets.org'  # Add this at line 2
 
+gem 'social-share-button'
+
+gem 'devise'
 gem 'activeadmin', github: 'activeadmin'
 
 ruby '2.1.2'

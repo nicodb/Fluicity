@@ -14,11 +14,11 @@
           <% if @wish.user %>
             <%= f.hidden_field :user_id %>
           <% else %>
-            <%= f.email_field :email, placeholder: "E-mail" %>
+            <%= f.email_field :email, placeholder: "E-mail", required: true %>
           <% end %>
-          <%= f.text_field :city, id: "user_input_autocomplete_address", placeholder: "Nom de la ville concernée" %>
+          <%= f.text_field :city, label: "Ville", id: "user_input_autocomplete_address", placeholder: "Nom de la ville concernée", required: true %>
 
-          <%= f.text_area :content, placeholder: "Décrivez votre voeux, aidez vos élus a améliorer votre ville " %>
+          <%= f.text_area :content, label: "Que souhaitez-vous ?", placeholder: "Décrivez votre voeux, aidez vos élus a améliorer votre ville ", required: true %>
 
           <%= f.submit  "Faites un Voeux!", class: "btn btn-primary"%>
         </div>

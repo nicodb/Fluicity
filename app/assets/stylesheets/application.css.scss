@@ -30,27 +30,33 @@ $header-height: 600px;
     position: absolute;
     width: 100%;
     top: $header-height / 3;
-    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-family:'Raleway', sans-serif;
     font-weight: 900;
     font-size: 48px;
   }
 
   .header-form {
-    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
     color: grey;
     position: absolute;
     bottom: 0;
     width: 100%;
     padding: 1em 0;
     background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 5px;
+    input {
+      border-radius: 5px;
+      padding-left: 2px;
+      height: 1.85em;
+      vertical-align: -1px;
+    }
   }
 }
 
 .home-section {
   background-size: cover;
   font-size: 18px;
-  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  font-family: 'Raleway', sans-serif;
   height: 400px;
   color: rgb(137, 132, 132);
   padding-top: 50px;
@@ -76,7 +82,7 @@ $header-height: 600px;
 }
 
 .footer-col {
-  background: rgba(0, 0, 0, 0);
+  // background: rgba(0, 0, 0, 0.7);
   height: 50px;
   padding-top: 10px;
 }
@@ -86,12 +92,12 @@ $header-height: 600px;
 }
 
 .thanks-section {
-  background-image: asset-url('grey-pattern.png');
+  background-image: asset-url('thank_you.jpg');
   background-size: cover;
   font-size: 24px;
-  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
-  color: rgb(137, 132, 132);
-  padding-top: 300px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  padding-top: 200px;
   position: relative;
   margin-top: 0;
   height: $header-height;
@@ -112,7 +118,7 @@ $header-height: 600px;
   height: $header-height;
 
   .contact-form {
-    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-family:'Raleway', sans-serif;
     color: grey;
     position: absolute;
     width: 100%;

@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
   scope '(:locale)', locale: /en/ do
     get 'thanks', to: 'home#thanks'
     resources :users, only: :create

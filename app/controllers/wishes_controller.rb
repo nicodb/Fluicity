@@ -2,8 +2,15 @@ class WishesController < ApplicationController
   def new
     @wish = Wish.new()
     if session[:user_id]
-      @wish.user = User.find(session[:user_id])
+      begin
+        @wish.user = User.find(session[:user_id])
+      rescue
+      end
     end
+  end
+
+  def show
+    @wish = Wish.find(params[:id])
   end
 
   def create
@@ -14,8 +21,11 @@ class WishesController < ApplicationController
     end
 
     @city = City.find_or_create_by(name: params[:wish][:city])
-    @user.wishes.create(content: params[:wish][:content], city: @city)
-    redirect_to wishes_path
+    if @wish = @user.wishes.create(content: params[:wish][:content], city: @city)
+      redirect_to wish_path(id: @wish.id)
+    else
+      render :new
+    end
   end
 
   def index
@@ -27,9 +37,9 @@ class WishesController < ApplicationController
       @user = User.find(session[:user_id])
       @wish = Wish.find(params[:id])
       @wish.liked_by @user
-      redirect_to wishes_path, notice: "Thank you, your vote has been taken into account"
+      redirect_to wishes_path, notice: "Merci! votre VOTE a été compté."
     rescue
-      redirect_to wishes_path, alert: "You must specify your email to vote"
+      redirect_to wishes_path, alert: "Merci de specifier votre email avant de VOTER"
     end
   end
 

@@ -1,0 +1,36 @@
+<div class = "show-page">
+
+  <div class = "container">
+
+    <div class = "row">
+
+      <div class = "col-sm-4 show-page-message">
+
+          <h2>EXCELLENTE idée, partagez la avec vos amis pour qu'il votent</h2>
+          <div class="col-sm-8">
+            <%= @wish.content %>
+            <%= @wish.city.name %>
+
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=308207016042816&version=v2.0";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+
+            <div class="fb-share-button" data-href="<%= request.original_url %>" data-layout="button_count"></div>
+
+          </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+

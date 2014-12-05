@@ -14,15 +14,15 @@
                   Merci d'entrer un emplacement
                 <div class="form-group">
                   <label>Votre message</label>
-                  <%= text_area_tag :text, "", class: "form-control" %>
+                  <%= text_area_tag :text, "", class: "form-control", rows: 4 %>
                 </div>
-                <%=  f.submit "Envoyer", class: "form-button <button>Add</button>" %>
+                <%=  f.submit "Envoyer", class: "btn btn-default" %>
               </div>
 
               <div class = "col-sm-6">
                 <!-- app/views/flats/index.html.erb -->
 
-                <div id="map" style="width: 100%; height: 300px;"></div>
+                <div id="map" style="width: 100%; height: 327px;"></div>
 
                 <% content_for(:js) do %>
                   <%= javascript_tag do %>
