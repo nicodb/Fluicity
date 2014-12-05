@@ -44,12 +44,7 @@ $header-height: 600px;
     width: 100%;
     padding: 1em 0;
     background-color: rgba(0, 0, 0, 0.6);
-    input {
-      border-radius: 5px;
-      padding-left: 2px;
-      height: 1.85em;
-      vertical-align: -1px;
-    }
+
   }
 }
 
@@ -57,7 +52,6 @@ $header-height: 600px;
   background-size: cover;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
-  height: 400px;
   color: rgb(137, 132, 132);
   padding-top: 50px;
   position: relative;
