@@ -1,0 +1,54 @@
+.newsletter {
+  position: absolute;
+  height: 135px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  line-height: 135px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+  color: #333;
+  background-color: #333;
+  box-shadow: 0 0 75px rgba(0,0,0,.1);
+
+  .form-control {
+    display: inline-block;
+    border: 1px solid #787e81;
+    border-radius: 2px;
+    padding: 10px 16px;
+    min-width: 260px;
+    min-height: 40px;
+    line-height: 20px;
+
+    background: #fff;
+    color: #202630;
+    font-size: 14px;
+
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+  }
+
+  select {
+    height: 40px;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+  }
+
+  .btn-newsletter {
+    padding: 9px 12px;
+    color: white;
+    border-radius: 0;
+    background-color: #f1c40f;
+    border-color: #f1c40f;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    &:hover {
+      background-color: transparent;
+      border-color: #fff;
+    }
+  }
+}

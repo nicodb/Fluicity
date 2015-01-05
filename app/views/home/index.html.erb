@@ -1,37 +1,36 @@
 
 <header id="#cover">
-  <div id="carousel" class="carousel slide" data-ride="carousel" style="float: left">
+  <!-- <div id="carousel" class="carousel slide" data-ride="carousel" style="float: left">
     <div class="carousel-inner" role="listbox">
       <div class="item active" style="background-image: url(<%= asset_path "owl-caroussel/austrian-pavilion.png" %>)"></div>
       <div class="item"  style="background-image: url(<%= asset_path "owl-caroussel/fluicity_cover.png" %>)"></div>
       <div class="item active" style="background-image: url(<%= asset_path "owl-caroussel/zaha-hadid-hd.jpg" %>)"></div>
       <div class="item active" style="background-image: url(<%= asset_path "owl-caroussel/peter-fritz.png" %>)"></div>
     </div>
-  </div>
+  </div> -->
 
-  <div class='page-header text-center'>
-    <div class='page-header-text'>
-      <p> Connecting Citizen </p>
-    </div>
-  </div>
-</header>
-
-<section class='container-fluid header-form form-inline text-center'>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <%= form_for(@user) do |f| %>
-        <%= f.text_field :email, placeholder: "E-mail", class: 'form-control' %>
-        <!-- Include Google Maps JS API -->
-        <input id="user_input_autocomplete_address" name="city" placeholder="Votre ville..." class="form-control">
-        <%= f.collection_select :role, @roles, :value, :text, {}, { class: "form-control" } %>
-        <p id="enter_location_error_message" class="bad hide">Merci d'entrer un emplacement</p>
-        <%=  f.button "Soyez le premier informé!", class: "btn btn-primary"  %>
-        <% end %>
+  <div class="header-background">
+    <div class="header-cover">
+      <div class="container">
+        <div class="row header-content">
+          <div class="col-sx-12 col-sm-4">
+            <h1>Connecting Citizen</h1>
+            <p>Fluicity propose aux collectivités locales une plateforme clés en main et un service spécialisé permettant aux élus locaux d’engager facilement les citoyens dans la prise de décisions publiques</p>
+            <a href="#timeline" alt="Timeline">En savoir plus</a>
+          </div>
+          <div class="col-sx-12 col-sm-8">
+            <div class="responsive-container">
+              <iframe width="640" height="360" src="//www.youtube.com/embed/CDwTUbs2YTI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</section>
+
+  <%= render "shared/newsletter"%>
+
+</header>
 
 <section class="container-fluid home-section">
   <div class="row">
@@ -52,17 +51,6 @@
       <h2 class="frame">IMPACT LOCAL</h2>
       <i class="icon fa fa-crosshairs fa-2"></i>
       <p class="frame"> Nos clients sont les municipalités et des collectivités LOCALES, acteurs clé de la démocratie participative et capables d'utiliser les opinions citoyennes pour adapter leur DECISIONS. </p>
-    </div>
-  </div>
-</section>
-
-<section class="container-fluid home-video">
-  <div class="row">
-    <div class="col-sx-12 col-sm-12 introduction">
-      <h1>LA DATA AU COEUR DU PROCESSUS DE DÉCISION</h1>
-    </div>
-    <div class="col-sx-12 col-sm-12">
-      <iframe width="780" height="439" src="//www.youtube.com/embed/CDwTUbs2YTI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 </section>

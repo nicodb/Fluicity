@@ -1,43 +1,83 @@
 header {
 
-  .form-controle {
-    border: 1px solid #787e81;
-    border-radius: 2px;
-    padding: 10px 16px;
-    width: 100%;
-    background: #fff;
-    display: inline-block;
-    min-height: 53px;
-    font-size: 14px;
-    line-height: 20px;
-    color: #202630;
-    margin-top: 15px;
-    -webkit-transition: all .2s ease-in;
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -ms-transition: all .2s ease-in;
-  }
-
-  .page-header {
-    // background-image: asset-url('austrian-pavilion.png');
-    // background-size: cover;
-    background: transparent;
-    font-size: 24px;
+  .header-background {
+    background:asset-url('background-home.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: $header-height;
     color: white;
-    padding-top: 250px;
-    text-shadow: 1px 1px 1px black;
+    padding-top: 140px;
     position: relative;
     margin : 0;
-    border-bottom: none;
 
-    .page-header-text {
+    .header-cover {
       position: absolute;
-      width: 100%;
-      top: $header-height / 3;
-      font-family:'Raleway', sans-serif;
-      font-weight: 900;
-      font-size: 48px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      background-color: rgba(241, 196,15, 0.8);
+    }
+
+    .header-content {
+
+      margin-top: 140px;
+
+      h1 {
+        font-family: 'Roboto';
+        font-size: 35px;
+        line-height: 1.7em;
+        text-transform: uppercase;
+        color : #333;
+      }
+
+      p {
+        font-family: 'Open sans';
+        font-size: 1.2em;
+        font-weight: 600;
+        margin: 20px 0 40px 0;
+      }
+
+      a {
+        color: #333;
+        border: 2px solid #333;
+        padding: 10px 30px;
+        text-transform: Uppercase;
+        font-weight: 600;
+
+        &:hover {
+          color: #fff;
+          border: 2px solid #fff;
+          text-decoration: none;
+        }
+      }
+
+      .responsive-container {
+        position: relative;
+        padding-bottom: 52.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+      }
+
+      .responsive-container iframe {
+        position: absolute;
+        top: 0;
+        right: 0; /* Align right*/
+        width: 85%;
+        height: 85%;
+      }
+
+      .page-header-text {
+        position: absolute;
+        width: 100%;
+        top: $header-height / 3;
+        font-family:'Raleway', sans-serif;
+        font-weight: 900;
+        font-size: 48px;
+      }
     }
   }
 }
