@@ -52,6 +52,13 @@ $btn-left-border-color: transparent;
   padding-bottom: $vertical-padding;
 }
 
+.navbar-wagon .navbar-nav .social {
+  line-height: $height;
+  padding-top: $vertical-padding;
+  padding-bottom: $vertical-padding;
+}
+.navbar-wagon .navbar-nav .social > a { color: #fff; margin: 0 5px; }
+
 .navbar-wagon .navbar-nav>.open>a,
 .navbar-wagon .navbar-nav>.open>a:hover,
 .navbar-wagon .navbar-nav>.open>a:focus {
@@ -70,6 +77,8 @@ $btn-left-border-color: transparent;
   padding-top: $vertical-padding;
   padding-bottom: $vertical-padding;
 }
+
+.fa-2x { font-size: 1.2em; }
 
 $btn-margin-top: ($height + 2 * $vertical-padding - $btn-height - $btn-top-border-width - $btn-bottom-border-width) / 2;
 

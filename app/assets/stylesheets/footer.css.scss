@@ -1,13 +1,19 @@
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 75px;
-  padding: 20px;
+  height: 100px;
+  line-height: 100px;
+  color: #fff;
+  background-color: #333;
 
-  .fa {
-    color: #FFCA00;
+  .copyright {
+    font-family: open sans;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
   }
 }
 

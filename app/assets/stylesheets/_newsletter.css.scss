@@ -1,5 +1,5 @@
 .newsletter {
-  position: absolute;
+  position: relative;
   height: 135px;
   left: 0;
   right: 0;
@@ -10,6 +10,22 @@
   color: #333;
   background-color: #333;
   box-shadow: 0 0 75px rgba(0,0,0,.1);
+
+  &:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: #333;
+    border-width: 30px;
+    margin-left: -30px;
+    z-index: 10;
+  }
 
   .form-control {
     display: inline-block;

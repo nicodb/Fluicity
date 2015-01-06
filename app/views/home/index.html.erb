@@ -32,27 +32,35 @@
 
 </header>
 
-<section class="container-fluid home-section">
-  <div class="row">
-    <div class="col-sx-12 col-sm-12 introduction">
-      <h1>Un service publique plus efficace, plus collaboratif</h1>
-    </div>
-    <div class="col-sx-12 col-sm-4">
-      <h2 class="frame">ENGAGEMENT</h2>
-      <i class="icon fa fa-users fa-2"></i>
-      <p class="frame"> Fluicity est une plateforme de communication et de gestion de données clé en main pour les villes souhaitant ENGAGER les citoyens dans la prise de décision publique.</p>
-    </div>
-    <div class = "col-sx-12 col-sm-4">
-      <h2 class="frame">PARTICIPATION</h2>
-      <i class="icon fa fa-signal fa-3"></i>
-      <p class="frame"> Nous digitalisons, formatons et segmentons les données publiques pour inclure l'ensemble des parties prenantes dans un débat civil interactif.</p>
-    </div>
-    <div class = "col-sx-12 col-sm-4 ">
-      <h2 class="frame">IMPACT LOCAL</h2>
-      <i class="icon fa fa-crosshairs fa-2"></i>
-      <p class="frame"> Nos clients sont les municipalités et des collectivités LOCALES, acteurs clé de la démocratie participative et capables d'utiliser les opinions citoyennes pour adapter leur DECISIONS. </p>
+<section class="home-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sx-12 col-sm-4">
+        <h2 class="frame">ENGAGEMENT</h2>
+        <i class="icon fa fa-users fa-2"></i>
+        <p class="frame"> Fluicity est une plateforme de communication et de gestion de données clé en main pour les villes souhaitant ENGAGER les citoyens dans la prise de décision publique.</p>
+      </div>
+      <div class = "col-sx-12 col-sm-4">
+        <h2 class="frame">PARTICIPATION</h2>
+        <i class="icon fa fa-signal fa-3"></i>
+        <p class="frame"> Nous digitalisons, formatons et segmentons les données publiques pour inclure l'ensemble des parties prenantes dans un débat civil interactif.</p>
+      </div>
+      <div class = "col-sx-12 col-sm-4 ">
+        <h2 class="frame">IMPACT LOCAL</h2>
+        <i class="icon fa fa-crosshairs fa-2"></i>
+        <p class="frame"> Nos clients sont les municipalités et des collectivités LOCALES, acteurs clé de la démocratie participative et capables d'utiliser les opinions citoyennes pour adapter leur DECISIONS. </p>
+      </div>
     </div>
   </div>
 </section>
 
 <%= render "shared/timeline"%>
+
+<section class="section-wish">
+  <div class="container">
+    <h2>Vous avez des idées pour votre ville ? Dites-le !</h2>
+    <%= link_to new_wish_path do %>
+     Je souhaite...
+    <% end %>
+  </div>
+</section>
