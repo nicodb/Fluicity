@@ -1,7 +1,7 @@
 header {
 
   .header-background {
-    background:asset-url('background-home.jpg') no-repeat top center fixed;
+    background:asset-url('test-home.jpg') no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -18,7 +18,7 @@ header {
       right: 0;
       bottom: 0;
       height: 100%;
-      background-color: rgba(241, 196,15, 0.8);
+      background-color: rgba(0, 0, 0, 0.3);
     }
 
     .header-content {
@@ -30,7 +30,7 @@ header {
         font-size: 35px;
         line-height: 1.7em;
         text-transform: uppercase;
-        color : #333;
+        color : #fff;
       }
 
       p {
@@ -41,8 +41,8 @@ header {
       }
 
       a {
-        color: #333;
-        border: 2px solid #333;
+        color: #fff;
+        border: 2px solid #fff;
         padding: 10px 30px;
         text-transform: Uppercase;
         font-weight: 600;
