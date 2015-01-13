@@ -17,7 +17,7 @@
 
   .form-control {
     display: inline-block;
-    border: 1px solid #787e81;
+    border: 1px solid #fff;
     border-radius: 2px;
     padding: 10px 16px;
     min-width: 260px;
@@ -49,6 +49,11 @@
     border-color: #333;
     text-transform: uppercase;
     font-weight: 600;
+
+    webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
 
     &:hover {
       background-color: transparent;

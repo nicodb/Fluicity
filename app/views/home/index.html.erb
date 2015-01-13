@@ -1,14 +1,5 @@
 
 <header id="#cover">
-  <!-- <div id="carousel" class="carousel slide" data-ride="carousel" style="float: left">
-    <div class="carousel-inner" role="listbox">
-      <div class="item active" style="background-image: url(<%= asset_path "owl-caroussel/austrian-pavilion.png" %>)"></div>
-      <div class="item"  style="background-image: url(<%= asset_path "owl-caroussel/fluicity_cover.png" %>)"></div>
-      <div class="item active" style="background-image: url(<%= asset_path "owl-caroussel/zaha-hadid-hd.jpg" %>)"></div>
-      <div class="item active" style="background-image: url(<%= asset_path "owl-caroussel/peter-fritz.png" %>)"></div>
-    </div>
-  </div> -->
-
   <div class="header-background">
     <div class="header-cover">
       <div class="container">
@@ -28,31 +19,54 @@
   <div class="container">
     <div class="row">
       <div class="col-sx-12 col-sm-4">
-        <h2 class="frame">ENGAGEMENT</h2>
-        <i class="icon fa fa-users fa-2"></i>
-        <p class="frame"> Fluicity est une plateforme de communication et de gestion de données clé en main pour les villes souhaitant ENGAGER les citoyens dans la prise de décision publique.</p>
+        <div class="home-skill">
+          <i class="icon fa fa-users fa-2"></i>
+          <h2>ENGAGEMENT</h2>
+          <p> Fluicity est une plateforme de communication et de gestion de données clé en main pour les villes souhaitant ENGAGER les citoyens dans la prise de décision publique.</p>
+        </div>
       </div>
       <div class = "col-sx-12 col-sm-4">
-        <h2 class="frame">PARTICIPATION</h2>
-        <i class="icon fa fa-signal fa-3"></i>
-        <p class="frame"> Nous digitalisons, formatons et segmentons les données publiques pour inclure l'ensemble des parties prenantes dans un débat civil interactif.</p>
+        <div class="home-skill">
+           <i class="icon fa fa-signal fa-3"></i>
+          <h2>PARTICIPATION</h2>
+          <p> Nous digitalisons, formatons et segmentons les données publiques pour inclure l'ensemble des parties prenantes dans un débat civil interactif.</p>
+        </div>
       </div>
-      <div class = "col-sx-12 col-sm-4 ">
-        <h2 class="frame">IMPACT LOCAL</h2>
-        <i class="icon fa fa-crosshairs fa-2"></i>
-        <p class="frame"> Nos clients sont les municipalités et des collectivités LOCALES, acteurs clé de la démocratie participative et capables d'utiliser les opinions citoyennes pour adapter leur DECISIONS. </p>
+      <div class = "col-sx-12 col-sm-4">
+        <div class="home-skill">
+          <i class="icon fa fa-crosshairs fa-2"></i>
+          <h2>IMPACT LOCAL</h2>
+          <p> Nos clients sont les municipalités et des collectivités LOCALES, acteurs clé de la démocratie participative et capables d'utiliser les opinions citoyennes pour adapter leur DECISIONS. </p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
+<div class="cut-scene">
+  <div class="container text-center">
+    <blockquote>C'est le devoir de chaque homme de rendre au monde au moins autant qu'il en a reçu.<small>Albert Einstein</small></blockquote>
+  </div>
+</div>
+
 <%= render "shared/timeline"%>
 
-<section class="section-wish">
+<section class="section-video">
+
+
+<div class="cut-scene">
+  <div class="col-sx-12 col-sm-6 col-sm-offset-3">
+    <div class="cut-scene-video">
+      <iframe width="560" height="315" src="//www.youtube.com/embed/MxribCVXRuI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- <section class="section-wish">
   <div class="container">
     <h2>Vous avez des idées pour votre ville ? Dites-le !</h2>
     <%= link_to new_wish_path do %>
      Je souhaite...
     <% end %>
   </div>
-</section>
+</section> -->

@@ -5,15 +5,36 @@
 $header-height: 600px;
 
 .wish-section {
-    color: black;
-    padding-top: 150px;
-    padding-bottom:300px;
-    position: relative;
-    margin-top: 0;
-    height: $header-height;
-    background-image: image-url('wish_new.jpg');
-    background-size: cover;
-    position: relative;
+  background:asset-url('wish_new.jpg') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  color: white;
+  padding-top: 120px;
+  position: relative;
+
+  .wish-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  .wish-content {
+    padding-top: 120px;
+
+    .wish-intro {
+      font-family: 'Open sans';
+      font-size: 1.4em;
+      font-weight: 600;
+      color: #fff;
+      padding: 40px 0;
+    }
+  }
 }
 
 .wish-section-text {

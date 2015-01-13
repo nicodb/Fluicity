@@ -8,16 +8,16 @@ $header-height: 100vh;
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+@import "base";
 @import "navbar";
 @import "header";
 @import "newsletter";
 @import "carousel";
 @import "home";
 @import "timeline";
+@import "contact";
 @import "wish";
 @import "footer";
-
-
 
 
 .form-button {
@@ -38,33 +38,6 @@ $header-height: 100vh;
   position: relative;
   margin-top: 0;
   height: $header-height;
-}
-
-
-.home-contact {
-  background-image: asset-url('brussels-map.png');
-  background-size: cover;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.contact-section {
-  padding-top: 150px;
-  padding-bottom: 300px;
-  position: relative;
-  margin-top: 0;
-  height: $header-height;
-
-  .contact-form {
-    font-family:'Raleway', sans-serif;
-    color: grey;
-    position: absolute;
-    width: 100%;
-    background-color: rgba(255,202, 0, 0.4);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
 }
 
 

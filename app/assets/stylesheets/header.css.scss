@@ -47,27 +47,17 @@ header {
         text-transform: Uppercase;
         font-weight: 600;
 
+        webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+
         &:hover {
-          color: #fff;
+          color: #333;
+          background-color: #fff;
           border: 2px solid #fff;
           text-decoration: none;
         }
-      }
-
-      .responsive-container {
-        position: relative;
-        padding-bottom: 52.25%;
-        padding-top: 30px;
-        height: 0;
-        overflow: hidden;
-      }
-
-      .responsive-container iframe {
-        position: absolute;
-        top: 0;
-        right: 0; /* Align right*/
-        width: 85%;
-        height: 85%;
       }
 
       .page-header-text {
