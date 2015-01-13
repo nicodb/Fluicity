@@ -1,0 +1,64 @@
+.newsletter {
+  position: absolute;
+  padding : 40px 0;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  line-height: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+  color: #fff;
+  /*background-color: rgba(51,51,51, 0.3);*/
+
+  span {
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+
+  .form-control {
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding: 10px 16px;
+    min-width: 260px;
+    min-height: 40px;
+    line-height: 20px;
+
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+  }
+
+  select {
+    height: 40px;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+  }
+
+  .btn-newsletter {
+    padding: 9px 60px;
+    color: #333;
+    border-radius: 0;
+    background-color: #fff;
+    border-color: #333;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+    &:hover {
+      background-color: transparent;
+      color: #fff;
+      border-color: #fff;
+    }
+  }
+}

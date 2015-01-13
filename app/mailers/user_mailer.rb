@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default from: "judepim@gmail.com"
+  default from: "julie@flui.city"
 
   def citizen_welcome_email(user)
    send_mail(user)

@@ -1,0 +1,73 @@
+header {
+
+  .header-background {
+    background:asset-url('test-home.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: $header-height;
+    color: white;
+    padding-top: 140px;
+    position: relative;
+    margin : 0;
+
+    .header-cover {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .header-content {
+
+      margin-top: 140px;
+
+      h1 {
+        font-family: 'Roboto';
+        font-size: 35px;
+        line-height: 1.7em;
+        text-transform: uppercase;
+        color : #fff;
+      }
+
+      p {
+        font-family: 'Open sans';
+        font-size: 1.2em;
+        font-weight: 600;
+        margin: 20px 0 40px 0;
+      }
+
+      a {
+        color: #fff;
+        border: 2px solid #fff;
+        padding: 10px 30px;
+        text-transform: Uppercase;
+        font-weight: 600;
+
+        webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+
+        &:hover {
+          color: #333;
+          background-color: #fff;
+          border: 2px solid #fff;
+          text-decoration: none;
+        }
+      }
+
+      .page-header-text {
+        position: absolute;
+        width: 100%;
+        top: $header-height / 3;
+        font-family:'Raleway', sans-serif;
+        font-weight: 900;
+        font-size: 48px;
+      }
+    }
+  }
+}

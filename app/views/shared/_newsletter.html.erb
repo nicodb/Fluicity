@@ -1,0 +1,17 @@
+<section class="newsletter form-inline">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-xs-12">
+        <span>Beta test ouvert aux villes de + de 10.000 habitants</span>
+        <%= form_for(@user) do |f| %>
+        <%= f.text_field :email, placeholder: "E-mail", class: 'form-control' %>
+        <!-- Include Google Maps JS API -->
+        <input id="user_input_autocomplete_address" name="city" placeholder="Votre ville..." class="form-control">
+        <%= f.collection_select :role, @roles, :value, :text, {}, { class: "form-control" } %>
+        <p id="enter_location_error_message" class="bad hide">Merci d'entrer un emplacement</p>
+        <%=  f.button "Postulez !", class: "btn btn-newsletter"  %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
