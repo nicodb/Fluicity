@@ -2,9 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$header-height: 600px;
-
-.wish-section {
+.section-wish {
   background:asset-url('wish_new.jpg') no-repeat top center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -24,54 +22,24 @@ $header-height: 600px;
     background-color: rgba(0,0,0,0.4);
   }
 
-  .wish-content {
-    padding-top: 120px;
+   .wish-form {
+    position: relative;
+    font-family:'Raleway', sans-serif;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 120px;
 
-    .wish-intro {
+    span {
+      display: block;
       font-family: 'Open sans';
-      font-size: 1.4em;
+      text-transform: uppercase;
+      line-height: 1.4em;
+      font-size: 1.5em;
+      letter-spacing: 0.1em;
       font-weight: 600;
       color: #fff;
-      padding: 40px 0;
+      padding: 0 0 40px 0;
     }
   }
 }
-
-.wish-section-text {
-    font-size: 24px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.wish-index-page {
-  min-height: 600px;
-  padding-top: 20px;
-  background-image: image-url('tokyo.jpg');
-  background-size: cover;
-  position: relative;
-}
-
-.wish-index-container {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-.show-page {
-  min-height: 600px;
-  background-size: cover;
-  position: relative;
-  background-image: image-url('ideas_CB.jpg');
-}
-
-.show-page-message {
-    font-family: 'Raleway', sans-serif;
-    color: black;
-    background-color: rgba(255,202, 0, 0.4);
-    margin-top: 200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-  }
