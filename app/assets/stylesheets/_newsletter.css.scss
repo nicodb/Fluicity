@@ -1,9 +1,7 @@
 .newsletter {
-  position: absolute;
-  padding : 40px 0;
-  left: 0;
-  right: 0;
-  bottom: 40px;
+  position: relative;
+  padding : 20px 0;
+  margin-bottom: 40px;
   line-height: 50px;
   font-family: 'Raleway', sans-serif;
   font-size: 19px;
@@ -40,6 +38,11 @@
     -webkit-border-radius: 0 !important;
     -moz-border-radius: 0 !important;
   }
+
+  ::-webkit-input-placeholder { color: rgba(255,255,255, 0.7); }
+  :-moz-placeholder { color: rgba(255,255,255, 0.7); }
+  ::-moz-placeholder { color: rgba(255,255,255, 0.7); }
+  :-ms-input-placeholder { color: rgba(255,255,255, 0.7); }
 
   .btn-newsletter {
     padding: 9px 60px;
