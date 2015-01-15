@@ -19,10 +19,10 @@
     bottom: 0;
     left:0;
     right: 0;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.5);
   }
 
-   .wish-form {
+  .wish-form {
     position: relative;
     font-family:'Raleway', sans-serif;
     color: #fff;
@@ -39,7 +39,23 @@
       letter-spacing: 0.1em;
       font-weight: 600;
       color: #fff;
-      padding: 0 0 40px 0;
+      padding: 0 0 20px 0;
+
+      small {
+        text-transform: none;
+        font-size: 0.8em;
+      }
+    }
+
+    .user-wish {
+      border-left: 4px solid #fff;
+      padding: 20px 10px 20px 10px;
+      background-color: rgba(0,0,0,0.4);
+
+      span {
+        display: block;
+        font-size: 1.1em;
+      }
     }
   }
 }

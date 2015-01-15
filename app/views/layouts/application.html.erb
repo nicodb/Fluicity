@@ -12,9 +12,12 @@
     <link href="http://fonts.googleapis.com/css?family=Raleway:400,100,600" rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans|Dosis:400,800" rel="stylesheet" type="text/css" />
+
+    <%= render "shared/analytics"%>
   </head>
 
   <body class="<%= controller.controller_name %>-<%= controller.action_name %>">
+    <%= render "shared/facebook"%>
     <%= render "shared/navbar"%>
     <%= yield %>
     <%= render "shared/footer"%>
