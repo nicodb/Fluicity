@@ -17,6 +17,7 @@ $header-height: 100vh;
 @import "timeline";
 @import "contact";
 @import "wish";
+@import "thanks";
 @import "footer";
 
 
@@ -26,18 +27,6 @@ $header-height: 100vh;
 
 .list-inline {
   color: white;
-}
-
-.thanks-section {
-  background-image: asset-url('thank_you.jpg');
-  background-size: cover;
-  font-size: 24px;
-  font-family: 'Raleway', sans-serif;
-  color: black;
-  padding-top: 200px;
-  position: relative;
-  margin-top: 0;
-  height: $header-height;
 }
 
 
