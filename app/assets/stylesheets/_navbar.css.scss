@@ -152,10 +152,28 @@ $btn-margin-top: ($height + 2 * $vertical-padding - $btn-height - $btn-top-borde
   z-index: -1;
 }
 
-@media screen and (max-width: 768px) {
-  #logo {
-    height: 50px;
+@media screen and (max-width: 767px) {
+
+  .navbar-wagon{
+    padding : 0 15px;
+    background-color: #333;
+    border-bottom: 1px solid #fff;
   }
+
+  .navbar-nav {
+    margin: 3px 0px;
+  }
+
+  #logo {
+    height: 30px;
+    margin-top: 12px;
+  }
+
+  .navbar-wagon .navbar-nav .social {
+    line-height: 50px;
+    padding: 0 0 0 13px;
+  }
+
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover
    {
@@ -163,5 +181,13 @@ $btn-margin-top: ($height + 2 * $vertical-padding - $btn-height - $btn-top-borde
     color: $color;
     padding-top: 0;
     padding-bottom: 0;
+  }
+
+  .navbar-wagon .navbar-nav > li > a,
+  .navbar-wagon .navbar-nav > li > a:hover {
+    line-height: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
   }
 }

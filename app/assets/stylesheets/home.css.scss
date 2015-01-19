@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .home-section {
-  padding: 3em 0 4em 0;
+  padding: 30px 0 40px 0;
   background-size: cover;
   background-color: #fff;
   font-size: 18px;
@@ -69,6 +69,19 @@
     padding: 10px;
     height: 140px;
   }
+
+  @media all and (max-width: 992px) and (min-width: 768px) {
+    p { height: 210px; }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .home-skill { margin-top: 20px; }
+    p { height: 100px; }
+  }
+
+  @media only screen and (max-width: 400px) {
+    p { height: 140px; }
+  }
 }
 
 .icon {
@@ -124,26 +137,27 @@
   }
 }
 
-.cut-scene {
+.cut-quote {
     background:asset-url('test-home.jpg') no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 450px;
+    height: 100%;
     color: white;
     position: relative;
     margin : 0;
 
     blockquote {
       position: relative;
-      margin-top: 140px;
+      margin: 0 auto;
       font-size: 2em;
       font-family: roboto;
       font-weight: 600;
       letter-spacing: 0.1em;
       text-transform: uppercase;
       border-left: none;
+      padding: 140px 0;
 
       small {
         color: #fff;
@@ -157,7 +171,36 @@
       }
     }
 
-    .cut-scene-video {
-      padding-top: 70px;
+    @media only screen and (max-width: 531px) {
+      blockquote { top: 20%; }
     }
   }
+
+.cut-video {
+  background:asset-url('test-home.jpg') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  color: white;
+  position: relative;
+  margin : 0;
+
+  .container-video {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  .cut-scene-video {
+    padding: 70px 40px;
+  }
+}
+
+.cut-cover {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
