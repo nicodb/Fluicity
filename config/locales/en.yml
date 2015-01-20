@@ -1,2 +1,70 @@
 en:
-  hello: "Hello world"
+  menu:
+    contact: "Contact us"
+    wish: "Make a wish"
+    language:
+      french: "French"
+      english: "English"
+  index:
+    description: "Fluicity is a turn-key technology and data managment platform allowing cities to easly involve citizen into local decisions"
+    button: "Know more"
+    firstskill:
+      title: "Engagement"
+      description: "Fluicity wants to help cities engage their citizen in the democratic process on a regular basis."
+    secondskill:
+      title: "Participation"
+      description: "We digitalize, segment and visualize public data in order to involve all parties in an interactive and real time debate: citizen, representatives, NGO’s and private sector."
+    thirdskill:
+      title: "Local impact"
+      description: "We adress the needs of local governments as we believe they play a crutial role in the implementation of participative democracy."
+    quote:
+      text: "What is the city but the people?"
+      author: "William Shakespeare"
+    calltoaction:
+      text: "You've got some ideas for your city? Share them!"
+      button: "I wish..."
+  newsletter:
+    disclaimer: "You represent a city of 10k + inhabitants? Get a Beta test!"
+    placeholder:
+      email: "Email"
+      city: "Your city"
+    button: "Get me in!"
+  timeline:
+    introduction: "I am a city representative. What are the next steps?"
+    firststep:
+      title: "Identify your objectives"
+      description: "You need to reconnect with young parents, digitalise administrative services, increase budget transparency or increase your number of voters? Fluicity is your toolbox!"
+    secondstep:
+      title: "Choose your tools"
+      description: "Interactive news, targetted consultations, automatized messenger service or electronic formalities, Fluicity offers various solutions you can choose from in order to reach your goals."
+    thirdstep:
+      title: "Define your plateform"
+      description: "Fluicity software is available in web or native mobile app, it is available on demand, immediatly and integrates to your existing tools."
+    fourthstep:
+      title: "Build your community"
+      description: "Social networks don’t make the law! Building your community is like starting a camapaign. Fluicity proposes a detailled roadmap to secure a representative number of returning and interactive users."
+    fifthstep:
+      title: "Use your data"
+      description: "Generating data is good, making sense out of it is better. Fluicity data segmentation and vizualization works to help public governance."
+  contact:
+    select:
+      firstoption: "I am a citizen"
+      secondoption: "I am a representative"
+      thirdoption: "I work for an organization"
+    placeholder:
+      email: "Your email"
+      city: "Your city"
+      message: "Your message"
+    button: "Send"
+  wishform:
+    maintitle: "You've got some ideas?"
+    subtitle: "Share them!"
+    placeholder:
+      email: "Email"
+      city: "City's name"
+      message: "What's your idea? Help your representative achieving their work."
+    button: "Make a wish!"
+  thanks:
+    maintitle: "Thank you for your commitment!"
+    subtitle: "You have just received a confirmation message in your mailbox."
+    button: "Go back to home"

@@ -52,6 +52,10 @@ $btn-left-border-color: transparent;
   text-transform: uppercase;
 }
 
+.navbar-wagon .navbar-nav > li > a > .fa {
+  margin-right: 10px;
+}
+
 .navbar-wagon .navbar-nav > li > a:hover {
   color: $color;
   line-height: $height;
@@ -133,7 +137,8 @@ $btn-margin-top: ($height + 2 * $vertical-padding - $btn-height - $btn-top-borde
 
 .navbar-wagon .navbar-nav > li > .dropdown-menu{
   border-radius: 0;
-  margin-top: 10px;
+  margin-top: -20px;
+  left: -42px;
 }
 
 .navbar-wagon .navbar-nav > li > .dropdown-menu:before{

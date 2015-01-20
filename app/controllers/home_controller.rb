@@ -17,9 +17,9 @@ class HomeController < ApplicationController
   def prepare_user
     @user = User.new
     @roles = [
-      Role.new("Je suis Citoyen", "citizen"),
-      Role.new("Je suis un Elu", "representative"),
-      Role.new("Je représente une organisation", "organization")
+      Role.new( I18n.translate('contact.select.firstoption') , "citizen"),
+      Role.new( I18n.translate('contact.select.secondoption') , "representative"),
+      Role.new(I18n.translate('contact.select.thirdoption') , "organization")
     ]
 
   end

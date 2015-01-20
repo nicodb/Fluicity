@@ -1,2 +1,70 @@
 fr:
-  hello: "Bonjour à tous"
+  menu:
+    contact: "Nous contacter"
+    wish: "Faire un voeux"
+    language:
+      french: "Français"
+      english: "Anglais"
+  index:
+    description: "Fluicity offre une plateforme clés en main et un service spécialisé permettant aux élus locaux d’engager facilement les citoyens dans la prise de décision publique"
+    button: "En savoir plus"
+    firstskill:
+      title: "Engagement"
+      description: "Fluicity veut aider les élus a réengager leurs citoyens dans le processus démocratique de manière simple et régulière."
+    secondskill:
+      title: "Participation"
+      description: "Nous digitalisons, formatons et segmentons les données publiques pour inclure l'ensemble des parties prenantes - citoyens, élus, associations, secteur privé - dans un débat civil interactif."
+    thirdskill:
+      title: "Impact local"
+      description: "Nous nous adressons d'abord aux collectivités LOCALES, acteurs clé de la démocratie participative et capables d'utiliser les opinions citoyennes pour adapter leurs DECISIONS."
+    quote:
+      text: "L'intelligence d'une ville est celle de ses habitants."
+      author: "Jean-Louis Missika, Adjoint au Maire de Paris"
+    calltoaction:
+      text: "Vous avez des idées pour votre ville ? Exprimez-vous !"
+      button: "Je souhaite..."
+  newsletter:
+    disclaimer: "Beta test ouvert aux villes de + de 10.000 habitants"
+    placeholder:
+      email: "E-mail"
+      city: "Votre ville"
+    button: "Postulez !"
+  timeline:
+    introduction: "Je représente une ville, comment ça marche ?"
+    firststep:
+      title: "Identifier ses objectifs"
+      description: "Votre objectif est-il de renouer avec les jeunes, simplifier les services administratifs, communiquer de manière plus transparente ou lutter contre l'abstention ? Fluicity est votre boîte à outils !"
+    secondstep:
+      title: "Choisir ses outils"
+      description: "Nos solutions sont nombreuses: fil de nouvelles interactives, consultations thématiques ciblées, gestion des idées citoyennes ou des formalités administratives par messagerie automatique... Chaque ville déploie les services qu'elle juge nécessaire à l'épanouissement de ses citoyens."
+    thirdstep:
+      title: "Définir sa plateforme"
+      description: "Fluicity est disponible sur web et sur application native (android et iphone). Le logiciel d'adapte aux besoins de votre ville, aux outils existants et dans l'immédiat !"
+    fourthstep:
+      title: "Engager sa communauté"
+      description: "Ne vous laissez pas impressioner par les réseaux sociaux. Construire sa communauté c'est plus simple qu'une campagne éléctorale! Fluicity propose une feuille de route détaillée pour garantir à la ville un grand nombre d'utilisateurs loyaux et interactifs."
+    fifthstep:
+      title: "Utiliser ses données"
+      description: "Générer des données brutes c'est bien, être capable de s'en servir c'est mieux. Le service de traitement et de visualisation des données Fluicity est mis à votre disposition pour une prise de décision plus efficace."
+  contact:
+    select:
+      firstoption: "Je suis citoyen"
+      secondoption: "Je suis un élu"
+      thirdoption: "Je représente une orgnisation"
+    placeholder:
+      email: "Votre email"
+      city: "Votre ville"
+      message: "Votre message"
+    button: "Envoyer"
+  wishform:
+    maintitle: "Vous avez des idées pour votre ville ?"
+    subtitle: "Exprimez-vous !"
+    placeholder:
+      email: "E-mail"
+      city: "Nom de la ville concernée"
+      message: "Décrivez votre voeux, aidez vos élus à améliorer votre ville"
+    button: "Faites un voeux !"
+  thanks:
+    maintitle: "Fluicity vous remercie pour votre intérêt !"
+    subtitle: "Nous vous avons envoyé un email d'information"
+    button: "Retour à l'accueil"
