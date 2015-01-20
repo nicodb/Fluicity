@@ -5,9 +5,9 @@
       <div class="container">
         <div class="row header-content text-center">
             <h1>Connecting Citizen</h1>
-            <p><%= t "description"%></p>
+            <p><%= t "index.description"%></p>
             <%= render "shared/newsletter"%>
-            <a href="#timeline" alt="Timeline">En savoir plus</a>
+            <a href="#timeline" alt="Timeline"><%= t 'index.button' %></a>
           </div>
         </div>
       </div>
@@ -21,22 +21,22 @@
       <div class="col-sx-12 col-sm-4">
         <div class="home-skill">
           <i class="icon fa fa-users fa-2"></i>
-          <h2>ENGAGEMENT</h2>
-          <p> Fluicity veut aider les élus a réengager leurs citoyens dans le processus démocratique de manière simple et régulière.</p>
+          <h2><%= t 'index.firstskill.title' %></h2>
+          <p><%= t 'index.firstskill.description' %></p>
         </div>
       </div>
       <div class = "col-sx-12 col-sm-4">
         <div class="home-skill">
            <i class="icon fa fa-signal fa-3"></i>
-          <h2>PARTICIPATION</h2>
-          <p> Nous digitalisons, formatons et segmentons les données publiques pour inclure l'ensemble des parties prenantes - citoyens, élus, associations, secteur privé - dans un débat civil interactif.</p>
+          <h2><%= t 'index.secondskill.title' %></h2>
+          <p><%= t 'index.secondskill.description' %></p>
         </div>
       </div>
       <div class = "col-sx-12 col-sm-4">
         <div class="home-skill">
           <i class="icon fa fa-crosshairs fa-2"></i>
-          <h2>IMPACT LOCAL</h2>
-          <p> Nous nous adressons d'abord aux collectivités LOCALES, acteurs clé de la démocratie participative et capables d'utiliser les opinions citoyennes pour adapter leurs DECISIONS. </p>
+          <h2><%= t 'index.thirdskill.title' %></h2>
+          <p><%= t 'index.thirdskill.description' %></p>
         </div>
       </div>
     </div>
@@ -46,7 +46,7 @@
 <div class="cut-quote">
   <div class="cut-cover">
     <div class="container text-center">
-      <blockquote>L'intelligence d'une ville est celle de ses habitants.<small>Jean-Louis Missika, Adjoint au Maire de Paris</small></blockquote>
+      <blockquote><%= t 'index.quote.text' %><small><%= t 'index.quote.author' %></small></blockquote>
     </div>
   </div>
 </div>
@@ -70,9 +70,9 @@
 
 <section class="home-wish">
   <div class="container">
-    <h2>Vous avez des idées pour votre ville ? Exprimez-vous !</h2>
+    <h2><%= t 'index.calltoaction.text' %></h2>
     <%= link_to new_wish_path do %>
-     Je souhaite...
+     <%= t 'index.calltoaction.button' %>
     <% end %>
   </div>
 </section>

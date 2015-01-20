@@ -5,13 +5,13 @@
           <div class='row contact-form'>
             <%= bootstrap_form_for(@user) do |f| %>
               <%= f.collection_select :role, @roles, :value, :text, {}, class: "form-control select-control"%>
-              <%= f.text_field :email, placeholder: 'Votre email'%>
+              <%= f.text_field :email, placeholder: I18n.translate('contact.placeholder.email')%>
               <!-- Include Google Maps JS API -->
-              <%= text_field_tag :user_input_autocomplete_address, "", placeholder: 'Votre ville', class: "form-control"%>
+              <%= text_field_tag :user_input_autocomplete_address, "", placeholder: I18n.translate('contact.placeholder.city'), class: "form-control"%>
               <div class="form-group">
-                <%= text_area_tag :text,  "", placeholder: 'Votre message', rows: 5, class: "form-control text-control" %>
+                <%= text_area_tag :text,  "", placeholder: I18n.translate('contact.placeholder.message'), rows: 5, class: "form-control text-control" %>
               </div>
-              <%=  f.submit "Envoyer", class: "btn btn-contact" %>
+              <%=  f.submit I18n.translate('contact.button'), class: "btn btn-contact" %>
             <% end %>
           </div>
         </div>
