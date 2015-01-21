@@ -3,7 +3,7 @@ $color: white;
 $bg: transparent;
 $height: 50px;
 $vertical-padding: 20px;
-$horizontal-padding: 55px;
+$horizontal-padding: 40px;
 $border-bottom-width: 0;
 $border-bottom-color: blue;
 
@@ -139,6 +139,8 @@ $btn-margin-top: ($height + 2 * $vertical-padding - $btn-height - $btn-top-borde
   border-radius: 0;
   margin-top: -20px;
   left: -42px;
+  color: #fff;
+  border: none;
 }
 
 .navbar-wagon .navbar-nav > li > .dropdown-menu:before{
@@ -156,6 +158,9 @@ $btn-margin-top: ($height + 2 * $vertical-padding - $btn-height - $btn-top-borde
   border-left: 1px solid #e6e6e6;
   z-index: -1;
 }
+
+.navbar-wagon .navbar-nav > li > .free,
+.navbar-wagon .navbar-nav > li > .free:hover { border : none; }
 
 @media screen and (max-width: 767px) {
 
@@ -195,4 +200,9 @@ $btn-margin-top: ($height + 2 * $vertical-padding - $btn-height - $btn-top-borde
     padding-bottom: 20px;
     border-bottom: 1px solid #fff;
   }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a { color: #fff; }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover { color: #cdcdcd; }
+  .navbar-wagon .navbar-nav > li > .dropdown-menu:before { display: none ; }
+  .navbar-wagon .navbar-nav .social { display: none; }
 }
