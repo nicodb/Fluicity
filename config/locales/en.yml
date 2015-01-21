@@ -13,7 +13,7 @@ en:
       description: "Fluicity wants to help cities engage their citizen in the democratic process more often than in regular elections."
     secondskill:
       title: "Participation"
-      description: "We digitalize, segment and visualize public data in order to involve all parties in an interactive and real time debate."
+      description: "We digitalize and format city propositions and décisions in order to involve all parties in an interactive and real time debate."
     thirdskill:
       title: "Local impact"
       description: "We work directly with local governments as they have the power to implement effective local participative democracy."
@@ -42,7 +42,7 @@ en:
       description: "Fluicity software is available in web or native mobile app, it is available on demand, immediatly and integrates to your existing tools."
     fourthstep:
       title: "Build your community"
-      description: "Social networks don’t make the law! Building your community is like starting a camapaign. Fluicity proposes a detailled roadmap to secure a representative number of returning and interactive users."
+      description: "Social networks don’t make the law! Building your community is like starting a campaign. Fluicity proposes a detailed roadmap to secure a representative number of returning and interactive users."
     fifthstep:
       title: "Use your data"
       description: "Generating data is good, making sense out of it is even better. Fluicity data segmentation and vizualization works to help public governance."
@@ -57,12 +57,12 @@ en:
       message: "Your message"
     button: "Send"
   wishform:
-    maintitle: "You've got some ideas?"
+    maintitle: "You have an idea for your city?"
     subtitle: "Share them!"
     placeholder:
       email: "Email"
       city: "City's name"
-      message: "What's your idea? Help your representative meet your needs."
+      message: "What is your idea? Help your representative meet your needs."
     button: "Make a wish!"
   thanks:
     maintitle: "Thank you for your commitment!"
