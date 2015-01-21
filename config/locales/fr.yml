@@ -63,7 +63,7 @@ fr:
       email: "E-mail"
       city: "Nom de la ville concernée"
       message: "Décrivez votre voeux, aidez vos élus à améliorer votre ville"
-    button: "Faites un voeux !"
+    button: "Faites un voeu !"
   thanks:
     maintitle: "Fluicity vous remercie pour votre intérêt !"
     subtitle: "Nous vous avons envoyé un email d'information"
