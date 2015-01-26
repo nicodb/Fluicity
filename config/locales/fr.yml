@@ -1,6 +1,6 @@
 fr:
   menu:
-    contact: "Nous contacter"
+    contact: "Newsletter"
     wish: "Faire un voeu"
     language:
       french: "Français"
@@ -47,6 +47,7 @@ fr:
       title: "Utiliser ses données"
       description: "Générer des données brutes c'est bien, être capable de s'en servir c'est mieux. Le service de traitement et de visualisation des données Fluicity est mis à votre disposition pour une prise de décision plus efficace."
   contact:
+    disclaimer: "Recevez chaque mois le digest de toute l'actualité sur les initiatives citoyennes ainsi que le e-gouvernement et ses enjeux démocratiques. N'hésitez pas à nous laisser un message via le formulaire ci-dessous ou nous contacter directement sur info@flui.city"
     select:
       firstoption: "Je suis citoyen"
       secondoption: "Je suis un élu"
@@ -54,8 +55,8 @@ fr:
     placeholder:
       email: "Votre email"
       city: "Votre ville"
-      message: "Votre message"
-    button: "Envoyer"
+      message: "Votre message (optionnel)"
+    button: "Je m'inscris"
   wishform:
     maintitle: "Vous avez des idées pour votre ville ?"
     subtitle: "Exprimez-vous !"
