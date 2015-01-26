@@ -18,6 +18,13 @@
     background-color: rgba(0,0,0,0.4);
   }
 
+  span {
+    font-family: open sans;
+    font-size: 1.1em;
+    margin: 1em 0;
+    line-height: 1.6;
+  }
+
   .contact-form {
     position: absolute;
     font-family:'Raleway', sans-serif;
@@ -29,5 +36,5 @@
 }
 
 @media screen and (max-width: 767px) {
-  .section-contact { height: 650px; }
+  .section-contact { height: 700px; }
 }

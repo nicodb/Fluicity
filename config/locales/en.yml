@@ -1,6 +1,6 @@
 en:
   menu:
-    contact: "Contact us"
+    contact: "Newsletter"
     wish: "Make a wish"
     language:
       french: "French"
@@ -47,6 +47,7 @@ en:
       title: "Use your data"
       description: "Generating data is good, making sense out of it is even better. Fluicity data segmentation and vizualization works to help public governance."
   contact:
+    disclaimer: "Subscribe and receive a monthly digest about e-governments, democracy and amazing citizen initiatives directly in your mailbox. Do not hesite to drop us a mail via the form bellow or directly at : info@flui.city"
     select:
       firstoption: "I am a citizen"
       secondoption: "I am a representative"
@@ -54,8 +55,8 @@ en:
     placeholder:
       email: "Your email"
       city: "Your city"
-      message: "Your message"
-    button: "Send"
+      message: "Your message (optionnal)"
+    button: "I subscribe"
   wishform:
     maintitle: "You have an idea for your city?"
     subtitle: "Share them!"
