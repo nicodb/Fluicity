@@ -16,7 +16,7 @@ fr:
       description: "Nous digitalisons, formatons et segmentons les données publiques pour inclure l'ensemble des parties prenantes - citoyens, élus, associations, secteur privé - dans un débat civil interactif."
     thirdskill:
       title: "Impact local"
-      description: "Nous nous adressons d'abord aux collectivités LOCALES, acteurs clé de la démocratie participative et capables d'utiliser les opinions citoyennes pour adapter leurs DECISIONS."
+      description: "Nous nous adressons d'abord aux collectivités LOCALES, acteurs clé de la démocratie participative et capables d'utiliser les opinions citoyennes pour adapter leurs décisions."
     quote:
       text: "L'intelligence d'une ville est celle de ses habitants."
       author: "Jean-Louis Missika, Adjoint au Maire de Paris"
@@ -47,7 +47,7 @@ fr:
       title: "Utiliser ses données"
       description: "Générer des données brutes c'est bien, être capable de s'en servir c'est mieux. Le service de traitement et de visualisation des données Fluicity est mis à votre disposition pour une prise de décision plus efficace."
   contact:
-    disclaimer: "Recevez chaque mois le digest de toute l'actualité sur les initiatives citoyennes ainsi que le e-gouvernement et ses enjeux démocratiques. N'hésitez pas à nous laisser un message via le formulaire ci-dessous ou nous contacter directement sur info@flui.city"
+    disclaimer: "Recevez chaque mois le digest de toute l'actualité sur l'e-gouvernance et l'innovation civique. N'hésitez pas à nous écrire via le formulaire ci-dessous ou directement par email : info@flui.city"
     select:
       firstoption: "Je suis citoyen"
       secondoption: "Je suis un élu"
