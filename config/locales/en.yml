@@ -13,7 +13,7 @@ en:
       description: "Fluicity wants to help cities engage their citizen in the democratic process more often than in regular elections."
     secondskill:
       title: "Participation"
-      description: "We digitalize and format city propositions and décisions in order to involve all parties in an interactive and real time debate."
+      description: "We digitalize and format city propositions and decisions in order to involve all parties in an interactive and real time debate."
     thirdskill:
       title: "Local impact"
       description: "We work directly with local governments as they have the power to implement effective local participative democracy."
@@ -47,7 +47,7 @@ en:
       title: "Use your data"
       description: "Generating data is good, making sense out of it is even better. Fluicity data segmentation and vizualization works to help public governance."
   contact:
-    disclaimer: "Subscribe and receive a monthly digest about e-governments, democracy and amazing citizen initiatives directly in your mailbox. Do not hesite to drop us a mail via the form bellow or directly at : info@flui.city"
+    disclaimer: "Subscribe and receive a monthly digest about e-governments, democracy and citizen initiatives directly in your mailbox. Drop us an email : info@flui.city"
     select:
       firstoption: "I am a citizen"
       secondoption: "I am a representative"
@@ -55,15 +55,15 @@ en:
     placeholder:
       email: "Your email"
       city: "Your city"
-      message: "Your message (optionnal)"
-    button: "I subscribe"
+      message: "Your message (optional)"
+    button: "Subscribe"
   wishform:
     maintitle: "You have an idea for your city?"
-    subtitle: "Share them!"
+    subtitle: "Share it!"
     placeholder:
       email: "Email"
-      city: "City's name"
-      message: "What is your idea? Help your representative meet your needs."
+      city: "City name"
+      message: "What is your idea? Help your representatives meet your needs."
     button: "Make a wish!"
   thanks:
     maintitle: "Thank you for your commitment!"
