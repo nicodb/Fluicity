@@ -51,7 +51,7 @@ fr:
     select:
       firstoption: "Je suis citoyen"
       secondoption: "Je suis un élu"
-      thirdoption: "Je représente une orgnisation"
+      thirdoption: "Je représente une organisation"
     placeholder:
       email: "Votre email"
       city: "Votre ville"
