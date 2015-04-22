@@ -1,0 +1,56 @@
+.section-press {
+  background-color: #fff;
+  min-height: 110vh;
+  color: white;
+  padding-top: 120px;
+  position: relative;
+
+  .article {
+    padding: 20px 20px;
+    margin: 10px 0;
+
+    .article-logo {
+      margin-top: -20px;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+    }
+
+    .article-name {
+      display: block;
+      padding-top: 10px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.4em;
+      font-weight: 600;
+      line-height: 1em;
+      color: #333;
+
+      a {
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+
+    .article-date {
+      display: block;
+      font-family: 'Open sans', sans-serif;
+      font-size: 0.825em;
+      font-weight: 200;
+      line-height: 2em;
+      color: #333;
+    }
+
+    &:hover {
+      background-color: #fafafa;
+      border-radius: 4px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .section-press {
+    .article { text-align: center; }
+    .article-name { margin: 10px 0; }
+  }
+}
