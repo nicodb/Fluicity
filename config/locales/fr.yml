@@ -9,15 +9,18 @@ fr:
   index:
     description: "Fluicity offre une plateforme clés en main et un service spécialisé permettant aux élus locaux d’engager facilement les citoyens dans la prise de décision publique"
     button: "En savoir plus"
-    firstskill:
-      title: "Engagement"
-      description: "Fluicity veut aider les élus a réengager leurs citoyens dans le processus démocratique de manière simple et régulière."
-    secondskill:
-      title: "Participation"
-      description: "Nous digitalisons, formatons et segmentons les données publiques pour inclure l'ensemble des parties prenantes - citoyens, élus, associations, secteur privé - dans un débat civil interactif."
-    thirdskill:
-      title: "Impact local"
-      description: "Nous nous adressons d'abord aux collectivités LOCALES, acteurs clé de la démocratie participative et capables d'utiliser les opinions citoyennes pour adapter leurs décisions."
+    first_alarm:
+      stat: "39"
+      name: "#Abstention"
+      description: "des Français se sont abstenus de voter au dernières élections municpales de 2014"
+    second_alarm:
+      stat: "87"
+      name: "#Méfiance"
+      description: "des Français considèrent que les responsables politiques ne se préoccupent pas de ce qu’ils pensent en 2014"
+    third_alarm:
+      stat: "71"
+      name: "#Rejet"
+      description: "des Français pensent que la démocratie en France ne fonctionne pas très bien/pas bien du tout en 2014"
     quote:
       text: "L'intelligence d'une ville est celle de ses habitants."
       author: "Jean-Louis Missika, Adjoint au Maire de Paris"
@@ -25,7 +28,7 @@ fr:
       text: "Vous avez des idées pour votre ville ? Exprimez-vous !"
       button: "Je souhaite..."
   newsletter:
-    disclaimer: "Beta test ouvert aux villes de + de 10.000 habitants"
+    disclaimer: "Phase de test ouverte aux villes de + de 10.000 habitants"
     placeholder:
       email: "E-mail"
       city: "Votre ville"

@@ -9,15 +9,18 @@ en:
   index:
     description: "Fluicity is a turn-key technology and data management platform allowing cities to easily involve citizen into local decisions"
     button: "How it works"
-    firstskill:
-      title: "Engagement"
-      description: "Fluicity wants to help cities engage their citizen in the democratic process more often than in regular elections."
-    secondskill:
-      title: "Participation"
-      description: "We digitalize and format city propositions and decisions in order to involve all parties in an interactive and real time debate."
-    thirdskill:
-      title: "Local impact"
-      description: "We work directly with local governments as they have the power to implement effective local participative democracy."
+    first_alarm:
+      stat: "39"
+      name: "#Abstention"
+      description: "of the French population never showed up at the last municipalities election in 2014"
+    second_alarm:
+      stat: "87"
+      name: "#Distrust"
+      description: "of the French population think political representatives do not care about their opinion in 2014"
+    third_alarm:
+      stat: "71"
+      name: "#Reject"
+      description: "of the French population think democratic system do not function well/ do not function at all in 2014"
     quote:
       text: "What is the city but the people?"
       author: "William Shakespeare"
