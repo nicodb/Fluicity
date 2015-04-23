@@ -165,6 +165,14 @@ $btn-margin-top: ($height + 2 * $vertical-padding - $btn-height - $btn-top-borde
 
 .navbar-wagon .navbar-nav > .dropdown > .dropdown-toggle > .fa-globe { font-size: 1.4em; }
 
+@media screen and (max-width: 850px) {
+  #logo {
+    height: 23px;
+    padding: 0px;
+    margin-top: 13px;
+  }
+}
+
 
 @media screen and (max-width: 767px) {
 

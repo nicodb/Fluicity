@@ -34,22 +34,19 @@ fr:
       city: "Votre ville"
     button: "Postulez !"
   timeline:
-    introduction: "Je représente une ville, comment ça marche ?"
-    firststep:
-      title: "Identifier ses objectifs"
-      description: "Votre objectif est-il de renouer avec les jeunes, simplifier les services administratifs, communiquer de manière plus transparente ou lutter contre l'abstention ? Fluicity est votre boîte à outils !"
-    secondstep:
-      title: "Choisir ses outils"
-      description: "Nos solutions sont nombreuses: fil de nouvelles interactives, consultations thématiques ciblées, gestion des idées citoyennes ou des formalités administratives par messagerie automatique... Chaque ville déploie les services qu'elle juge nécessaire à l'épanouissement de ses citoyens."
-    thirdstep:
-      title: "Définir sa plateforme"
-      description: "Fluicity est disponible sur web et sur application native (android et iphone). Le logiciel d'adapte aux besoins de votre ville, aux outils existants et dans l'immédiat !"
-    fourthstep:
-      title: "Engager sa communauté"
-      description: "Ne vous laissez pas impressioner par les réseaux sociaux. Construire sa communauté c'est plus simple qu'une campagne éléctorale! Fluicity propose une feuille de route détaillée pour garantir à la ville un grand nombre d'utilisateurs loyaux et interactifs."
-    fifthstep:
-      title: "Utiliser ses données"
-      description: "Générer des données brutes c'est bien, être capable de s'en servir c'est mieux. Le service de traitement et de visualisation des données Fluicity est mis à votre disposition pour une prise de décision plus efficace."
+    introduction: "Comment ça marche ?"
+    citizen:
+      title: "Vous êtes citoyen"
+      step_1: "Informez vous sur les thèmes clé de votre villes"
+      step_2: "Exprimez vous sur tous les sujets"
+      step_3: "Proposez des idées, signalez des problèmes"
+      step_4: "Assistez depuis chez vous aux conseils de quartier"
+    representatives:
+      title: "Vous êtes élu"
+      step_1: "Communiquez facilement sur l'actualité de la commune"
+      step_2: "Interagissez avec vos citoyens"
+      step_3: "Recueilliez des données fiables et actionnables"
+      step_4: "Adaptez vos décisions"
   contact:
     disclaimer: "Recevez chaque mois le digest de toute l'actualité sur l'e-gouvernance et l'innovation civique. N'hésitez pas à nous écrire via le formulaire ci-dessous ou directement par email : info@flui.city"
     select:

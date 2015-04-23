@@ -34,22 +34,20 @@ en:
       city: "Your city"
     button: "Apply!"
   timeline:
-    introduction: "I am a city representative. What are the next steps?"
-    firststep:
-      title: "Identify your objectives"
-      description: "You need to reconnect with young parents, digitalise administrative services, increase budget transparency or increase the number of voters? Fluicity is your toolbox!"
-    secondstep:
-      title: "Choose your tools"
-      description: "Interactive news, targetted consultations, automatized messenger service or electronic formalities, Fluicity offers various solutions you can choose from in order to reach your goals."
-    thirdstep:
-      title: "Define your plateform"
-      description: "Fluicity software is available in web or native mobile app, it is available on demand, immediatly and integrates to your existing tools."
-    fourthstep:
-      title: "Build your community"
-      description: "Social networks don’t make the law! Building your community is like starting a campaign. Fluicity proposes a detailed roadmap to secure a representative number of returning and interactive users."
-    fifthstep:
-      title: "Use your data"
-      description: "Generating data is good, making sense out of it is even better. Fluicity data segmentation and vizualization works to help public governance."
+    introduction: "How does it works?"
+    introduction: "Comment ça marche ?"
+    citizen:
+      title: "Vous êtes citoyen"
+      step_1: "Informez vous sur les thèmes clé de votre villes"
+      step_2: "Exprimez vous sur tous les sujets"
+      step_3: "Proposez des idées, signalez des problèmes"
+      step_3: "Assistez depuis chez vous aux conseils de quartier"
+    representatives:
+      title:
+      step_1: "Communiquez facilement sur l'actualité de la commune"
+      step_2: "Interagissez avec vos citoyens"
+      step_3: "Recueilliez des données fiables et actionnables"
+      step_3: "Adaptez vos décisions"
   contact:
     disclaimer: "Subscribe and receive a monthly digest about e-governments, democracy and citizen initiatives directly in your mailbox. Drop us an email : info@flui.city"
     select:
