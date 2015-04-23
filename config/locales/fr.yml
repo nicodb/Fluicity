@@ -59,8 +59,15 @@ fr:
       message: "Votre message (optionnel)"
     button: "Je m'inscris"
   wishform:
-    maintitle: "Vous avez des idées pour votre ville ?"
-    subtitle: "Exprimez-vous !"
+    maintitle:
+      survey: "Exprimez-vous !"
+      wish: "Vous avez des idées pour votre ville ?"
+    subtitle:
+      survey: "Nous voulons en savoir plus"
+      wish: "Nous transmetterons l'information"
+    survey:
+      citizen: "Questionnaire aux citoyens"
+      representatives: "Questionnaire aux élus"
     placeholder:
       email: "E-mail"
       city: "Nom de la ville concernée"

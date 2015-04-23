@@ -60,8 +60,15 @@ en:
       message: "Your message (optional)"
     button: "Subscribe"
   wishform:
-    maintitle: "You have an idea for your city?"
-    subtitle: "Share it!"
+    maintitle:
+      survey: "Share it!"
+      wish: "You have an idea for your city?"
+    subtitle:
+      survey: "We want to know more"
+      wish: "We will forward it for you"
+    survey:
+      citizen: "Citizen survey"
+      representatives: "Representatives survey"
     placeholder:
       email: "Email"
       city: "City name"
