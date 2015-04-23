@@ -7,7 +7,8 @@
     <div class="wish-cover">
       <div class="col-sm-8 col-sm-offset-2">
         <div class="survey">
-          <span><%= t 'wishform.maintitle.survey' %><br /><small><%= t 'wishform.subtitle.survey' %></small></span>
+          <span class="survey-title"><%= t 'wishform.maintitle.survey' %></span>
+          <span class="survey-subtitle"><%= t 'wishform.subtitle.survey' %></span>
           <div class="survey-item">
             <a class="btn btn-survey" href="http://app.vizir.co/survey.html#/6305/Fluicity%20-%20Citoyens/1" rel=""><%= t 'wishform.survey.citizen' %></a>
           </div>
@@ -18,7 +19,8 @@
       </div>
       <div class="col-sm-8 col-sm-offset-2">
         <div class="wish-form">
-          <span><%= t 'wishform.maintitle.wish' %><br /><small><%= t 'wishform.subtitle.wish' %></small></span>
+          <span class="wish-title"><%= t 'wishform.maintitle.wish' %></span>
+          <span class="wish-subtitle"><%= t 'wishform.subtitle.wish' %></span>
           <%= bootstrap_form_for(@wish, class: 'form') do |f| %>
             <% if @wish.user %>
               <%= f.hidden_field :user_id %>

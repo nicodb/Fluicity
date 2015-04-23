@@ -1,13 +1,28 @@
 .section-press {
+  background:asset-url('test-home.jpg') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-color: #fff;
   min-height: 110vh;
   color: white;
-  padding-top: 120px;
   position: relative;
+
+  .press-cover {
+    padding-top: 120px;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-color: rgba(255,255,255,0.9);
+  }
+
+  ul { list-style: none; }
 
   .article {
     padding: 20px 20px;
-    margin: 10px 0;
+    margin: 20px 0;
 
     .article-logo {
       margin-top: -20px;
@@ -39,11 +54,6 @@
       font-weight: 200;
       line-height: 2em;
       color: #333;
-    }
-
-    &:hover {
-      background-color: #fafafa;
-      border-radius: 4px;
     }
   }
 }

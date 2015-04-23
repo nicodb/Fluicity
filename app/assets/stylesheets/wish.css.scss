@@ -32,31 +32,37 @@
     width: 100%;
     padding: 20px 50px;
 
-    span {
+    .survey-title,
+    .survey-subtitle,
+    .wish-title,
+    .wish-subtitle,
+     {
       text-align: center;
       display: block;
       font-family: 'Open sans';
       text-transform: uppercase;
       line-height: 1.4em;
-      font-size: 1.5em;
+      font-size: 1.6em;
       letter-spacing: 0.1em;
       font-weight: 600;
       color: #fff;
-      padding: 0 0 20px 0;
-
-      small {
-        text-transform: none;
-        font-size: 0.8em;
-      }
+      padding: 0 0 10px 0;
     }
 
+
+    .survey-subtitle,
+    .wish-subtitle {
+        text-transform: none;
+        font-size: 1.3em;
+      }
+
     .survey-item {
-      padding: 20px 0;
+      padding: 40px 0 20px 0;
       float: left;
     }
 
-    .survey-item:nth-child(1) { float: left; }
-    .survey-item:nth-child(2) { float: right; }
+    .survey-item:first-child { float: left; }
+    .survey-item:last-child { float: right; }
 
     .btn-survey {
       width: 300px;
@@ -111,6 +117,10 @@
     .survey,
     .wish-form {
       padding: 20px;
+    }
+
+    .wish-form {
+      margin-top: 200px
     }
   }
 }
