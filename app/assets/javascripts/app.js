@@ -25,3 +25,27 @@ $(document).ready(function(){
   });
 
 })
+
+$('#circle1').circleProgress({
+  value: 0.39,
+  size: 130,
+  fill: {
+    color: "#333333"
+  }
+});
+
+$('#circle2').circleProgress({
+  value: 0.87,
+  size: 130,
+  fill: {
+    color: "#333333"
+  }
+});
+
+$('#circle3').circleProgress({
+  value: 0.71,
+  size: 130,
+  fill: {
+    color: "#333333"
+  }
+});

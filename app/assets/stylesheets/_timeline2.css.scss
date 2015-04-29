@@ -1,6 +1,6 @@
 .timeline {
   position: relative;
-  height: 1000px;
+  height: 825px;
   padding: 2em 0;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -25,8 +25,20 @@
 
   .citizen-container,
   .representatives-container {
+    width: 48%;
     padding: 50px;
     border-radius: 5px;
+
+    box-shadow: 0 1px 2px #999;
+    transform: translateZ(0);
+    transition: box-shadow 0.25s ease-in;
+    background-color: #fff;
+    padding: 20px 10px 10px 10px;
+
+    &:hover {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+    }
 
     .fa {
       font-size: 1.5em;
@@ -40,9 +52,12 @@
     }
   }
 
+  .citizen-container {
+    margin-right: 1%;
+  }
+
   .representatives-container {
-    background-color: #fafafa;
-    color: #333;
+    margin-left: 1%;
   }
 
   .citizen-action,

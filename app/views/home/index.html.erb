@@ -6,8 +6,8 @@
     <div class="header-cover">
       <div class="container">
         <div class="row header-content text-center">
-            <h1>City speaks</h1>
-            <p><!-- <= t "index.description"%> --></p>
+            <h1><%= t 'index.catchline' %></h1>
+            <p class="index-description"><%= t "index.description"%></p>
             <%= render "shared/newsletter"%>
             <a href="#timeline" alt="Timeline"><%= t 'index.button' %></a>
           </div>
@@ -22,23 +22,28 @@
     <div class="row">
       <div class="col-sx-12 col-sm-4">
         <div class="home-issue">
+          <div id="circle1"></div>
           <span class="issue-stat count"><%= t 'index.first_alarm.stat' %></span>
           <p class="issue-description"><%= t 'index.first_alarm.description' %></p>
-          <span class="issue-name"><%= t 'index.first_alarm.name' %></span>
         </div>
       </div>
       <div class = "col-sx-12 col-sm-4">
         <div class="home-issue">
+          <div id="circle2"></div>
           <span class="issue-stat count"><%= t 'index.second_alarm.stat' %></span>
           <p class="issue-description"><%= t 'index.second_alarm.description' %></p>
-          <span class="issue-name"><%= t 'index.second_alarm.name' %></span>
         </div>
       </div>
       <div class = "col-sx-12 col-sm-4">
         <div class="home-issue">
+          <div id="circle3"></div>
           <span class="issue-stat count"><%= t 'index.third_alarm.stat' %></span>
           <p class="issue-description"><%= t 'index.third_alarm.description' %></p>
-          <span class="issue-name"><%= t 'index.third_alarm.name' %></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sx-12 col-sm-12">
+          <span class="issue-source"><%= t 'index.source' %></span>
         </div>
       </div>
     </div>
@@ -48,7 +53,8 @@
 <div class="cut-quote">
   <div class="cut-cover">
     <div class="container text-center">
-      <blockquote><%= t 'index.quote.text' %><small><%= t 'index.quote.author' %></small></blockquote>
+      <blockquote><%= t 'index.award.text' %></blockquote>
+      <a href="http://innovatorsunder35.com/innovator/julie-de-pimodan" rel="" target="_blank"><img class="award-logo" src="<%= image_url 'logo-mit.png' %>" alt="logo"></a>
     </div>
   </div>
 </div>

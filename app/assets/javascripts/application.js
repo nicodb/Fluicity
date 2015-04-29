@@ -13,9 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
+//= require circle-progress
 //= require_tree .
 
 // app/assets/javascripts/application.js
 
 //= require underscore
 //= require gmaps/google
+
+//= require_tree ../../../vendor/assets/javascripts/.

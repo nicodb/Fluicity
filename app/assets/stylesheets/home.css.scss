@@ -13,28 +13,12 @@
   text-align: center;
 
   .home-issue {
-    box-shadow: 0 1px 2px #999;
-    transform: translateZ(0);
-    transition: box-shadow 0.25s ease-in;
-    background-color: #fff;
-    padding: 20px 10px 10px 10px;
-
-    &:hover {
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-      cursor: pointer;
-    }
-
-    .issue-name {
-      display: block;
-      text-transform: uppercase;
-      font-size: 1.4rem;
-    }
 
     .issue-stat {
       display: block;
       color: #333;
-      font-size: 6rem;
-      margin: 15px 0;
+      font-size: 4rem;
+      margin: -100px 0 50px 0;
 
       &::after {
         content: "%";
@@ -42,10 +26,17 @@
     }
 
     .issue-description {
-      font-style: italic;
       font-weight: 100;
       font-size: 1.6rem;
     }
+  }
+
+  .issue-source {
+    display: block;
+    padding-top: 25px;
+    margin-bottom: -20px;
+    font-size: 1rem;
+    text-transform: uppercase;
   }
 
   .introduction {
@@ -172,6 +163,12 @@
     position: relative;
     margin : 0;
 
+    .award-logo {
+      height: 100px;
+      background-color: #FFF;
+      margin: 30px 0 140px 0
+    }
+
     blockquote {
       position: relative;
       margin: 0 auto;
@@ -181,18 +178,7 @@
       letter-spacing: 0.1em;
       text-transform: uppercase;
       border-left: none;
-      padding: 140px 0;
-
-      small {
-        color: #fff;
-        margin-top: 30px;
-        font-family: open sans;
-        text-transform: none;
-
-        &:before {
-          display: none;
-        }
-      }
+      padding: 140px 0 0 0;
     }
 
     @media only screen and (max-width: 531px) {
