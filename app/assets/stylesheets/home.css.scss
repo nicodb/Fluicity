@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .home-section {
-  padding: 30px 0 40px 0;
+  padding: 60px 0 40px 0;
   background-size: cover;
   background-color: #fff;
   font-size: 18px;
@@ -89,13 +89,13 @@
   }
 
   @media only screen and (max-width: 767px) {
-    .home-skill { margin-top: 20px; }
+    .home-issue { margin-top: 20px; }
     p { height: 100px; }
   }
 
   @media only screen and (max-width: 400px) {
     p { height: 100px; }
-    .home-issue { margin: 10px 0; }
+    .home-issue { margin: 30px 0 0 0; }
   }
 }
 
@@ -164,9 +164,10 @@
     margin : 0;
 
     .award-logo {
-      height: 100px;
+      height: 85px;
       background-color: #FFF;
-      margin: 30px 0 140px 0
+      margin: 30px 0 140px 0;
+      border-radius: 5px;
     }
 
     blockquote {

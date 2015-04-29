@@ -78,12 +78,24 @@
 
 @media (max-width: 767px) {
   .timeline {
-    height: 1700px;
+    .representatives-container {
+      min-height: 684px;
+    }
   }
 }
 
 @media (max-width: 450px) {
   .timeline {
-    height: 1850px;
+    height: 1480px;
+
+    .title-timeline {
+      font-size: 1.7em;
+    }
+
+    .citizen-container,
+    .representatives-container {
+      width: 100%;
+      margin: 0 0 40px 0;
+    }
   }
 }
