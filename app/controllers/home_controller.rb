@@ -14,6 +14,9 @@ class HomeController < ApplicationController
 
   end
 
+  def press
+  end
+
   def prepare_user
     @user = User.new
     @roles = [

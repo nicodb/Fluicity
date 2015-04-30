@@ -1,4 +1,5 @@
 .control-label { display: none; }
+.no-margin { margin-left: 0; margin-right: 0; }
 
 /**************************************************************
  FORMS
@@ -51,6 +52,7 @@
   :-ms-input-placeholder { color: rgba(255,255,255, 0.5); }
 
   .btn-contact,
+  .btn-survey,
   .btn-wish,
   .btn-home {
     padding: 9px 60px;

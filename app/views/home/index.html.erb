@@ -6,8 +6,8 @@
     <div class="header-cover">
       <div class="container">
         <div class="row header-content text-center">
-            <h1>Connecting Citizen</h1>
-            <p><%= t "index.description"%></p>
+            <h1><%= t 'index.catchline' %></h1>
+            <p class="index-description"><%= t "index.description"%></p>
             <%= render "shared/newsletter"%>
             <a href="#timeline" alt="Timeline"><%= t 'index.button' %></a>
           </div>
@@ -21,24 +21,29 @@
   <div class="container">
     <div class="row">
       <div class="col-sx-12 col-sm-4">
-        <div class="home-skill">
-          <i class="icon fa fa-users fa-2"></i>
-          <h2><%= t 'index.firstskill.title' %></h2>
-          <p><%= t 'index.firstskill.description' %></p>
+        <div class="home-issue">
+          <div id="circle1"></div>
+          <span class="issue-stat count"><%= t 'index.first_alarm.stat' %></span>
+          <p class="issue-description"><%= t 'index.first_alarm.description' %></p>
         </div>
       </div>
       <div class = "col-sx-12 col-sm-4">
-        <div class="home-skill">
-           <i class="icon fa fa-signal fa-3"></i>
-          <h2><%= t 'index.secondskill.title' %></h2>
-          <p><%= t 'index.secondskill.description' %></p>
+        <div class="home-issue">
+          <div id="circle2"></div>
+          <span class="issue-stat count"><%= t 'index.second_alarm.stat' %></span>
+          <p class="issue-description"><%= t 'index.second_alarm.description' %></p>
         </div>
       </div>
       <div class = "col-sx-12 col-sm-4">
-        <div class="home-skill">
-          <i class="icon fa fa-crosshairs fa-2"></i>
-          <h2><%= t 'index.thirdskill.title' %></h2>
-          <p><%= t 'index.thirdskill.description' %></p>
+        <div class="home-issue">
+          <div id="circle3"></div>
+          <span class="issue-stat count"><%= t 'index.third_alarm.stat' %></span>
+          <p class="issue-description"><%= t 'index.third_alarm.description' %></p>
+        </div>
+      </div>
+      <div class="row no-margin">
+        <div class="col-sx-12 col-sm-12">
+          <span class="issue-source"><%= t 'index.source' %></span>
         </div>
       </div>
     </div>
@@ -48,12 +53,13 @@
 <div class="cut-quote">
   <div class="cut-cover">
     <div class="container text-center">
-      <blockquote><%= t 'index.quote.text' %><small><%= t 'index.quote.author' %></small></blockquote>
+      <blockquote><%= t 'index.award.text' %></blockquote>
+      <a href="http://innovatorsunder35.com/innovator/julie-de-pimodan" rel="" target="_blank"><img class="award-logo" src="<%= image_url 'logo-mit.png' %>" alt="logo"></a>
     </div>
   </div>
 </div>
 
-<%= render "shared/timeline"%>
+<%= render "shared/timeline2"%>
 
 <section class="section-video">
 

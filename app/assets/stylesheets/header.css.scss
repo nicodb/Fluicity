@@ -6,7 +6,8 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    // height: 100vh; //
+    height: 650px;
     color: white;
     padding-top: 140px;
     position: relative;
@@ -31,6 +32,11 @@ header {
         line-height: 1.7em;
         text-transform: uppercase;
         color : #fff;
+      }
+
+      .index-description {
+        width: 80%;
+        margin: 0 auto;
       }
 
       p {
@@ -72,7 +78,7 @@ header {
   }
 
   @media screen and (max-width: 1024px) {
-    .header-background { height: 700px; }
+    .header-background { height: 750px; }
   }
 
   @media screen and (max-width: 600px) {

@@ -2,50 +2,47 @@ en:
   menu:
     contact: "Newsletter"
     wish: "Make a wish"
+    press: "press"
     language:
       french: "French"
       english: "English"
   index:
+    catchline: "City speaks"
     description: "Fluicity is a turn-key technology and data management platform allowing cities to easily involve citizen into local decisions"
     button: "How it works"
-    firstskill:
-      title: "Engagement"
-      description: "Fluicity wants to help cities engage their citizen in the democratic process more often than in regular elections."
-    secondskill:
-      title: "Participation"
-      description: "We digitalize and format city propositions and decisions in order to involve all parties in an interactive and real time debate."
-    thirdskill:
-      title: "Local impact"
-      description: "We work directly with local governments as they have the power to implement effective local participative democracy."
-    quote:
-      text: "What is the city but the people?"
-      author: "William Shakespeare"
+    first_alarm:
+      stat: "39"
+      description: "of the French population never showed up at the last municipalities election"
+    second_alarm:
+      stat: "87"
+      description: "of the French population think political representatives do not care about their opinion"
+    third_alarm:
+      stat: "71"
+      description: "of the French population think democratic system do not function well/ do not function at all"
+    source: "Source: baromêtre de la confiance politique, janvier 2014, Science Po, CEVIPOV - CNRS"
+    award:
+      text: "Nous avons reçu le prix des 10 meilleures innovations françaises 2015, décerné par le MIT Technology Review."
     calltoaction:
       text: "You've got some ideas for your city? Share them!"
       button: "I wish..."
   newsletter:
-    disclaimer: "You represent a city of 10k + inhabitants? Get a Beta test!"
+    disclaimer: "You represent a city of 20k + inhabitants? Get a Beta test!"
     placeholder:
       email: "Email"
       city: "Your city"
     button: "Apply!"
   timeline:
-    introduction: "I am a city representative. What are the next steps?"
-    firststep:
-      title: "Identify your objectives"
-      description: "You need to reconnect with young parents, digitalise administrative services, increase budget transparency or increase the number of voters? Fluicity is your toolbox!"
-    secondstep:
-      title: "Choose your tools"
-      description: "Interactive news, targetted consultations, automatized messenger service or electronic formalities, Fluicity offers various solutions you can choose from in order to reach your goals."
-    thirdstep:
-      title: "Define your plateform"
-      description: "Fluicity software is available in web or native mobile app, it is available on demand, immediatly and integrates to your existing tools."
-    fourthstep:
-      title: "Build your community"
-      description: "Social networks don’t make the law! Building your community is like starting a campaign. Fluicity proposes a detailed roadmap to secure a representative number of returning and interactive users."
-    fifthstep:
-      title: "Use your data"
-      description: "Generating data is good, making sense out of it is even better. Fluicity data segmentation and vizualization works to help public governance."
+    introduction: "How does it works?"
+    citizen:
+      title: "I am a citizen"
+      step_1: "Informez vous sur les thèmes clé de votre villes"
+      step_2: "Exprimez vous sur tous les sujets"
+      step_3: "Proposez des idées, signalez des problèmes"
+    representatives:
+      title: "I am a representative"
+      step_1: "Communiquez facilement sur l'actualité de la commune"
+      step_2: "Recueilliez des données fiables et actionnables"
+      step_3: "Adaptez vos décisions"
   contact:
     disclaimer: "Subscribe and receive a monthly digest about e-governments, democracy and citizen initiatives directly in your mailbox. Drop us an email : info@flui.city"
     select:
@@ -58,8 +55,15 @@ en:
       message: "Your message (optional)"
     button: "Subscribe"
   wishform:
-    maintitle: "You have an idea for your city?"
-    subtitle: "Share it!"
+    maintitle:
+      survey: "Share it!"
+      wish: "You have an idea for your city?"
+    subtitle:
+      survey: "We want to know more"
+      wish: "We will forward it for you"
+    survey:
+      citizen: "Citizen survey"
+      representatives: "Representatives survey"
     placeholder:
       email: "Email"
       city: "City name"

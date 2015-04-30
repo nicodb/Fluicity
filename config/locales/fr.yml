@@ -1,51 +1,48 @@
 fr:
   menu:
     contact: "Newsletter"
-    wish: "Faire un voeu"
+    wish: "Exprimez-vous"
+    press: "Presse"
     language:
       french: "Français"
       english: "Anglais"
   index:
-    description: "Fluicity offre une plateforme clés en main et un service spécialisé permettant aux élus locaux d’engager facilement les citoyens dans la prise de décision publique"
+    catchline: "Données en ville"
+    description: "Fluicity utilise les technologies de l’information et la segmentation de données pour renforcer les liens entre les élus locaux et leurs citoyens"
     button: "En savoir plus"
-    firstskill:
-      title: "Engagement"
-      description: "Fluicity veut aider les élus a réengager leurs citoyens dans le processus démocratique de manière simple et régulière."
-    secondskill:
-      title: "Participation"
-      description: "Nous digitalisons, formatons et segmentons les données publiques pour inclure l'ensemble des parties prenantes - citoyens, élus, associations, secteur privé - dans un débat civil interactif."
-    thirdskill:
-      title: "Impact local"
-      description: "Nous nous adressons d'abord aux collectivités LOCALES, acteurs clé de la démocratie participative et capables d'utiliser les opinions citoyennes pour adapter leurs décisions."
-    quote:
-      text: "L'intelligence d'une ville est celle de ses habitants."
-      author: "Jean-Louis Missika, Adjoint au Maire de Paris"
+    first_alarm:
+      stat: "39"
+      description: "des Français se sont abstenus de voter au dernières élections municpales"
+    second_alarm:
+      stat: "87"
+      description: "des Français considèrent que les responsables politiques ne se préoccupent pas de ce qu’ils pensent"
+    third_alarm:
+      stat: "71"
+      description: "des Français pensent que la démocratie en France ne fonctionne pas très bien/pas bien du tout"
+    source: "Source: baromêtre de la confiance politique, janvier 2014, Science Po, CEVIPOV - CNRS"
+    award:
+      text: "Nous avons reçu le prix des 10 meilleures innovations françaises 2015, décerné par le MIT Technology Review."
     calltoaction:
       text: "Vous avez des idées pour votre ville ? Exprimez-vous !"
       button: "Je souhaite..."
   newsletter:
-    disclaimer: "Beta test ouvert aux villes de + de 10.000 habitants"
+    disclaimer: "Phase de test ouverte aux villes de + de 20.000 habitants"
     placeholder:
       email: "E-mail"
       city: "Votre ville"
     button: "Postulez !"
   timeline:
-    introduction: "Je représente une ville, comment ça marche ?"
-    firststep:
-      title: "Identifier ses objectifs"
-      description: "Votre objectif est-il de renouer avec les jeunes, simplifier les services administratifs, communiquer de manière plus transparente ou lutter contre l'abstention ? Fluicity est votre boîte à outils !"
-    secondstep:
-      title: "Choisir ses outils"
-      description: "Nos solutions sont nombreuses: fil de nouvelles interactives, consultations thématiques ciblées, gestion des idées citoyennes ou des formalités administratives par messagerie automatique... Chaque ville déploie les services qu'elle juge nécessaire à l'épanouissement de ses citoyens."
-    thirdstep:
-      title: "Définir sa plateforme"
-      description: "Fluicity est disponible sur web et sur application native (android et iphone). Le logiciel d'adapte aux besoins de votre ville, aux outils existants et dans l'immédiat !"
-    fourthstep:
-      title: "Engager sa communauté"
-      description: "Ne vous laissez pas impressioner par les réseaux sociaux. Construire sa communauté c'est plus simple qu'une campagne éléctorale! Fluicity propose une feuille de route détaillée pour garantir à la ville un grand nombre d'utilisateurs loyaux et interactifs."
-    fifthstep:
-      title: "Utiliser ses données"
-      description: "Générer des données brutes c'est bien, être capable de s'en servir c'est mieux. Le service de traitement et de visualisation des données Fluicity est mis à votre disposition pour une prise de décision plus efficace."
+    introduction: "Comment ça marche ?"
+    citizen:
+      title: "Vous êtes citoyen"
+      step_1: "Recevez une information hyper locale personnalisée"
+      step_2: "Interagissez sur tous les sujets"
+      step_3: "Proposez des idées, signalez des problèmes"
+    representatives:
+      title: "Vous êtes élu"
+      step_1: "Communiquez facilement sur l'actualité de la commune"
+      step_2: "Recueilliez des données fiables et actionnables"
+      step_3: "Adaptez vos décisions"
   contact:
     disclaimer: "Recevez chaque mois le digest de toute l'actualité sur l'e-gouvernance et l'innovation civique. N'hésitez pas à nous écrire via le formulaire ci-dessous ou directement par email : info@flui.city"
     select:
@@ -58,8 +55,15 @@ fr:
       message: "Votre message (optionnel)"
     button: "Je m'inscris"
   wishform:
-    maintitle: "Vous avez des idées pour votre ville ?"
-    subtitle: "Exprimez-vous !"
+    maintitle:
+      survey: "Exprimez-vous !"
+      wish: "Vous avez des idées pour votre ville ?"
+    subtitle:
+      survey: "Nous voulons en savoir plus"
+      wish: "Aidez nous à y être présents"
+    survey:
+      citizen: "Questionnaire aux citoyens"
+      representatives: "Questionnaire aux élus"
     placeholder:
       email: "E-mail"
       city: "Nom de la ville concernée"

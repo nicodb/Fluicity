@@ -1,4 +1,8 @@
-<nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation" id="navbar">
+<% if params[:action] == 'press' %>
+  <nav class="navbar navbar-default navbar-fixed-top navbar-wagon press-color" role="navigation" id="navbar">
+<% else %>
+  <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation" id="navbar">
+<% end %>
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -25,6 +29,13 @@
         <li>
           <%= link_to new_wish_path do %>
             <i class="fa fa-quote-left"></i><%= t 'menu.wish'%>
+          <% end %>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-middle">
+        <li>
+          <%= link_to press_path do %>
+            <i class="fa fa-bookmark"></i><%= t 'menu.press'%>
           <% end %>
         </li>
       </ul>
