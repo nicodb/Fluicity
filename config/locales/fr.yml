@@ -12,7 +12,7 @@ fr:
     button: "En savoir plus"
     first_alarm:
       stat: "39"
-      description: "des Français se sont abstenus de voter au dernières élections municpales"
+      description: "des Français se sont abstenus de voter au dernières élections municipales"
     second_alarm:
       stat: "87"
       description: "des Français considèrent que les responsables politiques ne se préoccupent pas de ce qu’ils pensent"
@@ -44,7 +44,7 @@ fr:
       step_2: "Recueilliez des données fiables et actionnables"
       step_3: "Adaptez vos décisions"
   contact:
-    disclaimer: "Recevez chaque mois le digest de toute l'actualité sur l'e-gouvernance et l'innovation civique. N'hésitez pas à nous écrire via le formulaire ci-dessous ou directement par email : info@flui.city"
+    disclaimer: "Recevez chaque mois le résumé de toute l'actualité sur l'e-gouvernance et l'innovation civique. N'hésitez pas à nous écrire via le formulaire ci-dessous ou directement par email : info@flui.city"
     select:
       firstoption: "Je suis citoyen"
       secondoption: "Je suis un élu"
@@ -60,7 +60,7 @@ fr:
       wish: "Vous avez des idées pour votre ville ?"
     subtitle:
       survey: "Nous voulons en savoir plus"
-      wish: "Aidez nous à y être présents"
+      wish: "Aidez-nous à y être présents"
     survey:
       citizen: "Questionnaire aux citoyens"
       representatives: "Questionnaire aux élus"
