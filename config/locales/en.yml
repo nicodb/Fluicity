@@ -8,47 +8,47 @@ en:
       english: "English"
   index:
     catchline: "City speaks"
-    description: "Fluicity is a turn-key technology and data management platform allowing cities to easily involve citizen into local decisions"
-    button: "How it works"
+    description: "Fluicity leverages information technologies and data segmentation to strengthen the links between citizens and their local governments"
+    button: "Find out more about Fluicity"
     first_alarm:
       stat: "39"
-      description: "of the French population never showed up at the last municipalities election"
+      description: "of the French people did not vote at the last municipal elections"
     second_alarm:
       stat: "87"
-      description: "of the French population think political representatives do not care about their opinion"
+      description: "of the French citizens think local governments do not care about what they think"
     third_alarm:
       stat: "71"
-      description: "of the French population think democratic system do not function well/ do not function at all"
-    source: "Source: baromêtre de la confiance politique, janvier 2014, Science Po, CEVIPOV - CNRS"
+      description: "of the French citizens believe democracy in France does not function well"
+    source: "Source : Political confidence barometer, January 2014, Science Po, Cevipov - CNRS"
     award:
-      text: "Nous avons reçu le prix des 10 meilleures innovations françaises 2015, décerné par le MIT Technology Review."
+      text: "'MIT Technology Review' selected Fluicity as the 2015 Laureate project for the 35 Innovators Under 35 award."
     calltoaction:
-      text: "You've got some ideas for your city? Share them!"
+      text: "You have an idea for your city? Share it!"
       button: "I wish..."
   newsletter:
-    disclaimer: "You represent a city of 20k + inhabitants? Get a Beta test!"
+    disclaimer: "Beta Test available for cities of 20k inhabitants and more"
     placeholder:
       email: "Email"
       city: "Your city"
     button: "Apply!"
   timeline:
-    introduction: "How does it works?"
+    introduction: "How does it work?"
     citizen:
-      title: "I am a citizen"
-      step_1: "Informez vous sur les thèmes clé de votre villes"
-      step_2: "Exprimez vous sur tous les sujets"
-      step_3: "Proposez des idées, signalez des problèmes"
+      title: "You are a citizen"
+      step_1: "Receive very targeted and personalized local information"
+      step_2: "Interact/ react on every topic"
+      step_3: "Suggest ideas, report problems"
     representatives:
-      title: "I am a representative"
-      step_1: "Communiquez facilement sur l'actualité de la commune"
-      step_2: "Recueilliez des données fiables et actionnables"
-      step_3: "Adaptez vos décisions"
+      title: "You are an elected representative"
+      step_1: "Communicate easily about city news"
+      step_2: "Collect reliable and actionable data"
+      step_3: "Adapt your decisions"
   contact:
-    disclaimer: "Subscribe and receive a monthly digest about e-governments, democracy and citizen initiatives directly in your mailbox. Drop us an email : info@flui.city"
+    disclaimer: "Subscribe and receive a monthly digest about e-governance and civic innovation. Do not hesitate to write to us through the following questionnaire or directly by email at info@flui.city"
     select:
       firstoption: "I am a citizen"
-      secondoption: "I am a representative"
-      thirdoption: "I work for an organization"
+      secondoption: "I am an elected representative"
+      thirdoption: "I represent an organization"
     placeholder:
       email: "Your email"
       city: "Your city"
@@ -56,20 +56,20 @@ en:
     button: "Subscribe"
   wishform:
     maintitle:
-      survey: "Share it!"
-      wish: "You have an idea for your city?"
+      survey: "Express yourself!"
+      wish: "We want to know more about you"
     subtitle:
-      survey: "We want to know more"
-      wish: "We will forward it for you"
+      survey: "You have an idea for your city? Please share it through our two questionnaires"
+      wish: "We will do our best to have it considered"
     survey:
-      citizen: "Citizen survey"
-      representatives: "Representatives survey"
+      citizen: "For citizens"
+      representatives: "For elected representative"
     placeholder:
       email: "Email"
-      city: "City name"
-      message: "What is your idea? Help your representatives meet your needs."
+      city: "Your city"
+      message: "Describe your wish, help your representative to make your city a better place/ improve your city."
     button: "Make a wish!"
   thanks:
-    maintitle: "Thank you for your commitment!"
-    subtitle: "You have just received a confirmation message in your mailbox."
-    button: "Go to home"
+    maintitle: "Thank you for your interest!"
+    subtitle: "We have sent you an information e-mail."
+    button: "Return to homepage"
