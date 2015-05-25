@@ -76,6 +76,14 @@
   }
 }
 
+@media (min-width: 768px) {
+  .timeline {
+    .representatives-container {
+      min-height: 566px;
+    }
+  }
+}
+
 @media (max-width: 767px) {
   .timeline {
     .representatives-container {

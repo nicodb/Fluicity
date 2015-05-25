@@ -8,17 +8,17 @@ fr:
       english: "Anglais"
   index:
     catchline: "Données en ville"
-    description: "Fluicity utilise les technologies de l’information et la segmentation de données pour renforcer les liens entre les élus locaux et leurs citoyens"
+    description: "Fluicity utilise les technologies de l’information et la segmentation de données pour renforcer les liens entre les élus locaux et leurs citoyens."
     button: "En savoir plus"
     first_alarm:
       stat: "39"
-      description: "des Français se sont abstenus de voter au dernières élections municipales"
+      description: "des Français se sont abstenus de voter au dernières élections municipales."
     second_alarm:
       stat: "87"
-      description: "des Français considèrent que les responsables politiques ne se préoccupent pas de ce qu’ils pensent"
+      description: "des Français considèrent que les responsables politiques ne se préoccupent pas de ce qu’ils pensent."
     third_alarm:
       stat: "71"
-      description: "des Français pensent que la démocratie en France ne fonctionne pas très bien/pas bien du tout"
+      description: "des Français pensent que la démocratie en France ne fonctionne pas très bien/pas bien du tout."
     source: "Source: baromêtre de la confiance politique, janvier 2014, Science Po, CEVIPOV - CNRS"
     award:
       text: "Nous avons reçu le prix des 10 meilleures innovations françaises 2015, décerné par le MIT Technology Review."
@@ -28,21 +28,21 @@ fr:
   newsletter:
     disclaimer: "Phase de test ouverte aux villes de + de 20.000 habitants"
     placeholder:
-      email: "E-mail"
+      email: "Email"
       city: "Votre ville"
     button: "Postulez !"
   timeline:
     introduction: "Comment ça marche ?"
     citizen:
       title: "Vous êtes citoyen"
-      step_1: "Recevez une information hyper locale personnalisée"
-      step_2: "Interagissez sur tous les sujets"
-      step_3: "Proposez des idées, signalez des problèmes"
+      step_1: "Recevez une information hyper locale personnalisée."
+      step_2: "Interagissez sur tous les sujets."
+      step_3: "Proposez des idées, signalez des problèmes."
     representatives:
       title: "Vous êtes élu"
-      step_1: "Communiquez facilement sur l'actualité de la commune"
-      step_2: "Recueilliez des données fiables et actionnables"
-      step_3: "Adaptez vos décisions"
+      step_1: "Communiquez facilement sur l'actualité de la commune."
+      step_2: "Recueilliez des données fiables et actionnables."
+      step_3: "Adaptez vos décisions."
   contact:
     disclaimer: "Recevez chaque mois le résumé de toute l'actualité sur l'e-gouvernance et l'innovation civique. N'hésitez pas à nous écrire via le formulaire ci-dessous ou directement par email : info@flui.city"
     select:
@@ -59,15 +59,15 @@ fr:
       survey: "Exprimez-vous !"
       wish: "Vous avez des idées pour votre ville ?"
     subtitle:
-      survey: "Nous voulons en savoir plus"
-      wish: "Aidez-nous à y être présents"
+      survey: "Nous voulons en savoir plus."
+      wish: "Aidez-nous à y être présents."
     survey:
       citizen: "Questionnaire aux citoyens"
       representatives: "Questionnaire aux élus"
     placeholder:
-      email: "E-mail"
+      email: "Email"
       city: "Nom de la ville concernée"
-      message: "Décrivez votre voeux, aidez vos élus à améliorer votre ville"
+      message: "Décrivez votre voeux, aidez vos élus à améliorer votre ville."
     button: "Faites un voeu !"
   thanks:
     maintitle: "Fluicity vous remercie pour votre intérêt !"

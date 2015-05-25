@@ -8,20 +8,20 @@ en:
       english: "English"
   index:
     catchline: "City speaks"
-    description: "Fluicity leverages information technologies and data segmentation to strengthen the links between citizens and their local governments"
+    description: "Fluicity leverages information technologies and data segmentation to strengthen the links between citizens and their local governments."
     button: "Find out more about Fluicity"
     first_alarm:
       stat: "39"
-      description: "of the French people did not vote at the last municipal elections"
+      description: "of the French people did not vote at the last municipal elections."
     second_alarm:
       stat: "87"
-      description: "of the French citizens think local governments do not care about what they think"
+      description: "of the French citizens think local governments do not care about what they think."
     third_alarm:
       stat: "71"
-      description: "of the French citizens believe democracy in France does not function well"
+      description: "of the French citizens believe democracy in France does not function well."
     source: "Source : Political confidence barometer, January 2014, Science Po, Cevipov - CNRS"
     award:
-      text: "'MIT Technology Review' selected Fluicity as the 2015 Laureate project for the 35 Innovators Under 35 award."
+      text: "'MIT Technology Review' selected Fluicity as the 2015 Laureate project for the Innovators Under 35 award."
     calltoaction:
       text: "You have an idea for your city? Share it!"
       button: "I wish..."
@@ -35,14 +35,14 @@ en:
     introduction: "How does it work?"
     citizen:
       title: "You are a citizen"
-      step_1: "Receive very targeted and personalized local information"
-      step_2: "Interact/ react on every topic"
-      step_3: "Suggest ideas, report problems"
+      step_1: "Receive very targeted and personalized local information."
+      step_2: "Interact/ react on every topic."
+      step_3: "Suggest ideas, report problems."
     representatives:
       title: "You are an elected representative"
-      step_1: "Communicate easily about city news"
-      step_2: "Collect reliable and actionable data"
-      step_3: "Adapt your decisions"
+      step_1: "Communicate easily about city news."
+      step_2: "Collect reliable and actionable data."
+      step_3: "Adapt your decisions."
   contact:
     disclaimer: "Subscribe and receive a monthly digest about e-governance and civic innovation. Do not hesitate to write to us through the following questionnaire or directly by email at info@flui.city"
     select:
@@ -57,10 +57,10 @@ en:
   wishform:
     maintitle:
       survey: "Express yourself!"
-      wish: "We want to know more about you"
+      wish: "We want to know more about you."
     subtitle:
-      survey: "You have an idea for your city? Please share it through our two questionnaires"
-      wish: "We will do our best to have it considered"
+      survey: "You have an idea for your city? Please share it through our two questionnaires."
+      wish: "We will do our best to have it considered."
     survey:
       citizen: "For citizens"
       representatives: "For elected representative"
