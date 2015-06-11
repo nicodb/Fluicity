@@ -145,6 +145,7 @@ $btn-margin-top: ($height + 2 * $vertical-padding - $btn-height - $btn-top-borde
 }
 
 .navbar-wagon .navbar-nav > li > .dropdown-menu:before{
+  visibility: hidden;
   background: white;
   height: 10px;
   width: 10px;

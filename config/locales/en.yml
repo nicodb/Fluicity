@@ -6,6 +6,7 @@ en:
     language:
       french: "French"
       english: "English"
+      dutch: "Dutch"
   index:
     catchline: "City speaks"
     description: "Fluicity leverages information technologies and data segmentation to strengthen the links between citizens and their local governments."

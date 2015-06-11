@@ -1,0 +1,76 @@
+nl:
+  menu:
+    contact: "Nieuwsbrief"
+    wish: "Doe een Wens"
+    press: "Pers"
+    language:
+      french: "Frans"
+      english: "Engels"
+      dutch: "Nederlands"
+  index:
+    catchline: "De stad spreekt"
+    description: "Fluicity maakt gebruik van informatietechnologie en data segmentatie om de banden tussen de burgers en de lokale overheden te versterken."
+    button: "Lees meer over Fluicity"
+    first_alarm:
+      stat: "39"
+      description: "van het Franse volk heeft bij de laatste gemeenteraadsverkiezingen niet gestemd."
+    second_alarm:
+      stat: "87"
+      description: "van de Franse burgers denkt dat lokale overheden het niks kan schelen wat ze denken."
+    third_alarm:
+      stat: "71"
+      description: "dvan de Franse burgers gelooft dat de democratie in Frankrijk niet goed functioneert."
+    source: "Bron: Politieke vertrouwen barometer, januari 2014, Science Po, Cevipov - CNRS"
+    award:
+      text: "'MIT Technology Review' heeft Fluicity geselecteerd het de 2015 laureaat project voor de 35 Innovators Onder 35 award"
+    calltoaction:
+      text: "Heeft u een idee voor uw stad? Deel het!"
+      button: "Ik wens..."
+  newsletter:
+    disclaimer: "Beta Test beschikbaar voor steden van 20k inwoners en meer"
+    placeholder:
+      email: "e-mail"
+      city: "uw stad"
+    button: "Toepassen !"
+  timeline:
+    introduction: "Hoe werkt het?"
+    citizen:
+      title: "U bent een burger"
+      step_1: "Ontvang zeer gerichte en persoonlijke lokale informatie."
+      step_2: "Reageer op elk onderwerp."
+      step_3: "Suggereer ideeën, meld problemen."
+    representatives:
+      title: "U bent een gekozen vertegenwoordiger"
+      step_1: "Communiceer gemakkelijk over het stadsnieuws."
+      step_2: "Verzamel betrouwbare en bruikbare gegevens."
+      step_3: "Pas uw beslissingen aan."
+  contact:
+    disclaimer: "Schrijf je in en ontvang een maandelijks overzicht over e-governance en maatschappelijke innovatie. Aarzel niet om ons te schrijven via de volgende vragenlijst of rechtstreeks via email op info@flui.city"
+    select:
+      firstoption: "Ik ben een burger"
+      secondoption: "Ik ben een gekozen vertegenwoordiger"
+      thirdoption: "Ik vertegenwoordig een organisatie"
+    placeholder:
+      email: "Uw email"
+      city: "Uw stad"
+      message: "Uw bericht (optioneel)"
+    button: "Abonneren"
+  wishform:
+    maintitle:
+      survey: "Druk uzelf uit!"
+      wish: "We willen meer over u weten."
+    subtitle:
+      survey: "Heeft u een idee voor uw stad? (Vragenlijst in het Frans)"
+      wish: "We zullen ons best doen om het overwogen te laten worden."
+    survey:
+      citizen: "Voor de burgers"
+      representatives: "Voor gekozen vertegenwoordiger"
+    placeholder:
+      email: "e-mail"
+      city: "uw stad"
+      message: "beschrijf uw wens, help uw vertegenwoordiger om uw stad een betere plek te maken / uw stad te verbeteren."
+    button: "Doe een Wens!"
+  thanks:
+    maintitle: "Bedankt voor uw interesse!"
+    subtitle: "Wij hebben u een email met informatie verzonden."
+    button: "Terug naar home"
