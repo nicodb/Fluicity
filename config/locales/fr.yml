@@ -13,13 +13,13 @@ fr:
     button: "En savoir plus"
     first_alarm:
       stat: "39"
-      description: "des Français se sont abstenus de voter au dernières élections municipales."
+      description: "des Français se sont abstenus de voter aux dernières élections municipales."
     second_alarm:
-      stat: "87"
-      description: "des Français considèrent que les responsables politiques ne se préoccupent pas de ce qu’ils pensent."
+      stat: "82"
+      description: "des Belges considèrent que la corruption existe au sein des institutions fédérales."
     third_alarm:
-      stat: "71"
-      description: "des Français pensent que la démocratie en France ne fonctionne pas très bien/pas bien du tout."
+      stat: "53"
+      description: "des européens estiment que leur voix ne comptent pas dans l’Union européenne."
     source: "Source: baromêtre de la confiance politique, janvier 2014, Science Po, CEVIPOV - CNRS"
     award:
       text: "Nous avons reçu le prix des 10 meilleures innovations françaises 2015, décerné par le MIT Technology Review."

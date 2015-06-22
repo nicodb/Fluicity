@@ -13,12 +13,12 @@ en:
     button: "Find out more about Fluicity"
     first_alarm:
       stat: "39"
-      description: "of the French people did not vote at the last municipal elections."
+      description: "of French citizen did not vote during the last municipality elections."
     second_alarm:
-      stat: "87"
+      stat: "82"
       description: "of the French citizens think local governments do not care about what they think."
     third_alarm:
-      stat: "71"
+      stat: "53"
       description: "of the French citizens believe democracy in France does not function well."
     source: "Source : Political confidence barometer, January 2014, Science Po, Cevipov - CNRS"
     award:

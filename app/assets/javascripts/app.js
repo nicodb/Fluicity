@@ -35,7 +35,7 @@ $('#circle1').circleProgress({
 });
 
 $('#circle2').circleProgress({
-  value: 0.87,
+  value: 0.82,
   size: 130,
   fill: {
     color: "#333333"
@@ -43,7 +43,7 @@ $('#circle2').circleProgress({
 });
 
 $('#circle3').circleProgress({
-  value: 0.71,
+  value: 0.53,
   size: 130,
   fill: {
     color: "#333333"
