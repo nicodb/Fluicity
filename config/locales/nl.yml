@@ -15,11 +15,11 @@ nl:
       stat: "39"
       description: "van het Franse volk heeft bij de laatste gemeenteraadsverkiezingen niet gestemd."
     second_alarm:
-      stat: "87"
-      description: "van de Franse burgers denkt dat lokale overheden het niks kan schelen wat ze denken."
+      stat: "82"
+      description: "van de Belgen is van mening dat corruptie bestaat in federale instellingen."
     third_alarm:
-      stat: "71"
-      description: "dvan de Franse burgers gelooft dat de democratie in Frankrijk niet goed functioneert."
+      stat: "53"
+      description: "van de Europeanen heeft het gevoel dat hun stem niet meetelt in de Europese Unie."
     source: "Bron: Politieke vertrouwen barometer, januari 2014, Science Po, Cevipov - CNRS"
     award:
       text: "'MIT Technology Review' heeft Fluicity geselecteerd het de 2015 laureaat project voor de 35 Innovators Onder 35 award"
