@@ -13,13 +13,13 @@ en:
     button: "Find out more about Fluicity"
     first_alarm:
       stat: "39"
-      description: "of the French people did not vote at the last municipal elections."
+      description: "of French citizen did not vote during the last municipality elections."
     second_alarm:
-      stat: "87"
-      description: "of the French citizens think local governments do not care about what they think."
+      stat: "82"
+      description: "of Belgian citizen believe there is corruption in federal institutions."
     third_alarm:
-      stat: "71"
-      description: "of the French citizens believe democracy in France does not function well."
+      stat: "53"
+      description: "of Europeans feel their voice does not count in the European Union."
     source: "Source : Political confidence barometer, January 2014, Science Po, Cevipov - CNRS"
     award:
       text: "'MIT Technology Review' selected Fluicity as the 2015 Laureate project for the Innovators Under 35 award."
