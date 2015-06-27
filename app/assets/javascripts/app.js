@@ -64,3 +64,11 @@ $(function() {
     }
   });
 });
+
+
+$('.question').click(function (e) {
+  e.preventDefault();
+  $(this).next('.answer').toggleClass('is-visible');
+  $(this).find('i').toggleClass('fa-plus').toggleClass('fa-minus');
+});
+
