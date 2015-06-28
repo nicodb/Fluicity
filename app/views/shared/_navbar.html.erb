@@ -39,6 +39,15 @@
           <% end %>
         </li>
       </ul>
+      <% if I18n.locale == :fr %>
+      <ul class="nav navbar-nav navbar-middle">
+        <li>
+          <%= link_to faq_path do %>
+            <i class="fa fa-cog"></i><%= t 'menu.faq'%>
+          <% end %>
+        </li>
+      </ul>
+      <% end %>
       <ul class="nav navbar-nav">
         <li class="dropdown" id="last-link">
           <a href="#" class="dropdown-toggle free" data-toggle="dropdown">
