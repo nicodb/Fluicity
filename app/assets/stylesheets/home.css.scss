@@ -28,12 +28,12 @@
     .issue-description {
       font-weight: 100;
       font-size: 1.6rem;
+      height: auto;
     }
   }
 
   .issue-source {
     display: block;
-    padding-top: 25px;
     margin-bottom: -20px;
     font-size: 1rem;
     text-transform: uppercase;
@@ -90,11 +90,10 @@
 
   @media only screen and (max-width: 767px) {
     .home-issue { margin-top: 20px; }
-    p { height: 100px; }
+    .issue-source { margin-bottom: 40px; }
   }
 
   @media only screen and (max-width: 400px) {
-    p { height: 100px; }
     .home-issue { margin: 30px 0 0 0; }
   }
 }
