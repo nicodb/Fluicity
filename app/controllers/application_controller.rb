@@ -16,6 +16,14 @@ class ApplicationController < ActionController::Base
   def contact
 
   end
+
+  def default_url_options
+    if Rails.env.production?
+      { host: 'fluicity.herokuapp.com' }
+    else
+      { host: ENV['HOST'] || 'localhost:3000' }
+    end
+  end
 end
 
 
