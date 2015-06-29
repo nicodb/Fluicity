@@ -5,8 +5,12 @@
   </div>
 
   <div class="container-timeline">
+    <% if I18n.locale == :nl %>
+    <div class="col-xs-6 citizen-container nl">
+    <% else %>
     <div class="col-xs-6 citizen-container">
-    <h3 class="title-citizen"><%= t 'timeline.citizen.title' %></h2>
+    <% end %>
+      <h3 class="title-citizen"><%= t 'timeline.citizen.title' %></h2>
       <div class="citizen-action">
         <i class="fa fa-mobile"></i>
         <p><%= t 'timeline.citizen.step_1' %></p>
