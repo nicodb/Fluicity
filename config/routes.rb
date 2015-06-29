@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   scope '(:locale)', locale: /fr|en|nl/ do
     get 'thanks', to: 'home#thanks'
     get 'press', to: 'home#press'
+    get 'faq', to: 'home#faq'
     resources :users, only: :create
     resources :wishes do
       member do
