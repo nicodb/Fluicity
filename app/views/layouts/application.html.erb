@@ -15,7 +15,7 @@
     <!-- Schema.org markup for Google+ -->
     <meta itemprop="name" content="<%= title %>">
     <meta itemprop="description" content="<%= meta_description %>">
-    <meta itemprop="image" content="<%= image_url 'cards/fluicity-social-card.jpg' %>">
+    <meta itemprop="image" content="<%= image_url meta_image %>">
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary_large_image">
@@ -23,13 +23,13 @@
     <meta name="twitter:title" content="<%= title %>">
     <meta name="twitter:description" content="<%= meta_description %>">
     <meta name="twitter:creator" content="@judepim">
-    <meta name="twitter:image" content="<%= image_url 'cards/fluicity-social-card.jpg' %>">
+    <meta name="twitter:image" content="<%= image_url meta_image %>">
 
     <!-- Open Graph data -->
     <meta property="og:title" content="<%= title %>" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://flui.city/" />
-    <meta property="og:image" content="<%= image_url 'cards/fluicity-social-card.jpg' %>" />
+    <meta property="og:url" content="<%= request.original_url %>" />
+    <meta property="og:image" content="<%= image_url meta_image %>" />
     <meta property="og:description" content="<%= meta_description %>" />
     <meta property="og:site_name" content="Fluicity" />
 
