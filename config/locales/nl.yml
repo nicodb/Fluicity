@@ -8,42 +8,42 @@ nl:
       english: "Engels"
       dutch: "Nederlands"
   index:
-    catchline: "De stad spreekt"
-    description: "Fluicity maakt gebruik van informatietechnologie en data segmentatie om de banden tussen de burgers en de lokale overheden te versterken."
-    button: "Lees meer over Fluicity"
+    catchline: "De stad die spreekt"
+    description: "Fluicity maakt gebruikt van technologie en data om de banden tussen gemeenten en hun inwoners te versterken."
+    button: "Hoe werkt Fluicity?"
     first_alarm:
       stat: "39"
       description: "van het Franse volk heeft bij de laatste gemeenteraadsverkiezingen niet gestemd."
-      source: ""
+      source: "Bron: Politieke Vertrouwensbarometer, januari 2014, Science Po, Cevipov - CNRS"
     second_alarm:
       stat: "82"
       description: "van de Belgen is van mening dat corruptie bestaat in federale instellingen."
-      source: ""
+      source: "Bron : Transparency International België, 2012"
     third_alarm:
       stat: "53"
       description: "van de Europeanen heeft het gevoel dat hun stem niet meetelt in de Europese Unie."
-      source: ""
+      source: "Source : Standard Eurobarometer 82 Herfst 2014"
     award:
-      text: "'MIT Technology Review' heeft Fluicity geselecteerd het de 2015 laureaat project voor de 35 Innovators Onder 35 award"
+      text: "Fluicity is bekroond als laureaat 2015 door het MIT Technology Review voor innovatoren onder 35 jaar."
     calltoaction:
       text: "Heeft u een idee voor uw stad? Deel het!"
       button: "Ik wens..."
   newsletter:
-    disclaimer: "Beta Test beschikbaar voor steden van 20k inwoners en meer"
+    disclaimer: "Bèta versie beschikbaar voor gemeenten boven 20 000 inwoners"
     placeholder:
       email: "e-mail"
-      city: "uw stad"
-    button: "Toepassen !"
+      city: "uw gemeente"
+    button: "Registreer!"
   timeline:
     introduction: "Hoe werkt het?"
     citizen:
-      title: "U bent een burger"
+      title: "U bent een inwoner"
       step_1: "Ontvang zeer gerichte en persoonlijke lokale informatie."
       step_2: "Reageer op elk onderwerp."
       step_3: "Suggereer ideeën, meld problemen."
     representatives:
-      title: "U bent een gekozen vertegenwoordiger"
-      step_1: "Communiceer gemakkelijk over het stadsnieuws."
+      title: "U bent verkozene"
+      step_1: "Communiceer gemakkelijk over het lokaal nieuws."
       step_2: "Verzamel betrouwbare en bruikbare gegevens."
       step_3: "Pas uw beslissingen aan."
   contact:
@@ -56,13 +56,13 @@ nl:
       email: "Uw email"
       city: "Uw stad"
       message: "Uw bericht (optioneel)"
-    button: "Abonneren"
+    button: "Registreer!"
   wishform:
     maintitle:
       survey: "Druk uzelf uit!"
       wish: "We willen meer over u weten."
     subtitle:
-      survey: "Heeft u een idee voor uw stad? (Vragenlijst in het Frans)"
+      survey: "Heeft u een idee voor uw gemeente of stad? Deel het!"
       wish: "We zullen ons best doen om het overwogen te laten worden."
     survey:
       citizen: "Voor de burgers"
