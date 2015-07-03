@@ -1,20 +1,84 @@
 posts:
-  - title: L'application qui veut réengager les citoyens dans le débat politique
+  - title: "[RADIO] Emission “Social Eco”"
+    media: "Radio Classique"
+    date: 2015-05-30
+    link: "http://www.radioclassique.fr/player/progaction/initPlayer/podcast/social-eco-2015-06-30-06-51-10.html"
+    image: logo-radioclassique.jpg
+
+  - title: "Sphère publique 2.0"
+    media: "Les Echos"
+    date: 2015-05-25
+    link: "http://www.lesechos.fr/idees-debats/editos-analyses/021157010791-sphere-publique-20-1131517.php"
+    image: logo-lesechos.jpg
+
+  - title: "Fluicity, une appli pour renouer le dialogue entre les citoyens et les maires"
+    media: "We Demain"
+    date: 2015-05-16
+    link: "http://www.wedemain.fr/Fluicity-une-appli-pour-renouer-le-dialogue-entre-les-citoyens-et-les-maires_a1090.html"
+    image: logo-wedemain.jpg
+
+  - title: "Comment rapprocher les citoyens de leurs élus?"
+    media: "Le Huffington Post"
+    date: 2015-05-02
+    link: "http://www.huffingtonpost.fr/julie-de-pimodan/comment-rapprocher-les-ci_b_7482192.html?utm_hp_ref=tw"
+    image: logo-huffingtonpost.jpg
+
+  - title: "Ré-engager les citoyens en allant sur leur moyen favori de communication"
+    media: "Gouvernement.fr"
+    date: 2015-04-28
+    link: "http://www.gouvernement.fr/re-engager-les-citoyens-en-allant-sur-leur-moyen-favori-de-communication"
+    image: logo-gouvernementfr.jpg
+
+  - title: "L'application qui veut réengager les citoyens dans le débat politique"
+    media: "Le Figaro"
     date: 2015-04-16
-    link: http://www.lefigaro.fr/secteur/high-tech/2015/04/16/01007-20150416ARTFIG00106-l-application-qui-veut-reengager-les-citoyens-dans-le-debat-politique.php
+    link: "http://www.lefigaro.fr/secteur/high-tech/2015/04/16/32001-20150416ARTFIG00106-l-application-qui-veut-reengager-les-citoyens-dans-le-debat-politique.php"
     image: logo-figaro.jpg
 
-  - title: Les 10 jeunes Français les plus innovants en 2015 selon le MIT
+  - title: "[Portrait d’innovateur] Julie de Pimodan s'applique à faire du maire le CEO de sa ville"
+    media: "Atelier.net"
+    date: 2015-04-16
+    link: "http://www.atelier.net/trends/articles/portrait-innovateur-julie-de-pimodan-applique-faire-maire-ceo-de-ville_435070"
+    image: logo-latelier.jpg
+
+  - title: "Ils sont jeunes, français, innovateurs et primés... par les Américains"
+    media: "L'Obs"
+    date: 2015-04-16
+    link: "http://tempsreel.nouvelobs.com/tech/20150416.OBS7374/ils-sont-jeunes-francais-innovateurs-et-primes-par-les-americains.html"
+    image: logo-lobstech.jpg
+
+  - title: "A platform that promotes civic engagement"
+    media: "MIT"
+    date: 2015-04-16
+    link: "http://innovatorsunder35.com/innovator/julie-de-pimodan"
+    image: logo-mit-tech.jpg
+
+  - title: "Les 10 innovateurs français récompensés par le MIT"
+    media: "Challenges"
+    date: 2015-04-16
+    link: "http://www.challenges.fr/galeries-photos/economie/20150416.CHA5021/les-10-innovateurs-francais-recompenses-par-le-mit.html"
+    image: logo-challenges.jpg
+
+  - title: "Les dix meilleurs jeunes innovateurs français selon le MIT Technology Review"
+    media: "Alliancy"
+    date: 2015-04-16
+    link: "http://www.alliancy.fr/startup-et-levees-de-fonds/start-up/2015/04/16/les-dix-meilleurs-jeunes-innovateurs-francais-selon-le-mit-technology-review?hc_location=ufi"
+    image: logo-alliancy.jpg
+
+  - title: "Les 10 jeunes Français les plus innovants en 2015 selon le MIT"
+    media: "L'Express"
     date: 2015-04-16
     link: "http://lentreprise.lexpress.fr/diaporama/diapo-photo/creation-entreprise/idees-business/en-images-les-10-jeunes-francais-les-plus-innovants-en-2015-selon-le-mit_1671957.html?p=6#content_diapo"
     image: logo-lexpresse.jpg
 
-  - title: Et les 10 innovateurs français de moins de 35 ans de l'année sont...
+  - title: "Et les 10 innovateurs français de moins de 35 ans de l'année sont..."
+    media: "Le Monde"
     date: 2015-04-16
-    link: http://lesclesdedemain.lemonde.fr/business/et-les-10-innovateurs-francais-de-moins-de-35-ans-de-l-annee-sont-_a-56-5026.html
+    link: "http://lesclesdedemain.lemonde.fr/business/et-les-10-innovateurs-francais-de-moins-de-35-ans-de-l-annee-sont-_a-56-5026.html"
     image: logo-lemonde.jpg
 
-  - title: Vers un monde collaboratif avec les start-up de Julie de Pimodan et Mathieu Nebra
+  - title: "Vers un monde collaboratif avec les start-up de Julie de Pimodan et Mathieu Nebra"
+    media: "Marketing Emotionnel"
     date: 2015-04-27
-    link: http://marketingemotionnel.com/2015/04/27/vers-un-monde-collaboratif-avec-les-start-up-de-julie-de-pimodan-et-mathieu-nebra/
+    link: "http://marketingemotionnel.com/2015/04/27/vers-un-monde-collaboratif-avec-les-start-up-de-julie-de-pimodan-et-mathieu-nebra/"
     image: logo-marketingemotionnel.jpg
