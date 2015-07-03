@@ -76,3 +76,5 @@ nl:
     maintitle: "Bedankt voor uw interesse!"
     subtitle: "Wij hebben u een email met informatie verzonden."
     button: "Terug naar home"
+  press:
+    publication: "Gepubliceerd op"

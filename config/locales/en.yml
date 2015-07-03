@@ -76,3 +76,5 @@ en:
     maintitle: "Thank you for your interest!"
     subtitle: "We have sent you an information e-mail."
     button: "Return to homepage"
+  press:
+    publication: "Published on"
