@@ -5,139 +5,23 @@
 <section class="section-press">
   <div class="press-cover">
     <div class="container">
-          <ul>
-            <li class="article">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-sm-2">
-                    <img src="<%= image_url 'press/logo-figaro.jpg' %>" alt="logo" class="article-logo">
-                  </div>
-                  <div class="col-sm-10">
-                    <span class="article-name"><a href="http://www.lefigaro.fr/secteur/high-tech/2015/04/16/01007-20150416ARTFIG00106-l-application-qui-veut-reengager-les-citoyens-dans-le-debat-politique.php" rel="">L'application qui veut réengager les citoyens dans le débat politique</a></span>
-                    <span class="article-date">Publié le 16 avril 2015</span>
-                  </div>
-                </div>
+      <ul>
+        <% @article[:posts].each do |post| %>
+        <li class="article">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-2">
+                <img src="<%= image_url "press/#{post['image']}" %>" alt="logo" class="article-logo">
               </div>
-            </li>
-            <li class="article">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-sm-2">
-                    <img src="<%= image_url 'press/logo-gouvernementfr.jpg' %>" alt="logo" class="article-logo">
-                  </div>
-                  <div class="col-sm-10">
-                    <span class="article-name"><a href="http://www.gouvernement.fr/re-engager-les-citoyens-en-allant-sur-leur-moyen-favori-de-communication" rel="">Ré-engager les citoyens en allant sur leur moyen favori de communication</a></span>
-                    <span class="article-date">Publié le 28 avril 2015</span>
-                  </div>
-                </div>
+              <div class="col-sm-10">
+                <span class="article-name"><a href= "<%= post['link'] %>" rel=""><%= post['title'] %></a></span>
+                <span class="article-date"><%= post['media'] %> - <%= t 'press.publication' %> <%= l post['date'], format: :default %></span>
               </div>
-            </li>
-            <li class="article">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-sm-2">
-                    <img src="<%= image_url 'press/logo-latelier.jpg' %>" alt="logo" class="article-logo">
-                  </div>
-                  <div class="col-sm-10">
-                    <span class="article-name"><a href="http://www.atelier.net/trends/articles/portrait-innovateur-julie-de-pimodan-applique-faire-maire-ceo-de-ville_435070" rel="">[Portrait d’innovateur] Julie de Pimodan s'applique à faire du maire le CEO de sa ville</a></span>
-                    <span class="article-date">Publié le 16 avril 2015</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="article">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-sm-2">
-                    <img src="<%= image_url 'press/logo-lobstech.jpg' %>" alt="logo" class="article-logo">
-                  </div>
-                  <div class="col-sm-10">
-                    <span class="article-name"><a href="http://tempsreel.nouvelobs.com/tech/20150416.OBS7374/ils-sont-jeunes-francais-innovateurs-et-primes-par-les-americains.html" rel="">Ils sont jeunes, français, innovateurs et primés... par les Américains</a></span>
-                    <span class="article-date">Publié le 16 avril 2015</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="article">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-sm-2">
-                    <img src="<%= image_url 'press/logo-mit-tech.jpg' %>" alt="logo" class="article-logo">
-                  </div>
-                  <div class="col-sm-10">
-                    <span class="article-name"><a href="http://innovatorsunder35.com/innovator/julie-de-pimodan" rel="">A platform that promote civic engagement</a></span>
-                    <span class="article-date">Publié le 16 avril 2015</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="article">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-sm-2">
-                    <img src="<%= image_url 'press/logo-challenges.jpg' %>" alt="logo" class="article-logo">
-                  </div>
-                  <div class="col-sm-10">
-                    <span class="article-name"><a href="http://www.challenges.fr/galeries-photos/economie/20150416.CHA5021/les-10-innovateurs-francais-recompenses-par-le-mit.html" rel="">Les 10 innovateurs français récompensés par le MIT</a></span>
-                    <span class="article-date">Publié le 16 avril 2015</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="article">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-sm-2">
-                    <img src="<%= image_url 'press/logo-alliancy.jpg' %>" alt="logo" class="article-logo">
-                  </div>
-                  <div class="col-sm-10">
-                    <span class="article-name"><a href="http://www.alliancy.fr/startup-et-levees-de-fonds/start-up/2015/04/16/les-dix-meilleurs-jeunes-innovateurs-francais-selon-le-mit-technology-review?hc_location=ufi" rel="">Les dix meilleurs jeunes innovateurs français selon le MIT Technology Review</a></span>
-                    <span class="article-date">Publié le 16 avril 2015</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="article">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-sm-2">
-                    <img src="<%= image_url 'press/logo-lexpresse.jpg' %>" alt="logo" class="article-logo">
-                  </div>
-                  <div class="col-sm-10">
-                    <span class="article-name"><a href="http://lentreprise.lexpress.fr/diaporama/diapo-photo/creation-entreprise/idees-business/en-images-les-10-jeunes-francais-les-plus-innovants-en-2015-selon-le-mit_1671957.html?p=6#content_diapo" rel="">Les 10 jeunes Français les plus innovants en 2015 selon le MIT</a></span>
-                    <span class="article-date">Publié le 16 avril 2015</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="article">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-sm-2">
-                    <img src="<%= image_url 'press/logo-lemonde.jpg' %>" alt="logo" class="article-logo">
-                  </div>
-                  <div class="col-sm-10">
-                    <span class="article-name"><a href="http://lesclesdedemain.lemonde.fr/business/et-les-10-innovateurs-francais-de-moins-de-35-ans-de-l-annee-sont-_a-56-5026.html" rel="">Et les 10 innovateurs français de moins de 35 ans de l'année sont...</a></span>
-                    <span class="article-date">Publié le 16 avril 2015</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="article">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-sm-2">
-                    <img src="<%= image_url 'press/logo-marketingemotionnel.jpg' %>" alt="logo" class="article-logo">
-                  </div>
-                  <div class="col-sm-10">
-                    <span class="article-name"><a href="http://marketingemotionnel.com/2015/04/27/vers-un-monde-collaboratif-avec-les-start-up-de-julie-de-pimodan-et-mathieu-nebra/" rel="">Vers un monde collaboratif avec les start-up de Julie de Pimodan et Mathieu Nebra</a></span>
-                    <span class="article-date">Publié le 27 avril 2015</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-
+            </div>
+          </div>
+        </li>
+        <% end %>
+      </ul>
     </div>
   </div>
 </section>

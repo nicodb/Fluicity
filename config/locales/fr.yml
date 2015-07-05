@@ -77,6 +77,8 @@ fr:
     maintitle: "Fluicity vous remercie pour votre intérêt !"
     subtitle: "Nous vous avons envoyé un email d'information"
     button: "Retour à l'accueil"
+  press:
+    publication: "Publié le"
 
   faq:
     question_1: "Qu’est-ce que Fluicity ?"

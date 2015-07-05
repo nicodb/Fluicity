@@ -11,18 +11,16 @@ class ApplicationController < ActionController::Base
 
   def default_url_options
     { locale: I18n.locale == I18n.default_locale ? nil : I18n.locale }
+
+    if Rails.env.production?
+      { host: 'fluicity.herokuapp.com' }
+    else
+      { locale: I18n.locale == I18n.default_locale ? nil : I18n.locale, host: ENV['HOST'] || 'localhost:3000' }
+    end
   end
   # Let's DYNAMICALLY build the markers for the view.
   def contact
 
-  end
-
-  def default_url_options
-    if Rails.env.production?
-      { host: 'fluicity.herokuapp.com' }
-    else
-      { host: ENV['HOST'] || 'localhost:3000' }
-    end
   end
 end
 
