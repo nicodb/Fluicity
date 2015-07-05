@@ -14,15 +14,15 @@ en:
     first_alarm:
       stat: "39"
       description: "of French citizen did not vote during the last municipality elections."
-      source: ""
+      source: "Source : SOURCE : POLITICAL CONFIDENCE BAROMETER, JANUARY 2014, SCIENCE PO, CEVIPOV - CNRS"
     second_alarm:
       stat: "82"
       description: "of Belgian citizen believe there is corruption in federal institutions."
-      source: ""
+      source: "Transparency International Belgium, 2012"
     third_alarm:
       stat: "53"
       description: "of Europeans feel their voice does not count in the European Union."
-      source: ""
+      source: "Source: Standard Eurobarometer 82 Autumn 2014"
     award:
       text: "'MIT Technology Review' selected Fluicity as the 2015 Laureate project for the Innovators Under 35 award."
     calltoaction:
