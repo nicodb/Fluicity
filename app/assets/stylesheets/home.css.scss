@@ -2,9 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.home-section {
+.vision {
+  z-index: 10;
+  height: 400px;
   padding: 60px 0 40px 0;
-  background-size: cover;
   background-color: #fff;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
@@ -12,31 +13,13 @@
   position: relative;
   text-align: center;
 
-  .home-issue {
-
-    .issue-stat {
-      display: block;
-      color: #333;
-      font-size: 4rem;
-      margin: -100px 0 50px 0;
-
-      &::after {
-        content: "%";
-      }
-    }
-
-    .issue-description {
-      font-weight: 100;
-      font-size: 1.6rem;
-      height: auto;
-    }
-  }
-
-  .issue-source {
-    display: block;
-    margin-bottom: -20px;
-    font-size: 1rem;
-    text-transform: uppercase;
+  .vision-overlay {
+    position: absolute;
+    z-index: 200;
+    height: 500px;
+    width: 100%;
+    top: -50px;
+    color: rgba(255, 255, 255, 0.4);
   }
 
   .introduction {
@@ -161,6 +144,8 @@
     color: white;
     position: relative;
     margin : 0;
+
+    @include diagonal-background-top(1000px, 60px, #fff);
 
     .award-logo {
       height: 85px;

@@ -1,17 +1,18 @@
 header {
 
   .header-background {
-    background:asset-url('test-home.jpg') no-repeat top center fixed;
+    background:asset-url('home_v3.jpg') no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    // height: 100vh; //
     height: 650px;
     color: white;
     padding-top: 140px;
     position: relative;
     margin : 0;
+
+    @include diagonal-background-bottom(1000px, 60px, #fff);
 
     .header-cover {
       position: absolute;
