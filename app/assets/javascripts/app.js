@@ -112,3 +112,31 @@ $(function () {
     e.preventDefault() /*ignores actual link*/
   });
 });
+
+// HOME - TESTIMONIALS
+
+$(function () {
+  var $lists = $('#testimonials-nav li').click(function(e) {
+    $lists.filter('.active').removeClass('active');
+    $(this).addClass('active');
+    e.preventDefault() /*ignores actual link*/
+  });
+
+  $('#testimonials-nav-1').click(function(e) {
+    $('#testimonials-list li').filter('.active').removeClass('active');
+    $('#testimonial-1').addClass('active');
+    e.preventDefault() /*ignores actual link*/
+  });
+
+  $('#testimonials-nav-2').click(function(e) {
+    $('#testimonials-list li').filter('.active').removeClass('active');
+    $('#testimonial-2').addClass('active');
+    e.preventDefault() /*ignores actual link*/
+  });
+
+  $('#testimonials-nav-3').click(function(e) {
+    $('#testimonials-list li').filter('.active').removeClass('active');
+    $('#testimonial-3').addClass('active');
+    e.preventDefault() /*ignores actual link*/
+  });
+});
