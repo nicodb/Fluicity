@@ -20,7 +20,7 @@ ul {
   &::before {
       $w_int: $width/1px;
       $h_int: $height/1px;
-      $v_pad: ($height / $width) * 100 + 1;
+      $v_pad: ($height / $width) * 100;
       // we must use rgb because the # in hex doesn't work in some browsers
       $rgb_color: 'rgb(#{red($color)}, #{green($color)}, #{blue($color)})';
 
@@ -43,7 +43,7 @@ ul {
   &::after {
       $w_int: $width/1px;
       $h_int: $height/1px;
-      $v_pad: ($height / $width) * 100 + 1;
+      $v_pad: ($height / $width) * 100;
       // we must use rgb because the # in hex doesn't work in some browsers
       $rgb_color: 'rgb(#{red($color)}, #{green($color)}, #{blue($color)})';
 
@@ -65,7 +65,7 @@ ul {
   &::before {
       $w_int: $width/1px;
       $h_int: $height/1px;
-      $v_pad: ($height / $width) * 100 + 1;
+      $v_pad: ($height / $width) * 100;
       // we must use rgb because the # in hex doesn't work in some browsers
       $rgb_color: 'rgb(#{red($color)}, #{green($color)}, #{blue($color)})';
 
@@ -89,7 +89,7 @@ ul {
   &::after {
       $w_int: $width/1px;
       $h_int: $height/1px;
-      $v_pad: ($height / $width) * 100 + 1;
+      $v_pad: ($height / $width) * 100;
       // we must use rgb because the # in hex doesn't work in some browsers
       $rgb_color: 'rgb(#{red($color)}, #{green($color)}, #{blue($color)})';
 

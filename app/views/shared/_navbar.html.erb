@@ -12,7 +12,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a id="brand" class="navbar-brand hidden" href="/">
+      <a id="brand" class="navbar-brand animsition-link hidden" href="/">
         <%= image_tag "fluicity_2.png", id: "logo" %>
       </a>
     </div>
@@ -21,20 +21,20 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <%= link_to contact_path do %>
+          <%= link_to contact_path, :class => "animsition-link" do %>
             <i class="fa fa-envelope-o"></i><%= t 'menu.contact'%>
           <% end %>
         </li>
       <ul class="nav navbar-nav navbar-middle">
         <li>
-          <%= link_to new_wish_path do %>
+          <%= link_to new_wish_path, :class => "animsition-link" do %>
             <i class="fa fa-quote-left"></i><%= t 'menu.wish'%>
           <% end %>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-middle">
         <li>
-          <%= link_to press_path do %>
+          <%= link_to press_path, :class => "animsition-link" do %>
             <i class="fa fa-bookmark"></i><%= t 'menu.press'%>
           <% end %>
         </li>
