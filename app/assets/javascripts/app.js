@@ -79,6 +79,36 @@ $(function () {
   });
 });
 
+// HOME - AWARDS SECTION
 
+$(function () {
+  var $lists = $('#awards-list li').click(function(e) {
+    $lists.filter('.active').removeClass('active');
+    $(this).addClass('active');
+    e.preventDefault() /*ignores actual link*/
+  });
 
+  $('#award-1').click(function(e) {
+    $('#awards-ref-list li').filter('.active').removeClass('active');
+    $('#award-ref-1').addClass('active');
+    e.preventDefault() /*ignores actual link*/
+  });
 
+  $('#award-2').click(function(e) {
+    $('#awards-ref-list li').filter('.active').removeClass('active');
+    $('#award-ref-2').addClass('active');
+    e.preventDefault() /*ignores actual link*/
+  });
+
+  $('#award-3').click(function(e) {
+    $('#awards-ref-list li').filter('.active').removeClass('active');
+    $('#award-ref-3').addClass('active');
+    e.preventDefault() /*ignores actual link*/
+  });
+
+  $('#award-4').click(function(e) {
+    $('#awards-ref-list li').filter('.active').removeClass('active');
+    $('#award-ref-4').addClass('active');
+    e.preventDefault() /*ignores actual link*/
+  });
+});
