@@ -1,5 +1,42 @@
+body {
+  font-family: 'Open Sans';
+}
+
+ul {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+
+
 .control-label { display: none; }
 .no-margin { margin-left: 0; margin-right: 0; }
+
+
+@mixin diagonal-background-top($width, $height, $color) {
+  position: relative;
+  &::before {
+      $w_int: $width/1px;
+      $h_int: $height/1px;
+      $v_pad: ($height / $width) * 100 + 1;
+      // we must use rgb because the # in hex doesn't work in some browsers
+      $rgb_color: 'rgb(#{red($color)}, #{green($color)}, #{blue($color)})';
+
+      padding: #{$v_pad}% 0 0;
+      background-position: 50%;
+      background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="#{$w_int}" height="#{$h_int}"><polygon points="0,#{$h_int} #{$w_int},0 #{$w_int},#{$h_int}" style="fill:#{$rgb_color};stroke:#{$rgb_color};stroke-width:0"></polygon></svg>');
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      transform: rotate(180deg);
+      width: 100%;
+      height: 0;
+      top: 0;
+      content: '';
+  }
+}
 
 @mixin diagonal-background-bottom($width, $height, $color) {
   position: relative;
@@ -23,7 +60,7 @@
   }
 }
 
-@mixin diagonal-background-top($width, $height, $color) {
+@mixin diagonal-background-top-2($width, $height, $color) {
   position: relative;
   &::before {
       $w_int: $width/1px;
@@ -38,11 +75,36 @@
       background-repeat: no-repeat;
       background-size: cover;
       position: absolute;
-      transform: rotate(180deg);
+      transform: translateX(-50%) rotate(180deg);
       width: 100%;
       height: 0;
-      top: 0;
+      top: -60px;
       content: '';
+      opacity: 0.4;
+  }
+}
+
+@mixin diagonal-background-bottom-2($width, $height, $color) {
+  position: relative;
+  &::after {
+      $w_int: $width/1px;
+      $h_int: $height/1px;
+      $v_pad: ($height / $width) * 100 + 1;
+      // we must use rgb because the # in hex doesn't work in some browsers
+      $rgb_color: 'rgb(#{red($color)}, #{green($color)}, #{blue($color)})';
+
+      padding: #{$v_pad}% 0 0;
+      background-position: 50%;
+      background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="#{$w_int}" height="#{$h_int}"><polygon points="0,#{$h_int} #{$w_int},0 #{$w_int},#{$h_int}" style="fill:#{$rgb_color};stroke:#{$rgb_color};stroke-width:0"></polygon></svg>');
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      transform: translateX(-50%);
+      width: 100%;
+      height: 0;
+      bottom: -60px;
+      content: '';
+      opacity: 0.4;
   }
 }
 

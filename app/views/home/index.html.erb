@@ -7,8 +7,18 @@
     <div class="header-cover">
       <div class="container">
         <div class="row header-content text-center">
-            <h1>Fluicity</h1>
-            <span class="index-description">Construisons ensemble</span><br>La ville de demain</span>
+            <img src="<%= image_url 'logo-fluicity-white.png' %>">
+            <h1 class="index-description">Construisons ensemble</span><br><em class='highlight'>La ville de demain</em></h1>
+            <div class="download">
+              <a href="#" class="appstore">
+                <i class="devicon-apple-original"></i>
+                <span>Télécharger sur l'AppStore</span>
+              </a>
+              <a href="#" class="playstore">
+                <i class="devicon-android-plain"></i>
+                <span>Télécharger sur Google play</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -17,49 +27,61 @@
 </header>
 
 <section class="vision">
-  <div class="vision-overlay"></div>
   <div class="container">
     <div class="row">
-    bala
+      <span class="description">Recevez toute l’information locale en temps réel,</span>
+      <span class="description">Proposez vos idées et contribuez à l’amélioration de l’espace public,</span>
+      <span class="description">Donnez votre avis et dialoguez facilement avec vos élus,</span>
+      <span class="description enhance">Devenez un citoyen 3.0, rejoignez Fluicity !</span>
+      <a class="btn-vision" href="#">En savoir plus</a>
     </div>
   </div>
 </section>
 
-<div class="cut-quote">
-  <div class="cut-cover">
-    <div class="container text-center">
-      <blockquote><%= t 'index.award.text' %></blockquote>
-      <% if I18n.locale == :en || :nl %>
-      <a href="http://innovatorsunder35.com/innovator/julie-de-pimodan" rel="" target="_blank"><img class="award-logo" src="<%= image_url 'logo-mit-en.png' %>" alt="logo"></a>
-      <% else %>
-      <a href="http://innovatorsunder35.com/innovator/julie-de-pimodan" rel="" target="_blank"><img class="award-logo" src="<%= image_url 'logo-mit.png' %>" alt="logo"></a>
-      <% end %>
-    </div>
-  </div>
-</div>
-
-<%= render "shared/timeline2"%>
-
-<section class="section-video">
-
-
-<div class="cut-video">
-  <div class="cut-cover">
-    <div class="container-video">
-      <div class="cut-scene-video">
-        <div class="video-wrapper">
-          <iframe width="560" height="315" src="//www.youtube.com/embed/MxribCVXRuI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<section class="features">
+  <div class="features-cover"></div>
+  <div class="features-overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <ul id="item-list" class="item-list">
+          <li id="item-1" class="item active">
+            <i class="question">Fluicity c'est quoi ?</i>Une plateforme d'échange entre les collectivités et les citoyens
+          </li>
+          <li id="item-2" class="item">
+            <i class="question">Son but ?</i>Faciliter la participation à l’échelle locale, favoriser la prise de décison collective
+          </li>
+          <li id="item-3" class="item">
+            <i class="question">Comment ?</i>Grâce à une interface neutre et indépendante qui garantit la protection de vos données personnelles et l’accès gratuit pour tous les citoyens
+          </li>
+          <a class="btn-features" href="#">En savoir plus</a>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <div class="mockup">
+          <ul id="screen" class="screen">
+            <li id="slide_1" class="active"><img class="slide" src="<%= image_url 'slide_1.jpg' %>"></li>
+            <li id="slide_2"><img class="slide" src="<%= image_url 'slide_2.jpg' %>"></li>
+            <li id="slide_3"><img class="slide" src="<%= image_url 'slide_3.jpg' %>"></li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<section class="home-wish">
+<section class="awards">
   <div class="container">
-    <h2><%= t 'index.calltoaction.text' %></h2>
-    <%= link_to new_wish_path do %>
-     <%= t 'index.calltoaction.button' %>
-    <% end %>
+    <div class="row">
+    </div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <div class="testimonials-cover"></div>
+  <div class="testimonials-overlay"></div>
+  <div class="container">
+    <div class="row">
+    </div>
   </div>
 </section>
