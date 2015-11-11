@@ -1,12 +1,12 @@
 function ShrinkNavbar(){
   $window = $(window);
   $window.scroll(function(){
-    if($window.scrollTop() > 50){
+    if($window.scrollTop() > 0){
       $('#navbar').addClass('navbar-scrolled');
-      $('#brand').removeClass('hidden');
+      //$('#brand').removeClass('hidden');
     }else{
       $('#navbar').removeClass('navbar-scrolled');
-      $('#brand').addClass('hidden');
+      //$('#brand').addClass('hidden');
     }
   })
 }
@@ -141,7 +141,7 @@ $(function () {
   });
 });
 
-// WEBSITE - TRANSITIONS
+// WEBSITE - TRANSITION
 
 $(document).ready(function() {
   $(".animsition").animsition({

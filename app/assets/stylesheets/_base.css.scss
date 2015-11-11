@@ -2,6 +2,14 @@ body {
   font-family: 'Open Sans';
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: azo_sansregular,'Open Sans',sans-serif;
+}
+
+p {
+  font-family: 'Bitter', serif;
+}
+
 ul {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
@@ -14,97 +22,80 @@ ul {
 .control-label { display: none; }
 .no-margin { margin-left: 0; margin-right: 0; }
 
+/**************************************************************
+ SHAPES - ANGLED EDGE
+**************************************************************/
 
-@mixin diagonal-background-top($width, $height, $color) {
-  position: relative;
-  &::before {
-      $w_int: $width/1px;
-      $h_int: $height/1px;
-      $v_pad: ($height / $width) * 100;
-      // we must use rgb because the # in hex doesn't work in some browsers
-      $rgb_color: 'rgb(#{red($color)}, #{green($color)}, #{blue($color)})';
+.shapes-top {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  bottom: 0;
+  z-index: 1;
 
-      padding: #{$v_pad}% 0 0;
-      background-position: 50%;
-      background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="#{$w_int}" height="#{$h_int}"><polygon points="0,#{$h_int} #{$w_int},0 #{$w_int},#{$h_int}" style="fill:#{$rgb_color};stroke:#{$rgb_color};stroke-width:0"></polygon></svg>');
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: absolute;
-      transform: rotate(180deg);
-      width: 100%;
-      height: 0;
-      top: 0;
-      content: '';
+  &:before {
+    position: absolute;
+    background: rgba(255,255,244,0.4);
+    content: '';
+    display: block;
+    height: 80%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: skewY(1.5deg);
+    transform-origin: 0 100%;
+    z-index: 1;
+  }
+
+  &:after {
+    position: absolute;
+    background: #fff;
+    content: '';
+    display: block;
+    height: 60%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: skewY(-1.5deg);
+    transform-origin: 100% 0;
+    z-index: 1;
   }
 }
 
-@mixin diagonal-background-bottom($width, $height, $color) {
-  position: relative;
-  &::after {
-      $w_int: $width/1px;
-      $h_int: $height/1px;
-      $v_pad: ($height / $width) * 100;
-      // we must use rgb because the # in hex doesn't work in some browsers
-      $rgb_color: 'rgb(#{red($color)}, #{green($color)}, #{blue($color)})';
+.shapes-bottom {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  bottom: -20%;
+  z-index: 1;
+  transform: rotate(180deg);
 
-      padding: #{$v_pad}% 0 0;
-      background-position: 50%;
-      background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="#{$w_int}" height="#{$h_int}"><polygon points="0,#{$h_int} #{$w_int},0 #{$w_int},#{$h_int}" style="fill:#{$rgb_color};stroke:#{$rgb_color};stroke-width:0"></polygon></svg>');
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: absolute;
-      width: 100%;
-      height: 0;
-      bottom: 0;
-      content: '';
+  &:before {
+    position: absolute;
+    background: rgba(255,255,244,0.4);
+    content: '';
+    display: block;
+    height: 80%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: skewY(1.5deg);
+    transform-origin: 0 100%;
+    z-index: 1;
   }
-}
 
-@mixin diagonal-background-top-2($width, $height, $color) {
-  position: relative;
-  &::before {
-      $w_int: $width/1px;
-      $h_int: $height/1px;
-      $v_pad: ($height / $width) * 100;
-      // we must use rgb because the # in hex doesn't work in some browsers
-      $rgb_color: 'rgb(#{red($color)}, #{green($color)}, #{blue($color)})';
-
-      padding: #{$v_pad}% 0 0;
-      background-position: 50%;
-      background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="#{$w_int}" height="#{$h_int}"><polygon points="0,#{$h_int} #{$w_int},0 #{$w_int},#{$h_int}" style="fill:#{$rgb_color};stroke:#{$rgb_color};stroke-width:0"></polygon></svg>');
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: absolute;
-      transform: translateX(-50%) rotate(180deg);
-      width: 100%;
-      height: 0;
-      top: -60px;
-      content: '';
-      opacity: 0.4;
-  }
-}
-
-@mixin diagonal-background-bottom-2($width, $height, $color) {
-  position: relative;
-  &::after {
-      $w_int: $width/1px;
-      $h_int: $height/1px;
-      $v_pad: ($height / $width) * 100;
-      // we must use rgb because the # in hex doesn't work in some browsers
-      $rgb_color: 'rgb(#{red($color)}, #{green($color)}, #{blue($color)})';
-
-      padding: #{$v_pad}% 0 0;
-      background-position: 50%;
-      background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="#{$w_int}" height="#{$h_int}"><polygon points="0,#{$h_int} #{$w_int},0 #{$w_int},#{$h_int}" style="fill:#{$rgb_color};stroke:#{$rgb_color};stroke-width:0"></polygon></svg>');
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: absolute;
-      transform: translateX(-50%);
-      width: 100%;
-      height: 0;
-      bottom: -60px;
-      content: '';
-      opacity: 0.4;
+  &:after {
+    position: absolute;
+    background: #fff;
+    content: '';
+    display: block;
+    height: 60%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: skewY(-1.5deg);
+    transform-origin: 100% 0;
+    z-index: 1;
   }
 }
 
@@ -188,6 +179,7 @@ ul {
   padding-bottom: 48.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
+  border: 1px solid #F1F1F1;
 }
 
 .video-wrapper iframe {

@@ -4,6 +4,7 @@
 
 <header id="#cover">
   <div class="header-background">
+    <div class="shapes-top"></div>
     <div class="header-cover">
       <div class="container">
         <div class="row header-content text-center">
@@ -29,13 +30,16 @@
 <section class="vision">
   <div class="container">
     <div class="row">
-      <span class="description">Recevez toute l’information locale en temps réel,</span>
-      <span class="description">Proposez vos idées et contribuez à l’amélioration de l’espace public,</span>
-      <span class="description">Donnez votre avis et dialoguez facilement avec vos élus,</span>
-      <span class="description enhance">Devenez un citoyen 3.0, rejoignez Fluicity !</span>
-      <a class="btn-vision animsition-link" href="#">En savoir plus</a>
+      <div class="col-md-12">
+        <span class="description">Recevez toute l’information locale en temps réel,</span>
+        <span class="description">Proposez vos idées et contribuez à l’amélioration de l’espace public,</span>
+        <span class="description">Donnez votre avis et dialoguez facilement avec vos élus,</span>
+        <span class="description enhance">Devenez un citoyen 3.0, rejoignez Fluicity !</span>
+        <%= link_to "Notre vision", vision_path, class: "btn-vision animsition-link" %>
+      </div>
     </div>
   </div>
+  <div class="shapes-bottom"></div>
 </section>
 
 <section class="features">
@@ -58,7 +62,7 @@
           <li id="item-3" class="item">
             <i class="question">Comment ?</i>Grâce à une interface neutre et indépendante qui garantit la protection de vos données personnelles et l’accès gratuit pour tous les citoyens
           </li>
-          <a class="btn-features animsition-link" href="#">En savoir plus</a>
+          <%= link_to "En savoir plus", features_path, class: "btn-features animsition-link" %>
         </ul>
       </div>
       <div class="col-md-6">

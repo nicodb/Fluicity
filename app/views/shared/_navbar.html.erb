@@ -12,7 +12,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a id="brand" class="navbar-brand animsition-link hidden" href="/">
+      <a id="brand" class="navbar-brand animsition-link" href="/">
         <%= image_tag "fluicity_2.png", id: "logo" %>
       </a>
     </div>
@@ -21,8 +21,18 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <%= link_to contact_path, :class => "animsition-link" do %>
-            <i class="fa fa-envelope-o"></i><%= t 'menu.contact'%>
+          <%= link_to "/", :class => "animsition-link" do %>
+            Home
+          <% end %>
+        </li>
+        <li>
+          <%= link_to vision_path, :class => "animsition-link" do %>
+            Vision
+          <% end %>
+        </li>
+        <li>
+          <%= link_to features_path, :class => "animsition-link" do %>
+            En détails
           <% end %>
         </li>
       <ul class="nav navbar-nav navbar-middle">

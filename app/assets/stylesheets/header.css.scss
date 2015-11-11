@@ -2,16 +2,27 @@ header {
 
   .header-background {
     background:asset-url('home_v3.jpg') no-repeat top center fixed;
+    height: 650px;
+
+    .header-content { margin-top: 180px; }
+  }
+
+  .header-page {
+    background:asset-url('home_v3.jpg') no-repeat top center fixed;
+    height: 420px;
+
+    .header-content { margin-top: 150px; }
+  }
+
+  .header-background,
+  .header-page {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 650px;
     color: white;
     position: relative;
     margin : 0;
-
-    @include diagonal-background-bottom(1000px, 60px, #fff);
 
     .header-cover {
       position: absolute;
@@ -24,14 +35,21 @@ header {
 
     .header-content {
 
-      margin-top: 180px;
-
       h1 {
         font-family: 'azo_sansregular';
         font-size: 2.45em;
         letter-spacing: 0.03em;
         line-height: 1.7em;
         color : #fff;
+
+        &:after {
+          content: '';
+          display: block;
+          margin: 0 auto;
+          padding-top: 5px;
+          width: 150px;
+          border-bottom: 3px solid #fff;
+        }
       }
 
       .highlight {
