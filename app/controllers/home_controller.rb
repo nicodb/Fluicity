@@ -18,6 +18,10 @@ class HomeController < ApplicationController
     @article = YAML.load_file(Rails.root.join('db/press.yml')).with_indifferent_access
   end
 
+  def team
+    @team = YAML.load_file(Rails.root.join('db/team.yml')).with_indifferent_access
+  end
+
   def prepare_user
     @user = User.new
     @roles = [

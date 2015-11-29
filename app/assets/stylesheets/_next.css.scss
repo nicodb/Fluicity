@@ -1,4 +1,4 @@
-a.next-page {
+.next-page {
   position: relative;
   background:asset-url('home_v3.jpg') no-repeat top center;
   -webkit-background-size: cover;
@@ -13,12 +13,12 @@ a.next-page {
   display: -webkit-flex;
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
 
   font-size: 3rem;
   color: #fff;
-  text-decoration: none;
 
   &:hover {
     .next-overlay {

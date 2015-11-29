@@ -1,0 +1,123 @@
+.section-team {
+  padding: 30px 0 160px 0;
+  background-color: #fff;
+
+  ul {
+    width: 66.66666%;
+    list-style: none;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      box-sizing: border-box;
+      padding: 0 10px;
+      width: 50%;
+      cursor: pointer;
+
+      .member-info {
+        box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        margin: 20px 0;
+        color: black;
+        background: white;
+        border-radius: 3px;
+        height: 90px;
+        -webkit-transition: box-shadow 0.2s ease;
+        transition: box-shadow 0.2s ease;
+
+
+        .member-details {
+          padding: 0 20px;
+
+          h3 {
+            font-size: 18px;
+            margin: 0;
+          }
+        }
+      }
+
+      .member-description {
+        position: fixed;
+        transform: translateX(0);
+        background-color: #fff;
+        padding: 30px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        right: 0;
+        width: 410px;
+        height: 580px;
+        bottom: 0;
+        z-index: 12000;
+
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+
+        h3 {
+          margin-bottom: 0;
+        }
+
+        p {
+          padding-top: 20px;
+          color: #222;
+        }
+
+        .shapes-member {
+          position: absolute;
+          width: 100%;
+          height: 20%;
+          top: -40px;
+          z-index: -1;
+
+          &:before {
+            position: absolute;
+            background: rgba(255,255,244,0.4);
+            content: '';
+            display: block;
+            height: 80%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            transform: skewY(1.5deg);
+            transform-origin: 0 100%;
+            z-index: 1;
+          }
+        }
+      }
+
+      .description-hidden {
+        transform: translateX(100%);
+        overflow: hidden;
+      }
+    }
+  }
+
+  img {
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid #eef0ef;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-team ul li { width: 100% }
+
+  .section-team ul li .member-description {
+    right: 0;
+    width: 410px;
+    height: 100%;
+    bottom: 0;
+    z-index: 10000;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-team ul { width: 100% }
+}

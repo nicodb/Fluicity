@@ -35,30 +35,16 @@
             En détails
           <% end %>
         </li>
-      <ul class="nav navbar-nav navbar-middle">
         <li>
-          <%= link_to new_wish_path, :class => "animsition-link" do %>
-            <i class="fa fa-quote-left"></i><%= t 'menu.wish'%>
+          <%= link_to team_path, :class => "animsition-link" do %>
+            Notre équipe
           <% end %>
         </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-middle">
         <li>
-          <%= link_to press_path, :class => "animsition-link" do %>
-            <i class="fa fa-bookmark"></i><%= t 'menu.press'%>
+          <%= link_to "https://medium.com/@Fluicities", :class => "animsition-link" do %>
+            Blog
           <% end %>
         </li>
-      </ul>
-      <% if I18n.locale == :fr %>
-      <ul class="nav navbar-nav navbar-middle">
-        <li>
-          <%= link_to faq_path do %>
-            <i class="fa fa-cog"></i><%= t 'menu.faq'%>
-          <% end %>
-        </li>
-      </ul>
-      <% end %>
-      <ul class="nav navbar-nav">
         <li class="dropdown" id="last-link">
           <a href="#" class="dropdown-toggle free" data-toggle="dropdown">
             <i class="fa fa-globe"></i>

@@ -1,46 +1,61 @@
 .section-press {
-  background:asset-url('test-home.jpg') no-repeat top center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: #fff;
-  min-height: 110vh;
-  color: white;
   position: relative;
-
-  .press-cover {
-    padding-top: 120px;
-    top: 0;
-    bottom: 0;
-    left:0;
-    right: 0;
-    background-color: rgba(255,255,255,0.9);
-  }
+  padding: 30px 0 160px 0;
 
   ul {
+    padding-top: 60px;
     list-style: none;
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
     -webkit-padding-start: 0px;
+
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .article {
-    padding: 20px 20px;
-    margin: 20px 0;
+    cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+    width: 24%;
+    margin: 5px 5px;
+    border: 1px solid #f5f5f5;
+    overflow: hidden;
+
+    &:hover {
+      .article-details {
+        transform: translateY(0);
+      }
+    }
 
     .article-logo {
-      margin-top: -20px;
-      height: 100px;
-      width: 100px;
-      border-radius: 50%;
+      width: 100%;
+    }
+
+    .article-details {
+      position: absolute;
+      padding: 10px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color:  #fff;
+      transform: translateY(100%);
+
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
     }
 
     .article-name {
       display: block;
       padding-top: 10px;
       font-family: 'Raleway', sans-serif;
-      font-size: 1.4em;
+      font-size: 16px;
       font-weight: 600;
       line-height: 1em;
       color: #333;
@@ -53,6 +68,8 @@
     }
 
     .article-date {
+      position: absolute;
+      bottom: 10px;
       display: block;
       font-family: 'Open sans', sans-serif;
       font-size: 0.825em;
@@ -63,9 +80,12 @@
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 1250px) {
   .section-press {
-    .article { text-align: center; }
-    .article-name { margin: 10px 0; }
+    .article { width: 32.25555%;}
   }
+}
+
+@media (max-width: px) {
+
 }

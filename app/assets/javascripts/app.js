@@ -141,6 +141,14 @@ $(function () {
   });
 });
 
+// TEAM - CARD DESCRIPTION
+
+$(document).on('click', '#members > li', function (e) {
+  e.preventDefault();
+  $(this).siblings('li').find('#member-description').not('description-hidden').addClass('description-hidden');
+  $(this).closest('li').find('#member-description').toggleClass('description-hidden');
+});
+
 // WEBSITE - TRANSITION
 
 $(document).ready(function() {

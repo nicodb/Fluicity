@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     get 'vision', to: 'home#vision'
     get 'thanks', to: 'home#thanks'
     get 'press', to: 'home#press'
+    get 'team', to: 'home#team'
     get 'faq', to: 'home#faq'
     resources :users, only: :create
     resources :wishes do
