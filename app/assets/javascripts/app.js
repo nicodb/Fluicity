@@ -28,6 +28,19 @@ $(document).ready(function(){
 
 })
 
+$(document).ready(function(){
+  $('.slick-testimonials').slick({
+    arrows: false,
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear'
+  });
+});
+
 
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {

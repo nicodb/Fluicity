@@ -8,6 +8,9 @@ $header-height: 100vh;
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+@import "vendor/slick";
+@import "vendor/slick-theme";
+
 @import "base";
 @import "animsition";
 @import "fade";

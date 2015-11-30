@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
+//= require slick
 //= require_tree .
 
 // app/assets/javascripts/application.js

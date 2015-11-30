@@ -230,6 +230,8 @@
 .testimonials{
   height: 400px;
   position: relative;
+  display: flex;
+  align-items: center;
 
   .testimonials-cover {
     position: absolute;
@@ -260,6 +262,22 @@
     }
   }
 
+  .slick-slider {
+    width: 750px;
+    margin: 0 auto;
+  }
+
+  .slick-slide {
+    outline: none
+  }
+
+  .slick-dots li button {
+    &:before {
+      color: #fff;
+      font-size: 10px;
+    }
+  }
+
   .testimonials-overlay {
     position: absolute;
     left: 0;
@@ -270,73 +288,21 @@
     z-index: -1;
   }
 
-  .testimonials-list {
-    position: relative;
-    width: 750px;
-    height: 250px;
-    margin: 0 auto;
-    padding-top: 80px;
-    list-style: none;
-    overflow: hidden;
-
-    .testimonial {
-      display: inline-block;
-      position: absolute;
-      visibility: hidden;
-
-      -webkit-transition: all 0.5s ease-in;
-      -moz-transition: all 0.5s ease-in;
-      transition: all 0.5s ease-in;
-    }
-
-    .active {
-      visibility: visible;
-    }
-
-    .testimonial-witness {
-      float: left;
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      border: 2px solid #fff;
-    }
-
-    .testimonial-opinion {
-      float: left;
-      width: 600px;
-      padding: 20px 30px;
-      font-size: 18px;
-      color: #fff;
-      letter-spacing: 1px;
-      line-height: 1.5em;
-    }
+  .testimonial-witness {
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
   }
 
-  .testimonials-nav {
-    list-style: none;
-    width: 750px;
-    margin: 10px auto 0 auto;
-
-    li {
-      display: inline-block;
-      margin: 20px 5px 0 5px;
-      opacity: 0.4;
-
-      &:hover {
-        opacity: 1;
-      }
-    }
-
-    .active {
-      opacity: 1;
-    }
-
-    .testimonial-next {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      border: 2px solid #fff;
-      cursor: pointer;
-    }
+  .testimonial-opinion {
+    float: left;
+    width: 600px;
+    padding: 20px 30px;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 1.5em;
   }
 }
