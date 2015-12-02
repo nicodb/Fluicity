@@ -2,23 +2,36 @@
 <% meta_description %>
 <% meta_image %>
 
+<header id="#cover">
+  <div class="header-page">
+    <div class="shapes-top"></div>
+    <div class="header-cover">
+      <div class="container">
+        <div class="row header-content text-center">
+          <h1 class="index-description"><em class='highlight'>Nous contacter</em></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
 <section class="section-contact">
-  <div class="contact-cover">
-    <div class="container">
-      <div class="col-md-6 col-md-offset-3">
-          <div class='row contact-form'>
-            <span><%= t 'contact.disclaimer' %></span>
-            <%= bootstrap_form_for(@user) do |f| %>
-              <%= f.collection_select :role, @roles, :value, :text, {}, class: "form-control select-control"%>
-              <%= f.text_field :email, placeholder: I18n.translate('contact.placeholder.email')%>
-              <!-- Include Google Maps JS API -->
-              <%= text_field_tag :user_input_autocomplete_address, "", placeholder: I18n.translate('contact.placeholder.city'), class: "form-control"%>
-              <div class="form-group">
-                <%= text_area_tag :text,  "", placeholder: I18n.translate('contact.placeholder.message'), rows: 5, class: "form-control text-control" %>
-              </div>
-              <%=  f.submit I18n.translate('contact.button'), class: "btn btn-contact" %>
-            <% end %>
-          </div>
+  <div class="container">
+    <div class="col-md-6">
+    </div>
+    <div class="col-md-6">
+        <div class='row contact-form'>
+          <span><%= t 'contact.disclaimer' %></span>
+          <%= bootstrap_form_for(@user) do |f| %>
+            <%= f.collection_select :role, @roles, :value, :text, {}, class: "form-control select-control"%>
+            <%= f.text_field :email, placeholder: I18n.translate('contact.placeholder.email')%>
+            <!-- Include Google Maps JS API -->
+            <%= text_field_tag :user_input_autocomplete_address, "", placeholder: I18n.translate('contact.placeholder.city'), class: "form-control"%>
+            <div class="form-group">
+              <%= text_area_tag :text,  "", placeholder: I18n.translate('contact.placeholder.message'), rows: 5, class: "form-control text-control" %>
+            </div>
+            <%=  f.submit I18n.translate('contact.button'), class: "btn btn-contact" %>
+          <% end %>
         </div>
       </div>
     </div>
