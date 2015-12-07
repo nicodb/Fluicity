@@ -16,35 +16,36 @@
 </header>
 
 <section class="section-team">
-    <div class="container-fluid">
-      <ul id="members">
-        <% @team[:members].each do |member| %>
-          <li id="member-card">
-            <div class="member-info">
-              <img src="<%= image_url "team/#{member['picture']}" %>" alt="logo" class="article-logo">
-              <div class="member-details">
-                <h3><%= member['firstname'] + " " + member['lastname'] %></h3>
-                <span><%= member['position'] %></span>
+    <div class="container">
+      <div class="team-container">
+        <ul id="members">
+          <% @team[:members].each do |member| %>
+            <li id="member-card">
+              <div class="member-info">
+                <img src="<%= image_url "team/#{member['picture']}" %>" alt="logo" class="article-logo">
+                <div class="member-details">
+                  <h3><%= member['firstname'] + " " + member['lastname'] %></h3>
+                  <span><%= member['position'] %></span>
+                </div>
               </div>
-            </div>
-            <div id="member-description" class="member-description description-hidden">
-            <div class="shapes-member"></div>
-            <img src="<%= image_url "team/#{member['picture']}" %>" alt="logo" class="article-logo">
-
+              <div id="member-description" class="member-description description-hidden">
+              <div class="shapes-member"></div>
+              <img src="<%= image_url "team/#{member['picture']}" %>" alt="logo" class="article-logo">
                 <h3><%= member['firstname'] + " " + member['lastname'] %></h3>
                 <span><%= member['position'] %></span>
-
-              <p><%= member['description'] %></p>
-            </div>
-          </li>
-        <% end %>
-      </ul>
-      <div class="join-team">
-        <div class="join-team-cover">
-          <a href="/">
-            <div class="join-overlay"></div>
-            <h4>Rejoignez Fluicity</h4>
-          </a>
+                <p><%= member['description'] %></p>
+              </div>
+            </li>
+          <% end %>
+        </ul>
+        <div class="join-team">
+          <div class="join-team-cover">
+            <%= link_to jobs_path, :class => "animsition-link" do %>
+              <div class="join-overlay"></div>
+              <h4>Rejoignez Fluicity</h4>
+            <% end %>
+            </a>
+          </div>
         </div>
       </div>
     </div>

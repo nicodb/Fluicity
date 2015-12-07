@@ -14,6 +14,10 @@ class HomeController < ApplicationController
 
   end
 
+  def jobs
+    @job = YAML.load_file(Rails.root.join('db/jobs.yml')).with_indifferent_access
+  end
+
   def press
     @article = YAML.load_file(Rails.root.join('db/press.yml')).with_indifferent_access
   end

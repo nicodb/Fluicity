@@ -9,6 +9,7 @@ Rails.application.routes.draw do
     get 'press', to: 'home#press'
     get 'team', to: 'home#team'
     get 'faq', to: 'home#faq'
+    get 'jobs', to: 'home#jobs'
     resources :users, only: :create
     resources :wishes do
       member do

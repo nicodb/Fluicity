@@ -1,0 +1,85 @@
+<% title "Jobs" %>
+<% meta_description %>
+<% meta_image %>
+
+<header id="#cover">
+  <div class="header-page">
+    <div class="shapes-top"></div>
+    <div class="header-cover">
+      <div class="container">
+        <div class="row header-content text-center">
+          <h1 class="index-description"><em class='highlight'><%= yield(:title) %></em></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section-jobs">
+  <div class="container">
+    <h2>Notre Mission</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p>Les démocraties européennes vivent une période difficile et les chiffres parlent d’eux mêmes.
+        En France par exemple, 40% des citoyens n’ont pas été voter aux dernières municipales, un taux record qui frappe surtout les jeunes qui se sont abstenus à 61%.</p>
+        <p>Si les causes de ce “déficit démocratique” sont multiples et complexes, ses conséquences sont graves et pourraient être dévastatrices pour l’avenir.</p>
+        <p>Fluicity est née d’un constat; la démocratie ça commence en bas de chez soi. C’est donc à l’échelle de la ville, sur des sujets très concrets de la vie quotidienne, que l’on veut redonner envie aux gens de participer, de s’impliquer dans la construction de l’espace publique.</p>
+      </div>
+      <div class="col-md-6">
+        <p>Pour y arriver nous proposons à toutes les collectivités une interface innovante et ludique qui offre:</p>
+        <ul>
+          <li>une information locale mieux ciblée, par centre d’intérêt</li>
+          <li>une interaction plus efficace entre tous les membres de la société civile</li>
+          <li>une meilleure compréhension des échanges,  besoins et attentes des citoyens</li>
+        </ul>
+      </div>
+    </div>
+    <h2>Job board</h2>
+    <div class="offers-container">
+      <ul id="members">
+        <% @job[:offers].each do |offer| %>
+          <li id="member-card" data-toggle="modal" data-target="#<%= offer['id'] %>">
+            <div class="member-info">
+              <%= offer['position'] %>
+              <%= offer['contract'] %>
+              <%= offer['duration'] %>
+            </div>
+          </li>
+          <div id="<%= offer['id'] %>" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-md">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title"><%= offer['position'] %></h3>
+                  <span><%= offer['contract'] %> - <%= offer['duration'] %></span>
+                </div>
+                <div class="modal-body">
+                  <h3>Le contexte</h3>
+                  <p>Fluicity est une start-up innovante dans le domaine du “civic tech” qui a pour but de réinventer la participation citoyenne à l’échelle locale. Fluicity vient de recevoir le prix des 10 meilleures innovations françaises 2015, décerné par le "MIT Technology Review".</p>
+                  <p>La plate-forme s’inspire des technologies de pointe utilisées dans le marketing digital - segmentation, contextualisation, lecture sémantique de données, algorithme de prédiction - et s’applique aux besoins de la gouvernance locale.</p>
+                  <p>Nous avons déjà un MVP et sommes actuellement en phase de test sur des villes de différentes tailles (Vernon, Mairie du 9e arrondissement) et sommes à la recherche d’un Junior Developer pour nous accompagner dans cet ambitieux projet.</p>
+                  <p>Nos challenges techniques se situent principalement autour de la production et à l’analyse de données, l’intégration aux outils “smart city” existants et à la lecture sémantique des idées et remontées citoyennes.</p>
+                  <h3>Votre rôle</h3>
+                  <%= offer['mission_html'].html_safe %>
+                  <h3>Qualifications</h3>
+                  <%= offer['qualifications'].html_safe %>
+                </div>
+                <div class="modal-footer">
+                  <p>Si cette opportunité vous intéresse, contactez nous via info@flui.city, ou rendez-nous visite à Paris au 26, rue du chemin vert, 75011 Paris.</p>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<%= link_to contact_path do %>
+  <div class="next-page">
+    <div class="next-overlay"></div>
+      <span>Contactez-nous</span>
+    </div>
+  </a>
+<% end %>
