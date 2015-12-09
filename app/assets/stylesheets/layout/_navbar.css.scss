@@ -2,7 +2,7 @@
 $color: white;
 $bg: transparent;
 $height: 50px;
-$vertical-padding: 20px;
+$vertical-padding: 10px;
 $horizontal-padding: 40px;
 $border-bottom-width: 0;
 $border-bottom-color: blue;
@@ -39,6 +39,34 @@ $btn-left-border-color: transparent;
   -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
+
+  li {
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
+  .container-fluid {
+    padding: auto 0;
+  }
+}
+
+
+
+.navbar-default .navbar-toggle {
+  border: none;
+
+  &:hover, &:active, &:visited, &:focus {
+    background-color: transparent;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+  border-radius: 0;
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: none;
 }
 
 .navbar-scrolled { background-color: #333 !important; }
@@ -182,7 +210,6 @@ $btn-margin-top: ($height + 2 * $vertical-padding - $btn-height - $btn-top-borde
   .navbar-wagon{
     padding : 0 15px;
     background-color: #333;
-    border-bottom: 1px solid #fff;
   }
 
   .navbar-nav {

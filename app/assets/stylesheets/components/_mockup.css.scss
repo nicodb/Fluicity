@@ -2,15 +2,17 @@
   position: relative;
   background:asset-url('iphone.png') no-repeat center;
   height: 700px;
-  width: 100%;
+  width: 455px;
   margin-top: 30px;
 
   .screen {
     position: absolute;
     height: 351px;
-    width: 199px;
-    left: 182px;
+    //width: 199px;
+    //left: 182px;
     top: 156px;
+    width: 44%;
+    left: 29%;
     overflow: hidden;
     list-style: none;
 
@@ -23,12 +25,31 @@
       -moz-transition: all 0.5s;
       transition: all 0.5s;
     }
-
+    li { margin-bottom: 0; }
     li.active {
       img {
         transform: translateY(0);
       }
     }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .mockup {
+    margin: 0 auto;
+    width: 320px;
+
+    .screen {
+      top: 147px;
+      width: 62%;
+      left: 20%;
+    }
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .mockup {
+    display: none;
   }
 }
 

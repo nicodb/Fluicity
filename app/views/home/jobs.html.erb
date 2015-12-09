@@ -8,7 +8,7 @@
     <div class="header-cover">
       <div class="container">
         <div class="row header-content text-center">
-          <h1 class="index-description"><em class='highlight'><%= yield(:title) %></em></h1>
+          <h1 class="index-description"><em class='highlight'>Recrutement</em></h1>
         </div>
       </div>
     </div>
@@ -28,9 +28,9 @@
       <div class="col-md-6">
         <p>Pour y arriver nous proposons à toutes les collectivités une interface innovante et ludique qui offre:</p>
         <ul>
-          <li>une information locale mieux ciblée, par centre d’intérêt</li>
-          <li>une interaction plus efficace entre tous les membres de la société civile</li>
-          <li>une meilleure compréhension des échanges,  besoins et attentes des citoyens</li>
+          <li>Une information locale mieux ciblée, par centre d’intérêt</li>
+          <li>Une interaction plus efficace entre tous les membres de la société civile</li>
+          <li>Une meilleure compréhension des besoins et attentes des citoyens</li>
         </ul>
       </div>
     </div>
@@ -40,11 +40,14 @@
         <% @job[:offers].each do |offer| %>
           <li id="member-card" data-toggle="modal" data-target="#<%= offer['id'] %>">
             <div class="member-info">
-              <%= offer['position'] %>
-              <%= offer['contract'] %>
-              <%= offer['duration'] %>
+              <img src="<%= image_url offer['icon'] %>" class="article-logo">
+              <div class="member-details">
+                <h3><%= offer['position'] %></h3>
+                <span><%= offer['contract'] %> - <%= offer['duration'] %></span>
+              </div>
             </div>
           </li>
+          <!-- MODAL - JOB OFFER DESCRIPTION -->
           <div id="<%= offer['id'] %>" class="modal fade" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-md">
               <div class="modal-content">
@@ -53,19 +56,19 @@
                   <span><%= offer['contract'] %> - <%= offer['duration'] %></span>
                 </div>
                 <div class="modal-body">
-                  <h3>Le contexte</h3>
+                  <h4>Le contexte</h4>
                   <p>Fluicity est une start-up innovante dans le domaine du “civic tech” qui a pour but de réinventer la participation citoyenne à l’échelle locale. Fluicity vient de recevoir le prix des 10 meilleures innovations françaises 2015, décerné par le "MIT Technology Review".</p>
                   <p>La plate-forme s’inspire des technologies de pointe utilisées dans le marketing digital - segmentation, contextualisation, lecture sémantique de données, algorithme de prédiction - et s’applique aux besoins de la gouvernance locale.</p>
                   <p>Nous avons déjà un MVP et sommes actuellement en phase de test sur des villes de différentes tailles (Vernon, Mairie du 9e arrondissement) et sommes à la recherche d’un Junior Developer pour nous accompagner dans cet ambitieux projet.</p>
                   <p>Nos challenges techniques se situent principalement autour de la production et à l’analyse de données, l’intégration aux outils “smart city” existants et à la lecture sémantique des idées et remontées citoyennes.</p>
-                  <h3>Votre rôle</h3>
+                  <h4>Votre rôle</h4>
                   <%= offer['mission_html'].html_safe %>
-                  <h3>Qualifications</h3>
+                  <h4>Qualifications</h4>
                   <%= offer['qualifications'].html_safe %>
                 </div>
                 <div class="modal-footer">
-                  <p>Si cette opportunité vous intéresse, contactez nous via info@flui.city, ou rendez-nous visite à Paris au 26, rue du chemin vert, 75011 Paris.</p>
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <p>Envoyez votre candidature :<br><strong>info@flui.city</strong></p>
+                  <button type="button" class="modal-close" data-dismiss="modal"><i class="fa fa-times"></i></button>
                 </div>
               </div>
             </div>

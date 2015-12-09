@@ -1,15 +1,15 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/* HEADER - DOWNLOAD BUTTONS **************************************************/
+.download {
+  margin-top: 40px;
+  z-index: 2;
+}
 
-// FIRST BLOC
 
 .vision {
   z-index: 10;
   padding-bottom: 40px;
   background-color: #fff;
   font-size: 18px;
-  font-family: 'azo_sansregular', sans-serif;
   color: rgb(137, 132, 132);
   position: relative;
   text-align: center;
@@ -23,32 +23,12 @@
   .enhance {
     font-weight: 600;
   }
-
-  a.btn-vision {
-    display: block;
-    margin: 50px auto 0 auto;
-    width: 300px;
-    padding: 20px 70px;
-    color: #898484;
-    border: 1px solid #898484;
-    border-radius: 4px;
-
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-
-    &:hover {
-      text-decoration: none;
-      color: #fff;
-      background-color: #222;
-    }
-  }
 }
 
 // SECOND BLOC
 
 .features {
-  height: 700px;
+  min-height: 700px;
   position: relative;
   font-size: 1.45em;
 
@@ -59,7 +39,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 700px;
+    min-height: 100%;
     width: 100%;
     overflow: hidden;
     margin : 0;
@@ -92,7 +72,7 @@
   }
 
   .item-list {
-    padding: 150px 50px 0 50px;
+    padding: 150px 50px 30px;
     list-style: none;
 
     .item {
@@ -103,7 +83,6 @@
 
       .question {
         display: block;
-        font-family: 'azo_sansbold', sans-serif;
         text-transform: uppercase;
         font-style: normal;
         margin-bottom: 10px;
@@ -137,6 +116,22 @@
       color: #222;
       background-color: #fff;
       border: 1px solid #222;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+   .features {
+    .item-list {
+      padding: 150px 20px 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .features {
+    .item-list {
+      text-align: center;
     }
   }
 }
@@ -191,7 +186,6 @@
       text-transform: uppercase;
 
       .highlight {
-        font-family: 'azo_sansbold', sans-serif;
         font-style: normal;
         font-weight: 800;
       }

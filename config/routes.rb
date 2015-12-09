@@ -10,6 +10,7 @@ Rails.application.routes.draw do
     get 'team', to: 'home#team'
     get 'faq', to: 'home#faq'
     get 'jobs', to: 'home#jobs'
+    get 'survey', to: 'home#survey'
     resources :users, only: :create
     resources :wishes do
       member do

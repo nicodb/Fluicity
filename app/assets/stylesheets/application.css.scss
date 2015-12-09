@@ -1,38 +1,42 @@
-$link-color: #2ecc71;
-$header-height: 100vh;
-
+// RAILS DEPENDENCIES
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "rails_bootstrap_forms";
-
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+// CONFIG
+@import "config/base";
+
+// VENDOR
 @import "vendor/slick";
 @import "vendor/slick-theme";
+@import "vendor/animsition";
+@import "vendor/fade";
 
-@import "base";
-@import "animsition";
-@import "fade";
-@import "navbar";
-@import "download";
-@import "next";
-@import "header";
-@import "mockup";
-@import "newsletter";
-@import "carousel";
-@import "home";
-@import "timeline";
-@import "timeline2";
-@import "contact";
-@import "wish";
-@import "press";
-@import "team";
-@import "vision";
-@import "jobs";
-@import "features";
-@import "faq";
-@import "thanks";
-@import "footer";
-@import "fonts";
+// LAYOUT
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/footer";
+
+// COMPONENTS
+@import "components/buttons";
+@import "components/mockup";
+@import "components/form";
+@import "components/next";
+@import "components/iframe";
+@import "components/newsletter";
+
+// PAGES
+@import "pages/home";
+@import "pages/vision";
+@import "pages/features";
+@import "pages/survey";
+@import "pages/team";
+@import "pages/jobs";
+@import "pages/wish";
+@import "pages/press";
+@import "pages/faq";
+@import "pages/thanks";
+@import "pages/contact";
 

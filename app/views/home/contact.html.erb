@@ -18,22 +18,24 @@
 <section class="section-contact">
   <div class="container">
     <div class="col-md-6">
+      <h2>Rendez-nous visite</h2>
     </div>
     <div class="col-md-6">
-        <div class='row contact-form'>
-          <span><%= t 'contact.disclaimer' %></span>
-          <%= bootstrap_form_for(@user) do |f| %>
-            <%= f.collection_select :role, @roles, :value, :text, {}, class: "form-control select-control"%>
-            <%= f.text_field :email, placeholder: I18n.translate('contact.placeholder.email')%>
-            <!-- Include Google Maps JS API -->
-            <%= text_field_tag :user_input_autocomplete_address, "", placeholder: I18n.translate('contact.placeholder.city'), class: "form-control"%>
-            <div class="form-group">
-              <%= text_area_tag :text,  "", placeholder: I18n.translate('contact.placeholder.message'), rows: 5, class: "form-control text-control" %>
-            </div>
-            <%=  f.submit I18n.translate('contact.button'), class: "btn btn-contact" %>
-          <% end %>
-        </div>
+      <h2>Contactez-nous</h2>
+      <p><%= t 'contact.disclaimer' %></p>
+      <div class='contact-form'>
+        <%= bootstrap_form_for(@user) do |f| %>
+          <%= f.collection_select :role, @roles, :value, :text, {}, class: "form-control select-control"%>
+          <%= f.text_field :email, placeholder: I18n.translate('contact.placeholder.email')%>
+          <!-- Include Google Maps JS API -->
+          <%= text_field_tag :user_input_autocomplete_address, "", placeholder: I18n.translate('contact.placeholder.city'), class: "form-control"%>
+          <div class="form-group">
+            <%= text_area_tag :text,  "", placeholder: I18n.translate('contact.placeholder.message'), rows: 5, class: "form-control text-control" %>
+          </div>
+          <%=  f.submit I18n.translate('contact.button'), class: "btn btn-contact" %>
+        <% end %>
       </div>
+
     </div>
   </div>
 </section>

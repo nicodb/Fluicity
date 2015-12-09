@@ -1,3 +1,5 @@
+// LAYOUT - NAVBAR
+
 function ShrinkNavbar(){
   $window = $(window);
   $window.scroll(function(){
@@ -13,20 +15,9 @@ function ShrinkNavbar(){
 
 $(document).ready(function(){
   ShrinkNavbar();
-
-  $('.count').each(function () {
-      $(this).prop('Counter',0).animate({
-          Counter: $(this).text()
-      }, {
-          duration: 2000,
-          easing: 'swing',
-          step: function (now) {
-              $(this).text(Math.ceil(now));
-          }
-      });
-  });
-
 })
+
+// HOME - TESTIMONIALS SECTION
 
 $(document).ready(function(){
   $('.slick-testimonials').slick({
@@ -39,29 +30,6 @@ $(document).ready(function(){
     fade: true,
     cssEase: 'linear'
   });
-});
-
-
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-
-
-$('.question').click(function (e) {
-  e.preventDefault();
-  $(this).next('.answer').toggleClass('is-visible');
-  $(this).find('i').toggleClass('fa-plus').toggleClass('fa-minus');
 });
 
 // HOME - FEATURES SECTION
@@ -126,33 +94,6 @@ $(function () {
   });
 });
 
-// HOME - TESTIMONIALS
-
-$(function () {
-  var $lists = $('#testimonials-nav li').click(function(e) {
-    $lists.filter('.active').removeClass('active');
-    $(this).addClass('active');
-    e.preventDefault() /*ignores actual link*/
-  });
-
-  $('#testimonials-nav-1').click(function(e) {
-    $('#testimonials-list li').filter('.active').removeClass('active');
-    $('#testimonial-1').addClass('active');
-    e.preventDefault() /*ignores actual link*/
-  });
-
-  $('#testimonials-nav-2').click(function(e) {
-    $('#testimonials-list li').filter('.active').removeClass('active');
-    $('#testimonial-2').addClass('active');
-    e.preventDefault() /*ignores actual link*/
-  });
-
-  $('#testimonials-nav-3').click(function(e) {
-    $('#testimonials-list li').filter('.active').removeClass('active');
-    $('#testimonial-3').addClass('active');
-    e.preventDefault() /*ignores actual link*/
-  });
-});
 
 // TEAM - CARD DESCRIPTION
 
@@ -160,6 +101,16 @@ $(document).on('click', '#members > li', function (e) {
   e.preventDefault();
   $(this).siblings('li').find('#member-description').not('description-hidden').addClass('description-hidden');
   $(this).closest('li').find('#member-description').toggleClass('description-hidden');
+});
+
+// FAQ - TOGGLE ITEMS
+
+$(document).ready(function(){
+  $('.question').click(function (e) {
+    e.preventDefault();
+    $(this).next('.answer').toggleClass('is-visible');
+    $(this).find('i').toggleClass('fa-plus').toggleClass('fa-minus');
+  });
 });
 
 // WEBSITE - TRANSITION
@@ -188,3 +139,19 @@ $(document).ready(function() {
     transition: function(url){ window.location.href = url; }
   });
 });
+
+
+// $(function() {
+//   $('a[href*=#]:not([href=#])').click(function() {
+//     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+//       var target = $(this.hash);
+//       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+//       if (target.length) {
+//         $('html,body').animate({
+//           scrollTop: target.offset().top
+//         }, 1000);
+//         return false;
+//       }
+//     }
+//   });
+// });

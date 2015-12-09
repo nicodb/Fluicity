@@ -1,0 +1,33 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+<%= csrf_meta_tags %>
+
+<!-- Place this data between the <head> tags of your website -->
+<title><%= title %></title>
+<meta name="description" content="<%= meta_description %>" />
+
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="name" content="<%= title %>">
+<meta itemprop="description" content="<%= meta_description %>">
+<meta itemprop="image" content="<%= image_url meta_image %>">
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@fluicities">
+<meta name="twitter:title" content="<%= title %>">
+<meta name="twitter:description" content="<%= meta_description %>">
+<meta name="twitter:creator" content="@judepim">
+<meta name="twitter:image" content="<%= image_url meta_image %>">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="<%= title %>" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="<%= request.original_url %>" />
+<meta property="og:image" content="<%= image_url meta_image %>" />
+<meta property="og:description" content="<%= meta_description %>" />
+<meta property="og:site_name" content="Fluicity" />
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700,900" rel="stylesheet" type="text/css" />

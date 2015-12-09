@@ -48,7 +48,7 @@ fr:
       step_2: "Recueilliez des données fiables et actionnables."
       step_3: "Adaptez vos décisions."
   contact:
-    disclaimer: "Recevez chaque mois le résumé de toute l'actualité sur l'e-gouvernance et l'innovation civique. N'hésitez pas à nous écrire via le formulaire ci-dessous ou directement par email : info@flui.city"
+    disclaimer: "N'hésitez pas à nous écrire via le formulaire ci-dessous ou directement par email : info@flui.city"
     select:
       firstoption: "Je suis citoyen"
       secondoption: "Je suis un élu"
@@ -57,7 +57,7 @@ fr:
       email: "Votre email"
       city: "Votre ville"
       message: "Votre message (optionnel)"
-    button: "Je m'inscris"
+    button: "Envoyer"
   wishform:
     maintitle:
       survey: "Exprimez-vous !"
