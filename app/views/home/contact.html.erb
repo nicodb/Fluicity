@@ -19,6 +19,13 @@
   <div class="container">
     <div class="col-md-6">
       <h2>Rendez-nous visite</h2>
+      <address>
+        <strong>Fluicity</strong><br>
+        26, rue du chemin vert<br>
+        75011 Paris<br>
+        <abbr title="Phone">P:</abbr> 01.44.88.91.57
+      </address>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1312.4969388014947!2d2.372637760201801!3d48.858327137885816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66dfed506aee7%3A0xe8aea08aced651d8!2s26+Rue+du+Chemin+Vert%2C+75011+Paris!5e0!3m2!1sen!2sfr!4v1450090432248" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
     <div class="col-md-6">
       <h2>Contactez-nous</h2>
@@ -32,7 +39,7 @@
           <div class="form-group">
             <%= text_area_tag :text,  "", placeholder: I18n.translate('contact.placeholder.message'), rows: 5, class: "form-control text-control" %>
           </div>
-          <%=  f.submit I18n.translate('contact.button'), class: "btn btn-contact" %>
+          <%=  f.submit I18n.translate('contact.button'), class: "button button-contact" %>
         <% end %>
       </div>
 

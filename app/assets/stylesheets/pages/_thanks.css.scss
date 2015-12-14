@@ -1,22 +1,7 @@
 .section-thanks {
-  background:asset-url('test-home.jpg') no-repeat top center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 600px;
+  min-height: 200px;
   color: white;
-  padding-top: 120px;
   position: relative;
-
-  .wish-cover {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left:0;
-    right: 0;
-    background-color: rgba(0,0,0,0.5);
-  }
 }
 
 .newsletter-confirmation {
@@ -24,8 +9,6 @@
   color: #fff;
   width: 100%;
   border-left: 4px solid #fff;
-  padding: 20px;
-  background-color: rgba(0,0,0,0.6);
 
   span {
     display: block;
@@ -34,7 +17,6 @@
     font-size: 1.2em;
     letter-spacing: 0.1em;
     font-weight: 600;
-    color: #fff;
     padding: 0 0 20px 0;
 
     small {

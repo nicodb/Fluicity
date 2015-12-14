@@ -74,8 +74,8 @@ fr:
       message: "Décrivez votre voeux, aidez vos élus à améliorer votre ville."
     button: "Faites un voeu !"
   thanks:
-    maintitle: "Fluicity vous remercie pour votre intérêt !"
-    subtitle: "Nous vous avons envoyé un email d'information"
+    maintitle: "L'équipe Fluicity vous remercie !"
+    subtitle: "Un email d'information vous a été envoyé"
     button: "Retour à l'accueil"
   press:
     publication: "Publié le"

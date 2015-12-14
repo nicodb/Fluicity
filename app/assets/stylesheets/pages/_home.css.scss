@@ -7,7 +7,7 @@
 
 .vision {
   z-index: 10;
-  padding-bottom: 40px;
+  padding: 40px 0 70px;
   background-color: #fff;
   font-size: 18px;
   color: rgb(137, 132, 132);
@@ -78,11 +78,13 @@
     .item {
       cursor: pointer;
       margin-bottom: 25px;
+      font-size: 18px;
       color: #fff;
       opacity: 0.5;
 
       .question {
         display: block;
+        font-size: 20px;
         text-transform: uppercase;
         font-style: normal;
         margin-bottom: 10px;
@@ -123,7 +125,7 @@
 @media screen and (max-width: 1024px) {
    .features {
     .item-list {
-      padding: 150px 20px 30px;
+      padding: 100px 20px 30px;
     }
   }
 }
@@ -215,6 +217,57 @@
         color: #222;
         border: 1px solid #222;
       }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .awards {
+    min-height: 720px;
+
+    .awards-list{
+      margin: 0 auto;
+      width: 60%;
+
+      li {
+        margin: 1%;
+        width: 48%;
+        float: left;
+
+        .award {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .awards {
+    min-height: 0;
+    max-height: 375px;
+
+    .awards-list{
+      width: 100%;
+      top: 0;
+
+      li {
+        margin: 0;
+        width: 50%;
+        float: left;
+        border: none;
+
+        .award {
+          width: 100%;
+          height: auto;
+          opacity: 1;
+        }
+      }
+    }
+
+    .awards-ref-list {
+      display: none;
     }
   }
 }

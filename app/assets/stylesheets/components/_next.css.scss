@@ -44,9 +44,15 @@
     z-index: 0;
   }
 
-  span { margin-right: 20px; }
-  i { margin-top: 5px; }
-  span, i { z-index: 1; }
+  span {
+    z-index: 1;
+  }
+
+  .next-content {
+    z-index: 1;
+    i { margin-top: 5px; }
+    span:first-child { margin-right: 20px; }
+  }
 }
 
 @media screen and (max-width: 768px) {

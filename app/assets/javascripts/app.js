@@ -29,6 +29,7 @@ $(document).ready(function(){
     speed: 500,
     fade: true,
     cssEase: 'linear'
+
   });
 });
 
@@ -109,7 +110,7 @@ $(document).ready(function(){
   $('.question').click(function (e) {
     e.preventDefault();
     $(this).next('.answer').toggleClass('is-visible');
-    $(this).find('i').toggleClass('fa-plus').toggleClass('fa-minus');
+    $(this).find('i').toggleClass('fa-angle-right').toggleClass('fa-angle-down');
   });
 });
 
