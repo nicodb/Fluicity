@@ -76,3 +76,25 @@
     min-height: 550px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  #features {
+    .content {
+      padding: 20px 20px 0;
+    }
+
+    .interactivity {
+      .content {
+        padding: 60px 20px 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #features {
+    .interactivity {
+      height: 690px;
+    }
+  }
+}

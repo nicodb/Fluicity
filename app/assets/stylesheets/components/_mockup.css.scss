@@ -79,3 +79,30 @@
     height: 100%;
   }
 }
+
+@media screen and (max-width: 991px) {
+  #features {
+    .browser {
+      position: relative;
+      height: 450px;
+      width: 630px;
+      left: 50%;
+      transform: translateX(-54%);
+
+      .window {
+        width: 526px;
+        height: 319px;
+        left: 72px;
+        top: 74px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #features {
+    .browser {
+      display: none;
+    }
+  }
+}

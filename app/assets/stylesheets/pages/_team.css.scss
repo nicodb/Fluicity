@@ -152,7 +152,7 @@
 
     .join-team-cover {
       position: relative;
-      height: 360px;
+      height: 370px;
       border-radius: 4px;
       box-shadow: 0 1px 2px rgba(0,0,0,0.07);
 
@@ -186,6 +186,24 @@
     border: 1px solid #eef0ef;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .section-team {
+    ul {
+      width: 100%;
+    }
+
+    .join-team {
+      width: 100%;
+
+      .join-team-cover {
+        height: 100px;
+      }
+    }
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .section-team ul li { width: 100% }
 

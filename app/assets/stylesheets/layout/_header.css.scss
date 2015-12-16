@@ -96,22 +96,20 @@ header {
     }
   }
 
-  @media screen and (max-width: 1024px) {
-    .header-background { min-height: 750px; }
-  }
+
 
   @media screen and (max-width: 600px) {
     .header-background {
       .header-content {
         margin-top: 75px;
         padding: 0 20px;
+        .index-description { margin: 50px auto; }
       }
     }
   }
 
   @media screen and (max-width: 568px) {
-    .header-background,
-    .header-page {
+    .header-background {
       min-height: 700px;
       .header-content {
         margin-top: 120px;

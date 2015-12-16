@@ -44,6 +44,12 @@
   }
 }
 
+@media screen and (max-width: 592px) {
+  .button-download {
+    margin: 10px 5px 0;
+  }
+}
+
 /* HOME - SECTION | VISION ****************************************************/
 .button-vision {
   display: block;

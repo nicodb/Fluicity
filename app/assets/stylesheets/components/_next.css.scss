@@ -49,6 +49,7 @@
   }
 
   .next-content {
+    text-align: center;
     z-index: 1;
     i { margin-top: 5px; }
     span:first-child { margin-right: 20px; }
@@ -58,6 +59,8 @@
 @media screen and (max-width: 768px) {
   a.next-page {
     text-align: center;
+    display: flex;
+    flex-direction: column;
 
     span { font-size: 2rem; }
 
