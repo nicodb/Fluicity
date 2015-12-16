@@ -3,6 +3,7 @@ class HomeController < ApplicationController
 
   def index
     prepare_user
+    @testimonials = YAML.load_file(Rails.root.join('db/testimonials.yml')).with_indifferent_access
   end
 
   def thanks
@@ -11,7 +12,6 @@ class HomeController < ApplicationController
 
   def contact
     prepare_user
-
   end
 
   def jobs

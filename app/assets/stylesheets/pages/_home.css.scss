@@ -371,11 +371,11 @@
 
 @media screen and (max-width: 1024px) {
   .testimonials {
-    min-height: 550px;
+    height: 700px;
     .testimonials-cover {
-      min-height: 550px;
+      height: 700px;
       &::before {
-        min-height: 550px;
+        height: 700px;
       }
     }
 

@@ -3,25 +3,25 @@ members:
     lastname: de Pimodan
     position: 'Fondatrice & CEO'
     picture: julie.jpg
-    description: "Ancienne journaliste puis entrepreneur dans des groupes média, Julie a travaillé et vécu pendant 7 ans au Moyen Orient, notamment au Yémen, aux Emirats Arabes Unis et en Turquie. En plein dans la période des printemps arabes, cette expérience lui a ouvert les yeux sur les fossés existants entre gouvernements et leurs citoyens ainsi que le rôle important des nouvelles technologies dans l’évolution des processus démocratiques. Julie a ensuite rejoint le géant Google au sein de l’équipe DoubleClick, où pendant quatre ans, elle a aidé des entreprises privées à analyser les données de leurs utilisateurs pour améliorer leur communication et leur prise de décision. Julie est fondatrice et CEO de Fluicity, elle a récemment reçu le prix des meilleurs innovateurs de moins de 35 ans en France, décerné par le Massachussets Institute of Technology (MIT)."
+    description: "Ancienne journaliste puis entrepreneur dans des groupes média, Julie a travaillé et vécu pendant 7 ans au Moyen Orient, notamment au Yémen, aux Emirats Arabes Unis et en Turquie. En plein dans la période des printemps arabes, cette expérience lui a ouvert les yeux sur le rôle important des nouvelles technologies dans l’évolution des processus démocratiques. Julie a ensuite rejoint Google au sein de l’équipe DoubleClick, où pendant quatre ans, elle a aidé des entreprises privées à analyser les données de leurs utilisateurs pour améliorer leur communication et leur prise de décision. Julie est fondatrice et CEO de Fluicity, elle a récemment reçu le prix des meilleurs innovateurs de moins de 35 ans en France, décerné par le Massachussets Institute of Technology (MIT)."
 
   - firstname: Nicolas
     lastname: de Briey
     position: 'Finances & opérations'
     picture: nicolas.jpg
-    description: "Nicolas, en tant qu’avocat d’affaires a été membre du barreau de Bruxelles pendant plus de quatre ans, et détaché à la banque européenne d’investissement en tant que consultant. Nicolas est passionné d’entrepreunariat. Il apporte son expertise financière et juridique, notamment dans le cadre de la négociation avec les partenaires de Fluicity."
+    description: "Nicolas, a été membre du barreau de Bruxelles pendant plus de quatre ans, et détaché à la banque européenne d’investissement en tant que consultant. Nicolas est passionné d’entrepreunariat, et s’est engagé dans différentes associations locales et nationales défendant une vision entrepreneuriale et solidaire de la société. Il apporte son expertise financière et juridique, notamment dans le cadre de la négociation avec les partenaires de Fluicity."
 
   - firstname: Charles
     lastname: Alzon
-    position: Business developpement
+    position: Business developer
     picture: charles.jpg
     description: "Diplômé d’un MSc (Grande école) à l’Iéseg, Charles a cumulé les expériences en développement commercial dans des secteurs aussi variés que l’investissement d’impact, les sociétés de conseil et la grande distribution. En charge du développement commercial auprès des collectivités, Charles passe du temps sur le terrain à analyser les leviers de participation citoyenne."
 
   - firstname: Théo
     lastname: Lazian
-    position: Business developpement
+    position: Business developer
     picture: theo.jpg
-    description: "Diplômé en Droit public et administration publique, Théo a travaillé pour plusieurs grandes administrations. Du service juridique du Parlement européen jusqu’au service des achats de l’ONU en passant par la Région Ile-de-France, Théo s’est passionné par la relation entre les administrés et l’administration. Il rejoint donc l’équipe Fluicity pour s’occuper des partenariats avec les Collectivités locales, motivé par l’idée que la construction de l’espace urbain et le rapport aux élus doit passer par les nouveaux outils numériques d’expression citoyenne."
+    description: "Diplômé en Droit public et administration publique, Théo a travaillé pour plusieurs grandes administrations. Du service juridique du Parlement européen jusqu’au service des achats de l’ONU en passant par la Région Ile-de-France, Théo s’est passionné par la relation entre les administrés et les pouvoirs publics. Tout en consacrant son temps libre à l’enseignement du judo, il rejoint l’équipe Fluicity pour s’occuper des partenariats avec les Collectivités locales, convaincu par l’idée que la construction de l’espace urbain et le rapport aux élus doit passer par les nouveaux outils numériques d’expression citoyenne."
 
   - firstname: Jonathan
     lastname: Pollak
