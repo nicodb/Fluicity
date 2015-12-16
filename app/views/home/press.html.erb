@@ -16,16 +16,20 @@
 </header>
 
 <section class="section-press">
-  <div class="container">
+  <div class="container press-container">
     <ul>
       <% @article[:posts].each do |post| %>
-      <li class="article">
-        <img src="<%= image_url "press/#{post['image']}" %>" alt="logo" class="article-logo">
-        <a href= "<%= post['link'] %>" rel="" class="article-details animsition-link">
-          <span class="article-name"><%= post['title'] %></span>
-          <span class="article-date"><%= post['media'] %> - <%= t 'press.publication' %> <%= l post['date'], format: :default %></span>
-        </a>
-      </li>
+        <li>
+          <a href= "<%= post['link'] %>" rel="" class="animsition-link">
+            <div class="article-details">
+              <img src="<%= image_url "press/#{post['image']}" %>" alt="logo">
+              <div class="article-info">
+                <span class="article-name"><%= post['title'] %></span>
+                <span class="article-date"><%= post['media'] %> - <%= t 'press.publication' %> <%= l post['date'], format: :default %></span>
+              </div>
+            </div>
+          </a>
+        </li>
       <% end %>
     </ul>
   </div>

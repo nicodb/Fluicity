@@ -147,3 +147,21 @@
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+  .section-jobs {
+    .offers-container {
+      ul {
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 75px 10px 10px;
+}

@@ -34,6 +34,7 @@ $btn-left-border-color: transparent;
   padding-right: $horizontal-padding;
   border-bottom: $border-bottom-width solid $border-bottom-color;
   min-height: 0;
+   z-index: 13000;
 
   webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
