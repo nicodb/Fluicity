@@ -1,14 +1,47 @@
 fr:
   menu:
-    contact: "Newsletter"
-    wish: "Exprimez-vous"
+    home: "Accueil"
+    vision: "Vision"
+    features: "En détails"
+    team: "Notre équipe"
+    blog: "Blog"
+    contact: "Contact"
+    jobs: "Recrutement"
     press: "Presse"
     faq: "F.A.Q"
+    survey: "Questionnaire"
+    wish: "Exprimez-vous"
     language:
       french: "Français"
       english: "Anglais"
       dutch: "Néerlandais"
+
   index:
+    header:
+      title_part1: "Construisons ensemble"
+      title_part2: "La ville de demain"
+      download_apple: "Télécharger sur l'AppStore"
+      download_android: "Télécharger sur Google play"
+    vision:
+      vision_part1: "Recevez toute l’information hyper-locale en temps réel,"
+      vision_part2: "roposez vos idées et contribuez à l’amélioration de l’espace public,"
+      vision_part3: "Donnez votre avis et dialoguez facilement avec vos élus,"
+      vision_highlight: "Devenez un citoyen 3.0, rejoignez Fluicity !"
+      vision_button: "Notre vision"
+    features:
+      features_question1: "Fluicity c'est quoi ?"
+      features_answer1: "Une plateforme d'échange entre les collectivités et les citoyens."
+      features_question2: "Son but ?"
+      features_answer2: "Faciliter la participation à l’échelle locale, favoriser la prise de décison collective."
+      features_question2: "Comment ?"
+      features_answer3: "Grâce à une interface neutre et indépendante qui garantit la protection de vos données personnelles et l’accès gratuit pour tous les citoyens."
+      features_button: "En savoir plus"
+    awards:
+      awards_button: "En détail"
+
+
+
+
     catchline: "Données en ville"
     description: "Construisons ensemble"
     button: "En savoir plus"
