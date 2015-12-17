@@ -18,7 +18,7 @@
               <i class="devicon-apple-original"></i>
               <span><%= t 'index.header.download_apple' %></span>
             </button>
-            <button href="#" class="button button-download playstore">
+            <button href="https://play.google.com/store/apps/details?id=city.flui.android" class="button button-download playstore">
               <i class="devicon-android-plain"></i>
               <span><%= t 'index.header.download_android' %></span>
             </button>
@@ -140,7 +140,9 @@
       <% @testimonials[:testimonials].each do |testimonial| %>
         <div>
           <img class="testimonial-witness" src="<%= image_url "testimonials/#{testimonial['picture'] }" %>" alt="logo">
-          <span class="testimonial-opinion">"<%= testimonial['content'] %>" - <%= testimonial['firstname'] %> <%= testimonial['lastname'] %> | <%= testimonial['position'] %></span>
+          <span class="testimonial-opinion">"<%= testimonial['content'] %>"</span>
+          <span class="testimonial-name"><%= testimonial['firstname'] %> <%= testimonial['lastname'] %></span>
+          <span class="testimonial-position"><%= testimonial['position'] %></span>
         </div>
       <% end %>
     </div>
