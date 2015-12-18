@@ -10,9 +10,9 @@
       <div class="container">
         <div class="row header-content text-center">
             <!-- <img src="<#%= image_url 'logo-fluicity-white.png' %>"> -->
-            <h1 class="index-description">
-              <%= t 'index.header.title_part1' %><br>
-              <em class='highlight'><%= t 'index.header.title_part2' %></em>
+            <h1 class="home-description">
+              <%= t 'home.header.title_part1' %><br>
+              <em class='highlight'><%= t 'home.header.title_part2' %></em>
             </h1>
             <button href="#" class="button button-download appstore">
               <i class="devicon-apple-original"></i>
@@ -35,13 +35,13 @@
     <div class="row">
       <div class="col-md-12">
         <span class="description">
-          <%= t 'index.vision.vision_part1' %><br>
-          <%= t 'index.vision.vision_part2' %><br>
-          <%= t 'index.vision.vision_part3' %>
+          <%= t 'home.vision.vision_part1' %><br>
+          <%= t 'home.vision.vision_part2' %><br>
+          <%= t 'home.vision.vision_part3' %>
         </span>
-        <span class="description enhance"><%= t 'index.vision.vision_highlight' %></span>
+        <span class="description enhance"><%= t 'home.vision.vision_highlight' %></span>
         <!-- Link to Vision Page -->
-        <%= link_to I18n.translate('index.vision.vision_button'), vision_path, class: "button button-vision animsition-link" %>
+        <%= link_to I18n.translate('home.vision.vision_button'), vision_path, class: "button button-vision animsition-link" %>
       </div>
     </div>
   </div>
@@ -61,15 +61,15 @@
         <!-- Features items -->
         <ul id="item-list" class="item-list">
           <li id="item-1" class="item active">
-            <i class="question"><%= t 'index.features.features_question1' %></i><%= t 'index.features.features_answer1' %>
+            <i class="question"><%= t 'home.features.features_question1' %></i><%= t 'home.features.features_answer1' %>
           </li>
           <li id="item-2" class="item">
-            <i class="question"><%= t 'index.features.features_question2' %></i><%= t 'index.features.features_answer2' %>
+            <i class="question"><%= t 'home.features.features_question2' %></i><%= t 'home.features.features_answer2' %>
           </li>
           <li id="item-3" class="item">
-            <i class="question"><%= t 'index.features.features_question3' %></i><%= t 'index.features.features_answer3' %>
+            <i class="question"><%= t 'home.features.features_question3' %></i><%= t 'home.features.features_answer3' %>
           </li>
-          <%= link_to I18n.translate('index.features.features_button'), features_path, class: "btn-features animsition-link" %>
+          <%= link_to I18n.translate('home.features.features_button'), features_path, class: "btn-features animsition-link" %>
         </ul>
       </div>
       <div class="col-sm-6">
@@ -92,10 +92,10 @@
     <!-- Awards carousel -->
     <div class="row">
       <ul id="awards-list" class="awards-list">
-        <li id="award-1" class="active"><img class="award" src="<%= image_url 'award_1.jpg' %>"></li>
-        <li id="award-2"><img class="award" src="<%= image_url 'award_2.jpg' %>"></li>
-        <li id="award-3"><img class="award" src="<%= image_url 'award_3.jpg' %>"></li>
-        <li id="award-4"><img class="award" src="<%= image_url 'award_4.jpg' %>"></li>
+        <li id="award-1" class="active"><img class="award" src="<%= image_url 'awards/award_mit.jpg' %>"></li>
+        <li id="award-2"><img class="award" src="<%= image_url 'awards/award_s3c.jpg' %>"></li>
+        <li id="award-3"><img class="award" src="<%= image_url 'awards/award_ted.jpg' %>"></li>
+        <li id="award-4"><img class="award" src="<%= image_url 'awards/award_ev.jpg' %>"></li>
       </ul>
     </div>
     <!-- Awards infos -->
@@ -103,26 +103,26 @@
       <ul id="awards-ref-list" class="awards-ref-list">
         <li id="award-ref-1" class="active">
           <div class="award-ref">
-            <p>Nous avons reçu le prix des<br><i class="highlight">10 meilleurs innovations françaises 2015</i>,<br>décerné par le <i class="highlight">MIT Technology Review</i></p>
-            <a href="#" class="btn-award"><%= t 'index.awards.awards_button' %></a>
+            <%= t 'home.awards.awards_mit_html' %>
+            <a href="#" class="btn-award"><%= t 'home.awards.awards_button' %></a>
           </div>
         </li>
         <li id="award-ref-2">
           <div class="award-ref">
-            <p class="award-ref">Nous avons reçu le premier prix du<br><i class="highlight">S3C 2015</i></p>
-            <a href="#" class="btn-award animsition-link"><%= t 'index.awards.awards_button' %></a>
+            <%= t 'home.awards.awards_s3c_html' %>
+            <a href="#" class="btn-award animsition-link"><%= t 'home.awards.awards_button' %></a>
           </div>
         </li>
         <li id="award-ref-3">
           <div class="award-ref">
-            <p class="award-ref">Nous avons reçu le premier prix du<br><i class="highlight">TED x Paris 2015</i></p>
-            <a href="#" class="btn-award animsition-link"><%= t 'index.awards.awards_button' %></a>
+            <%= t 'home.awards.awards_ted_html' %>
+            <a href="#" class="btn-award animsition-link"><%= t 'home.awards.awards_button' %></a>
           </div>
         </li>
         <li id="award-ref-4">
           <div class="award-ref">
-            <p class="award-ref">Nous avons reçu le premier prix de<br><i class="highlight">l'échappée volée 2015</i></p>
-            <a href="#" class="btn-award animsition-link"><%= t 'index.awards.awards_button' %></a>
+            <%= t 'home.awards.awards_ev_html' %>
+            <a href="#" class="btn-award animsition-link"><%= t 'home.awards.awards_button' %></a>
           </div>
         </li>
       </ul>

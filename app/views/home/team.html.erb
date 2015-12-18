@@ -8,7 +8,7 @@
     <div class="header-cover">
       <div class="container">
         <div class="row header-content text-center">
-          <h1 class="index-description"><em class='highlight'>Notre équipe</em></h1>
+          <h1 class="index-description"><em class='highlight'><%= t 'team.team_header' %></em></h1>
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@
           <div class="join-team-cover">
             <%= link_to jobs_path, :class => "animsition-link" do %>
               <div class="join-overlay"></div>
-              <h4>Rejoignez Fluicity</h4>
+              <h4><%= t 'team.team_jointeam_button' %></h4>
             <% end %>
             </a>
           </div>
@@ -55,7 +55,7 @@
 <%= link_to contact_path do %>
   <div class="next-page">
     <div class="next-overlay"></div>
-      <span>Contactez-nous</span>
+      <span><%= t 'next.contact' %></span>
     </div>
   </a>
 <% end %>

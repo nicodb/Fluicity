@@ -1,5 +1,5 @@
-<% if params[:action] == 'press' || 'faq' %>
-  <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation" id="navbar">
+<% if params[:action] == 'survey' %>
+  <nav class="navbar navbar-default navbar-fixed-top navbar-wagon survey" role="navigation" id="navbar">
 <% else %>
   <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation" id="navbar">
 <% end %>
@@ -13,7 +13,7 @@
         <span class="icon-bar"></span>
       </button>
       <a id="brand" class="navbar-brand animsition-link" href="/">
-        <%= image_tag "fluicity_2.png", id: "logo" %>
+        <%= image_tag "logo/fluicity_logo.png", id: "logo" %>
       </a>
     </div>
 
@@ -22,32 +22,37 @@
       <ul class="nav navbar-nav navbar-right">
         <li>
           <%= link_to "/", :class => "animsition-link" do %>
-            Home
+            <%= t 'menu.home' %>
           <% end %>
         </li>
         <li>
           <%= link_to vision_path, :class => "animsition-link" do %>
-            Vision
+            <%= t 'menu.vision' %>
           <% end %>
         </li>
         <li>
           <%= link_to features_path, :class => "animsition-link" do %>
-            En détails
+            <%= t 'menu.features' %>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to new_wish_path, :class => "animsition-link" do %>
+            <%= t 'menu.wish' %>
           <% end %>
         </li>
         <li>
           <%= link_to team_path, :class => "animsition-link" do %>
-            Notre équipe
+            <%= t 'menu.team' %>
           <% end %>
         </li>
         <li>
           <%= link_to "https://medium.com/@Fluicities", :class => "animsition-link" do %>
-            Blog
+            <%= t 'menu.blog' %>
           <% end %>
         </li>
          <li>
           <%= link_to contact_path, :class => "animsition-link" do %>
-            Contact
+            <%= t 'menu.contact' %>
           <% end %>
         </li>
         <!-- <li class="dropdown" id="last-link">

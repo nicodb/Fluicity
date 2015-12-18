@@ -4,7 +4,7 @@
     <div class="header-cover">
       <div class="container">
         <div class="row header-content text-center">
-          <h1 class="index-description"><em class='highlight'>F.A.Q</em></h1>
+          <h1 class="index-description"><em class='highlight'><%= t 'faq.faq_header' %></em></h1>
         </div>
       </div>
     </div>
@@ -12,131 +12,64 @@
 </header>
 
 <section class="section-faq">
-    <div class="container">
-      <div class="faq-content">
-        <ol id="faq-questions">
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_1' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_1_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_2' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_2_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_3' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_3_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_4' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_4_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_5' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_5_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_6' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_6_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_7' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_7_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_8' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_8_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_9' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_9_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_10' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_10_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_11' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_11_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_12' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_12_html' %>
-            </div
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_13' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_13_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_14' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_14_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_15' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_15_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_16' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_16_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_17' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_17_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_18' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_18_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_19' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_19_html' %>
-            </div>
-          </li>
-          <li class="question-bloc">
-            <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_20' %></span>
-            <div class="answer">
-              <%= t 'faq.answer_20_html' %>
-            </div>
-          </li>
-        </ol>
-      </div>
+  <div class="container">
+    <div class="faq-content">
+      <ol id="faq-questions">
+        <li class="question-bloc">
+          <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_1' %></span>
+          <div class="answer">
+            <%= t 'faq.answer_1_html' %>
+          </div>
+        </li>
+        <li class="question-bloc">
+          <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_2' %></span>
+          <div class="answer">
+            <%= t 'faq.answer_2_html' %>
+          </div>
+        </li>
+        <li class="question-bloc">
+          <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_3' %></span>
+          <div class="answer">
+            <%= t 'faq.answer_3_html' %>
+          </div>
+        </li>
+        <li class="question-bloc">
+          <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_4' %></span>
+          <div class="answer">
+            <%= t 'faq.answer_4_html' %>
+          </div>
+        </li>
+        <li class="question-bloc">
+          <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_5' %></span>
+          <div class="answer">
+            <%= t 'faq.answer_5_html' %>
+          </div>
+        </li>
+        <li class="question-bloc">
+          <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_6' %></span>
+          <div class="answer">
+            <%= t 'faq.answer_6_html' %>
+          </div>
+        </li>
+        <li class="question-bloc">
+          <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_7' %></span>
+          <div class="answer">
+            <%= t 'faq.answer_7_html' %>
+          </div>
+        </li>
+        <li class="question-bloc">
+          <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_8' %></span>
+          <div class="answer">
+            <%= t 'faq.answer_8_html' %>
+          </div>
+        </li>
+        <li class="question-bloc">
+          <span class="question"><i class="fa fa-angle-right"></i><%= t 'faq.question_9' %></span>
+          <div class="answer">
+            <%= t 'faq.answer_9_html' %>
+          </div>
+        </li>
+      </ol>
     </div>
-
+  </div>
 </section>

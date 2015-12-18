@@ -17,10 +17,10 @@ testimonials:
     picture: xavier_fontanet.jpg
     content: "Fluicity, c’est  réapprendre la démocratie par la démocratie locale, sur des petites choses : j’ai beaucoup fantasmé autour de votre idée, qui me semble très puissante."
 
-  - firstname: BNP Paribas
-    lastname: Real Estate
-    position:
-    picture: bnp_paribas.jpg
+  - firstname: Kevin
+    lastname: Cardona
+    position: Directeur de l'Innovation et du Développement Durable BNP Paribas Real Estate
+    picture: kevin_cardona.jpg
     content: "Nous préconisons que cette solution soit un outil à disposition de la ville afin d'organiser autour d'un seul canal, et d'un seul acteur, la concertation participative des espaces publics et des projets qui le composent."
 
   - firstname: Sébastien

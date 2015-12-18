@@ -1,80 +1,225 @@
 en:
   menu:
-    contact: "Newsletter"
-    wish: "Make a wish"
-    press: "press"
+    home: "Accueil"
+    vision: "Vision"
+    features: "En détails"
+    team: "Notre équipe"
+    blog: "Blog"
+    contact: "Contact"
+    jobs: "Recrutement"
+    press: "Presse"
+    faq: "F.A.Q"
+    survey: "Questionnaire"
+    wish: "Exprimez-vous"
     language:
-      french: "French"
-      english: "English"
-      dutch: "Dutch"
-  index:
-    catchline: "City speaks"
-    description: "Fluicity leverages information technologies and data segmentation to strengthen the links between citizens and their local governments."
-    button: "Find out more about Fluicity"
-    first_alarm:
-      stat: "39"
-      description: "of French citizen did not vote during the last municipality elections."
-      source: "Source : SOURCE : POLITICAL CONFIDENCE BAROMETER, JANUARY 2014, SCIENCE PO, CEVIPOV - CNRS"
-    second_alarm:
-      stat: "82"
-      description: "of Belgian citizen believe there is corruption in federal institutions."
-      source: "Transparency International Belgium, 2012"
-    third_alarm:
-      stat: "53"
-      description: "of Europeans feel their voice does not count in the European Union."
-      source: "Source: Standard Eurobarometer 82 Autumn 2014"
-    award:
-      text: "'MIT Technology Review' selected Fluicity as the 2015 Laureate project for the Innovators Under 35 award."
-    calltoaction:
-      text: "You have an idea for your city? Share it!"
-      button: "I wish..."
+      french: "Français"
+      english: "Anglais"
+      dutch: "Néerlandais"
+
+  next:
+    features: "Découvrez l'application"
+    download: "Téléchargez l'application"
+    vision: "Notre vision"
+    contact: "Contactez-nous"
+
+  button:
+    download_apple: "Télécharger sur l'AppStore"
+    download_android: "Télécharger sur Google play"
+
   newsletter:
-    disclaimer: "Beta Test available for cities of 20k inhabitants and more"
-    placeholder:
-      email: "Email"
-      city: "Your city"
-    button: "Apply!"
-  timeline:
-    introduction: "How does it work?"
-    citizen:
-      title: "You are a citizen"
-      step_1: "Receive very targeted and personalized local information."
-      step_2: "Interact/ react on every topic."
-      step_3: "Suggest ideas, report problems."
-    representatives:
-      title: "You are an elected representative"
-      step_1: "Communicate easily about city news."
-      step_2: "Collect reliable and actionable data."
-      step_3: "Adapt your decisions."
-  contact:
-    disclaimer: "Subscribe and receive a monthly digest about e-governance and civic innovation. Do not hesitate to write to us through the following questionnaire or directly by email at info@flui.city"
-    select:
-      firstoption: "I am a citizen"
-      secondoption: "I am an elected representative"
-      thirdoption: "I represent an organization"
-    placeholder:
-      email: "Your email"
-      city: "Your city"
-      message: "Your message (optional)"
-    button: "Subscribe"
-  wishform:
-    maintitle:
-      survey: "Express yourself!"
-      wish: "We want to know more about you."
-    subtitle:
-      survey: "You have an idea for your city? Please share it through our two questionnaires."
-      wish: "We will do our best to have it considered."
-    survey:
-      citizen: "For citizens"
-      representatives: "For elected representative"
-    placeholder:
-      email: "Email"
-      city: "Your city"
-      message: "Describe your wish, help your representative to make your city a better place/ improve your city."
-    button: "Make a wish!"
-  thanks:
-    maintitle: "Thank you for your interest!"
-    subtitle: "We have sent you an information e-mail."
-    button: "Return to homepage"
+    newsletter_disclaimer: "Recevez chaque mois le résumé de toute l'actualité sur l'e-gouvernance et l'innovation civique."
+    newsletter_button: "S'inscrire"
+
+  footer:
+    link_team: "L'équipe"
+    link_legals: "Mentions Légales"
+    link_cgv: "CGV"
+    link_wish: "Exprimez-vous"
+    link_jobs: "Recrutement"
+    link_press: "Presse"
+    link_faq: "F.A.Q"
+    link_blog: "Blog"
+    link_contact: "Contact"
+    link_facebook: "Facebook"
+    link_twitter: "Twitter"
+    link_linkedin: "Linkedin"
+    copyright: "© 2015 - Fluicity"
+
+  home:
+    header:
+      title_part1: "Construisons ensemble"
+      title_part2: "La ville de demain"
+    vision:
+      vision_part1: "Recevez toute l’information hyper-locale en temps réel,"
+      vision_part2: "roposez vos idées et contribuez à l’amélioration de l’espace public,"
+      vision_part3: "Donnez votre avis et dialoguez facilement avec vos élus,"
+      vision_highlight: "Devenez un citoyen 3.0, rejoignez Fluicity !"
+      vision_button: "Notre vision"
+    features:
+      features_question1: "Fluicity c'est quoi ?"
+      features_answer1: "Une plate-forme de co-construction de l’espace public."
+      features_question2: "Son but ?"
+      features_answer2: "Faciliter la prise de décision collective grâce à la participation à l’échelle locale."
+      features_question2: "Comment ?"
+      features_answer3: "Grâce à une interface neutre et indépendante qui garantit la protection de vos données personnelles et l’accès gratuit pour tous."
+      features_button: "En savoir plus"
+    awards:
+      awards_mit_html: |
+        <p>Nous avons reçu le prix des<br><i class="highlight">10 meilleurs innovations françaises 2015</i>,<br>décerné par le <i class="highlight">MIT Technology Review</i></p>
+      awards_s3c_html: |
+        <p class="award-ref">Nous avons reçu le premier prix du<br><i class="highlight">S3C 2015</i></p>
+      awards_ted_html: |
+        <p class="award-ref">Nous avons reçu le premier prix du<br><i class="highlight">TED x Paris 2015</i></p>
+      awards_ev_html: |
+        <p class="award-ref">Nous avons reçu le premier prix de<br><i class="highlight">l'échappée volée 2015</i></p>
+      awards_button: "En détail"
+
+  vision:
+    vision_header: "Notre vision"
+    vision_title: "Fluicity est né d’un constat"
+    vision_content_html: |
+      <p>Les démocraties européennes vivent une période difficile et les chiffres parlent d’eux mêmes. En France, 40% des citoyens ne sont pas allés voter aux dernières municipales, un taux record qui frappe surtout les jeunes qui se sont abstenus à 61%.</p>
+      <p>Si les causes de ce “déficit démocratique” sont multiples et complexes, ses conséquences sont graves et pourraient être dévastatrices pour l’avenir.</p>
+      <blockquote>La démocratie commence en bas de chez soi.</blockquote>
+      <p>C’est donc à l’échelle de la ville, sur des sujets très concrets de la vie quotidienne, que nous voulons redonner envie aux gens de participer, de s’impliquer dans la construction de l’espace public.</p>
+      <p>Pour y arriver nous proposons à toutes les Collectivités une interface innovante et ludique qui offre :</p>
+      <ul>
+        <li>Une information locale positive et ciblée par centres d’intérêt</li>
+        <li>Une mise à contribution de l’intelligence collective sur des sujets du quotidien</li>
+        <li>Une meilleure compréhension des échanges, besoins et attentes des citoyens</li>
+      </ul>
+      <p>Fluicity est une plate-forme neutre et indépendante qui garantit la protection des données personnelles et le respect des libertés individuelles.</p>
+      <p>Notre équipe est jeune, passionnée par l’innovation civique et portée par une ambition partagée : mettre l’innovation technologique au service d’un impact social profond et durable.</p>
+    vision_videotitle: "En vidéo"
+
+  features:
+    features_header: "En détails"
+    features_title_section1: "Une information plus ciblée"
+    features_section1_html: |
+      <p>Pour donner envie de participer il faut commencer par mieux informer.</p>
+      <p>Fluicity met à disposition un fil d’actualité dynamique qui transmet de l’information hyper-locale en fonction de vos centres d’intérêt.</p>
+      <p>L’actualité est enrichie par de nombreux acteurs dont la Mairie, des acteurs privés, des associations, des médias locaux et tout membre actif de la société civile.</p>
+    features_title_section2: "Une interaction plus efficace"
+    features_section2_html: |
+      <p>Les citoyens se désintéressent car ils pensent que leur opinion n’est pas prise en compte.</p>
+      <p>Sur Fluicity, ils peuvent échanger en direct avec leurs élus : les élus posent des questions, les citoyens proposent leurs idées et la Mairie intègre les résultats dans des solutions adaptées.</p>
+    features_title_section3: "Une meilleure compréhension des échanges"
+    features_section3_html: |
+      <p>Nous proposons un moyen pour les Collectivités de mieux comprendre l’humeur citoyenne grâce à des outils de “big data” : des données fiables, quantifiables et actionnables.</p>
+      <p>La plate-forme est neutre, indépendante et protège les données personnelles sur des serveurs sécurisés.</p>
+
+  wish:
+    wish_header: "Exprimez-vous"
+    wish_surveytitle: "Questionnaire aux citoyens"
+    wish_survey_html: |
+      <p>Fluicity souhaite apporter une réponse concrète au déficit démocratique en redonnant sa voix au citoyen et en aidant les élus locaux à gouverner dans de meilleures conditions.</p>
+      <p>C’est pourquoi votre avis, vos idées et surtout vos actions sont à la base de notre démarche.</p><p>Aidez nous à améliorer Fluicity en répondant à ces quelques questions:</p>
+    wish_surveybutton: "Je participe"
+    wish_formtitle: "Faites un voeu !"
+    wish_formintro: "Chaque ville est spéciale, et c’est grâce à ses habitants. Partagez vos idées pour votre ville,  nous nous chargeons de les faire remonter auprès des personnes concernées."
+    wish_placeholder_email: "Email"
+    wish_placeholder_city: "Nom de votre ville"
+    wish_placeholder_message: "Décrivez votre voeux, aidez vos élus à améliorer votre ville"
+    wish_formbutton: "Envoyer"
+
+  team:
+    team_header: "Notre équipe"
+    team_jointeam_button: "Rejoignez Fluicity"
+
   press:
-    publication: "Published on"
+    press_header: "Presse"
+    press_publication: "Publié le"
+
+  contact:
+    contact_header: "Nous contacter"
+    contact_visit_title: "Rendez-nous visite"
+    contact_visit_address_html: |
+      <strong>Fluicity</strong><br>
+      26, rue du chemin vert<br>
+      75011 Paris<br>
+      <abbr title="Phone">P:</abbr> 01.44.88.91.57
+    contact_form_title: "Contactez-nous"
+    contact_disclaimer: "N'hésitez pas à nous écrire via le formulaire ci-dessous ou directement par email : info@flui.city"
+    select:
+      firstoption: "Je suis citoyen"
+      secondoption: "Je suis un élu"
+      thirdoption: "Je représente une organisation"
+    contact_placeholder_email: "Votre email"
+    contact_placeholder_city: "Votre ville"
+    contact_placeholder_message: "Votre message (optionnel)"
+    contact_formbutton: "Envoyer"
+
+  thanks:
+    thanks_header: "L'équipe Fluicity vous remercie !"
+    thanks_disclaimer: "Un email d'information vous a été envoyé"
+    thanks_button: "Retour à l'accueil"
+
+  jobs:
+    jobs_header: "Recrutement"
+    jobs_mission_title: "Notre Mission"
+    job_mission_part1_html: |
+      <p>Les démocraties européennes vivent une période difficile et les chiffres parlent d’eux mêmes. En France par exemple, 40% des citoyens n’ont pas été voter aux dernières municipales, un taux record qui frappe surtout les jeunes qui se sont abstenus à 61%.</p>
+      <p>Si les causes de ce “déficit démocratique” sont multiples et complexes, ses conséquences sont graves et pourraient être dévastatrices pour l’avenir.</p>
+      <p>Fluicity est née d’un constat; la démocratie ça commence en bas de chez soi. C’est donc à l’échelle de la ville, sur des sujets très concrets de la vie quotidienne, que l’on veut redonner envie aux gens de participer, de s’impliquer dans la construction de l’espace publique.</p>
+    job_mission_part2_html: |
+      <p>Pour y arriver nous proposons à toutes les collectivités une interface innovante et ludique qui offre:</p>
+      <ul>
+        <li>Une information locale mieux ciblée, par centre d’intérêt</li>
+        <li>Une interaction plus efficace entre tous les membres de la société civile</li>
+        <li>Une meilleure compréhension des besoins et attentes des citoyens</li>
+      </ul>
+    jobs_modal_context_title: "Le contexte"
+    jobs_modal_context_html: |
+      <p>Fluicity est une start-up innovante dans le domaine du “civic tech” qui a pour but de réinventer la participation citoyenne à l’échelle locale. Fluicity vient de recevoir le prix des 10 meilleures innovations françaises 2015, décerné par le "MIT Technology Review".</p>
+      <p>La plate-forme s’inspire des technologies de pointe utilisées dans le marketing digital - segmentation, contextualisation, lecture sémantique de données, algorithme de prédiction - et s’applique aux besoins de la gouvernance locale.</p>
+      <p>Nous avons déjà un MVP et sommes actuellement en phase de test sur des villes de différentes tailles (Vernon, Mairie du 9e arrondissement) et sommes à la recherche d’un Junior Developer pour nous accompagner dans cet ambitieux projet.</p>
+      <p>Nos challenges techniques se situent principalement autour de la production et à l’analyse de données, l’intégration aux outils “smart city” existants et à la lecture sémantique des idées et remontées citoyennes.</p>
+
+  faq:
+    faq_header: "F.A.Q"
+    question_1: "Quel est le modèle d’affaires?"
+    answer_1_html: |
+      <p>Fluicity propose un accès gratuit aux citoyens et une interface payante pour les acteurs publics, semi-publics et privés de la smartcity, telles que les collectivités et les sociétés de l’urbanisme. Nous offrons une gamme de fonctionnalités et de services incluant les consultations, l’agenda collaboratif, l’accès à la visualisation des données collectées, la modération sur base de lecture sémantique et l’animation de communauté.</p>
+      <p>Ce modèle d’affaires permet de garantir que la plate-forme soit dépourvue de publicités, ou que les informations personnelles soient réutilisées par des entreprises commerciales.</p>
+    question_2: "En quoi sommes-nous différents ?"
+    answer_2_html: |
+      <p>Fluicity est une société spécialisée dans la participation citoyenne. Notre mission est de mettre la technologie au service de l’amélioration de l’espace public.</p>
+      <p>Trois axes font notre force :</p>
+      <ul>
+        <li>Une information locale comme vecteur de participation</li>
+        <li>Une intégration de plusieurs canaux au sein d’une même application citoyenne</li>
+        <li>Une identité propre, un tiers de confiance entre les organismes et les citoyens</li>
+      </ul>
+    question_3: "A quoi ressemble le service?"
+    answer_3_html: |
+      <p><strong>Côté citoyen :</strong> une interface mobile et web qui offre des informations locales en fonction des centres d’intérêt et un canal de communication direct avec les élus, organismes et les autres membres actifs de la communauté.</p>
+      <p><strong>Coté Mairie/organisme :</strong> une interface d’administration permettant de gérer différents outils comme les campagnes de consultations, les messages avec les administrés, l’information transmise à la communauté et l’analyse des données collectées.</p>
+    question_4: "Quels sont les avantages pour les Collectivités ou les Sociétés ?"
+    answer_4_html: |
+      <ul>
+        <li><strong>Se différencier</strong> en instaurant un climat propice à la participation 2.0, touchant un public jeune et sensible à la communication en réseaux</li>
+        <li><strong>Réduire ses coûts</strong> en communication grâce à une information ciblée et intelligente</li>
+        <li><strong>Gérer les risques</strong> de recours en informant sa communauté des étapes de réalisation d’un projet avant, pendant et après son développement</li>
+        <li><strong>Mieux comprendre</strong> les usagers grâce à la visualisation de données tangibles et actionnables</li>
+      </ul>
+    question_5: "Quels sont les avantages pour les utilisateurs ?"
+    answer_5_html: |
+      <ul>
+        <li><strong>Une citoyenneté accessible en temps réel</strong>, sur des outils en phase avec son temps</li>
+        <li><strong>De l’information locale</strong>, un sentiment d’appartenance à sa vie quartier</li>
+        <li>Le moyen de <strong>faire entendre sa voix</strong>, et obtenir une réponse personnalisée de la part de l’entité responsable</li>
+        <li><strong>Une intégration rapide</strong> dans le tissu socio-économique local</li>
+      </ul>
+    question_6: "Le contenu de la plate-forme est-il modéré ?"
+    answer_6_html: |
+      <p>Fluicity se réserve le droit de modérer dans le cas d’une atteinte à l’image de la plate-forme.</p>
+    question_7: "Qui opère la plate-forme ?"
+    answer_7_html: |
+      <p>La Collectivité ou la société définit un ou plusieurs administrateurs qui valident, répartissent et fournissent les réponses aux utilisateurs.</p>
+    question_8: "Qui est propriétaire des outils ?"
+    answer_8_html: |
+      <p>Fluicity met à disposition ses outils principalement en mode SaaS (Software as a Service), c’est à dire en licence. L’entreprise Fluicity reste propriétaire de la technologie et de la base de données.</p>
+      <p>Nous nous engageons à améliorer constamment le design, l’ergonomie, les fonctionnalités de la plate-forme et la qualité de collecte et d’analyse des données. Nous fournissons une maintenance réactive en cas de défaut de l’application ou des autres outils numériques.</p>
+    question_9: "Que deviennent les données collectées ?"
+    answer_9_html: |
+      <p>Les données collectées sont la propriété de Fluicity et sont stockées sur des serveurs protégés et hébergés en France. Nous gérons l’exploitation de celles-ci au profit des utilisateurs de la plate-forme et de nos services. L’analyse des données collectées préserve l’anonymat de l’utilisateur. Nous n’utilisons pas les données à des fins publicitaires.</p>

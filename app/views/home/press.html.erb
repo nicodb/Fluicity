@@ -8,7 +8,7 @@
     <div class="header-cover">
       <div class="container">
         <div class="row header-content text-center">
-          <h1 class="index-description"><em class='highlight'>Presse</em></h1>
+          <h1 class="index-description"><em class='highlight'><%= t 'press.press_header' %></em></h1>
         </div>
       </div>
     </div>
@@ -25,7 +25,7 @@
               <img src="<%= image_url "press/#{post['image']}" %>" alt="logo">
               <div class="article-info">
                 <span class="article-name"><%= post['title'] %></span>
-                <span class="article-date"><%= post['media'] %> - <%= t 'press.publication' %> <%= l post['date'], format: :default %></span>
+                <span class="article-date"><%= post['media'] %> - <%= t 'press.press_publication' %> <%= l post['date'], format: :default %></span>
               </div>
             </div>
           </a>
