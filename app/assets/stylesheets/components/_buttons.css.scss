@@ -67,6 +67,22 @@
   }
 }
 
+/* WISH - FORM SUBMISSION **************************************************/
+.button-wish {
+  display: block;
+  padding: 10px 30px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #222;
+  border: 1px solid #222;
+  border-radius: 4px;
+
+  &:hover {
+    color: #222;
+    background-color: #fff;
+  }
+}
+
 /* CONTACT - FORM SUBMISSION **************************************************/
 .button-contact {
   display: block;

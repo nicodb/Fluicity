@@ -16,12 +16,19 @@ fr:
       english: "Anglais"
       dutch: "Néerlandais"
 
+  next:
+    features: "Découvrez l'application"
+    download: "Téléchargez l'application"
+    vision: "Notre vision"
+
+  button:
+    download_apple: "Télécharger sur l'AppStore"
+    download_android: "Télécharger sur Google play"
+
   index:
     header:
       title_part1: "Construisons ensemble"
       title_part2: "La ville de demain"
-      download_apple: "Télécharger sur l'AppStore"
-      download_android: "Télécharger sur Google play"
     vision:
       vision_part1: "Recevez toute l’information hyper-locale en temps réel,"
       vision_part2: "roposez vos idées et contribuez à l’amélioration de l’espace public,"
@@ -30,14 +37,48 @@ fr:
       vision_button: "Notre vision"
     features:
       features_question1: "Fluicity c'est quoi ?"
-      features_answer1: "Une plateforme d'échange entre les collectivités et les citoyens."
+      features_answer1: "Une plate-forme de co-construction de l’espace public."
       features_question2: "Son but ?"
-      features_answer2: "Faciliter la participation à l’échelle locale, favoriser la prise de décison collective."
+      features_answer2: "Faciliter la prise de décision collective grâce à la participation à l’échelle locale."
       features_question2: "Comment ?"
-      features_answer3: "Grâce à une interface neutre et indépendante qui garantit la protection de vos données personnelles et l’accès gratuit pour tous les citoyens."
+      features_answer3: "Grâce à une interface neutre et indépendante qui garantit la protection de vos données personnelles et l’accès gratuit pour tous."
       features_button: "En savoir plus"
     awards:
       awards_button: "En détail"
+
+  vision:
+    vision_header: "Notre vision"
+    vision_title: "Fluicity est né d’un constat"
+    vision_paragraph1_html: "Les démocraties européennes vivent une période difficile et les chiffres parlent d’eux mêmes. En France, 40% des citoyens ne sont pas allés voter aux dernières municipales, un taux record qui frappe surtout les jeunes qui se sont abstenus à 61%."
+    vision_paragraph2_html: "Si les causes de ce “déficit démocratique” sont multiples et complexes, ses conséquences sont graves et pourraient être dévastatrices pour l’avenir."
+    vision_quote: "La démocratie commence en bas de chez soi."
+    vision_paragraph3_html: "C’est donc à l’échelle de la ville, sur des sujets très concrets de la vie quotidienne, que nous voulons redonner envie aux gens de participer, de s’impliquer dans la construction de l’espace public"
+    vision_paragraph4_html: "Pour y arriver nous proposons à toutes les Collectivités une interface innovante et ludique qui offre :<ul><li>Une information locale positive et ciblée par centres d’intérêt</li><li>Une mise à contribution de l’intelligence collective sur des sujets du quotidien</li><li>Une meilleure compréhension des échanges, besoins et attentes des citoyens</li></ul>"
+    vision_paragraph5_html: "Fluicity est une plate-forme neutre et indépendante qui garantit la protection des données personnelles et le respect des libertés individuelles."
+    vision_paragraph6_html: "Notre équipe est jeune, passionnée par l’innovation civique et portée par une ambition partagée : mettre l’innovation technologique au service d’un impact social profond et durable."
+    vision_videotitle: "En vidéo"
+
+  features:
+    features_header: "En détails"
+    features_title_section1: "Une information plus ciblée"
+    features_section1_html: "<p>Pour donner envie de participer il faut commencer par mieux informer.</p><p>Fluicity met à disposition un fil d’actualité dynamique qui transmet de l’information hyper-locale en fonction de vos centres d’intérêt.</p><p>L’actualité est enrichie par de nombreux acteurs dont la Mairie, des acteurs privés, des associations, des médias locaux et tout membre actif de la société civile.</p>"
+    features_title_section2: "Une interaction plus efficace"
+    features_section2_html: "<p>Les citoyens se désintéressent car ils pensent que leur opinion n’est pas prise en compte.</p><p>Sur Fluicity, ils peuvent échanger en direct avec leurs élus : les élus posent des questions, les citoyens proposent leurs idées et la Mairie intègre les résultats dans des solutions adaptées.</p>"
+    features_title_section3: "Une meilleure compréhension des échanges"
+    features_section3_html: "<p>Nous proposons un moyen pour les Collectivités de mieux comprendre l’humeur citoyenne grâce à des outils de “big data” : des données fiables, quantifiables et actionnables.</p><p>La plate-forme est neutre, indépendante et protège les données personnelles sur des serveurs sécurisés.</p>"
+
+  wish:
+    wish_header: "Exprimez-vous"
+    wish_surveytitle: "Questionnaire aux citoyens"
+    wish_survey_html: "<p>Fluicity souhaite apporter une réponse concrète au déficit démocratique en redonnant sa voix au citoyen et en aidant les élus locaux à gouverner dans de meilleures conditions.</p><p>C’est pourquoi votre avis, vos idées et surtout vos actions sont à la base de notre démarche.</p><p>Aidez nous à améliorer Fluicity en répondant à ces quelques questions:</p>"
+    wish_surveybutton: "Je participe"
+    wish_formtitle: "Faites un voeu !"
+    wish_formintro: "Chaque ville est spéciale, et c’est grâce à ses habitants. Partagez vos idées pour votre ville,  nous nous chargeons de les faire remonter auprès des personnes concernées."
+    wish_placeholder_email: "Email"
+    wish_placeholder_city: "Nom de votre ville"
+    wish_placeholder_message: "Décrivez votre voeux, aidez vos élus à améliorer votre ville"
+    wish_formbutton: "Envoyer"
+
 
   newsletter:
     disclaimer: "Recevez chaque mois le résumé de toute l'actualité sur l'e-gouvernance et l'innovation civique."
