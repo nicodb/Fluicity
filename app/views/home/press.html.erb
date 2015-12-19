@@ -24,8 +24,8 @@
             <div class="article-details">
               <img src="<%= image_url "press/#{post['image']}" %>" alt="logo">
               <div class="article-info">
-                <span class="article-name"><%= post['title'] %></span>
-                <span class="article-date"><%= post['media'] %> - <%= t 'press.press_publication' %> <%= l post['date'], format: :default %></span>
+                <span class="article-name"><%= truncate(post['title'], length: 60) %></span>
+                <span class="article-date"><%= truncate(post['media'], length: 40) %> - <%= t 'press.press_publication' %> <%= l post['date'], format: :default %></span>
               </div>
             </div>
           </a>
