@@ -1,0 +1,115 @@
+body {
+  font-family: 'Open Sans';
+}
+
+section { overflow: hidden; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+}
+
+a, a:hover, a:focus { text-decoration: none; }
+
+p {
+  color: rgba(90,90,90,1);
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+ul {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+  list-style-position: inside;
+  font-size: 16px;
+  line-height: 24px;
+
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+
+.control-label { display: none; }
+.no-margin { margin-left: 0; margin-right: 0; }
+
+/**************************************************************
+ SHAPES - ANGLED EDGE
+**************************************************************/
+
+.shapes-top {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  bottom: 0;
+  z-index: 1;
+
+  &:before {
+    position: absolute;
+    background: rgba(255,255,244,0.4);
+    content: '';
+    display: block;
+    height: 80%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: skewY(1.5deg);
+    transform-origin: 0 100%;
+    z-index: 1;
+  }
+
+  &:after {
+    position: absolute;
+    background: #fff;
+    content: '';
+    display: block;
+    height: 60%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: skewY(-1.5deg);
+    transform-origin: 100% 0;
+    z-index: 1;
+  }
+}
+
+.shapes-bottom {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  bottom: -20%;
+  z-index: 1;
+  transform: rotate(180deg);
+
+  &:before {
+    position: absolute;
+    background: rgba(255,255,244,0.4);
+    content: '';
+    display: block;
+    height: 80%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: skewY(1.5deg);
+    transform-origin: 0 100%;
+    z-index: 1;
+  }
+
+  &:after {
+    position: absolute;
+    background: #fff;
+    content: '';
+    display: block;
+    height: 60%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: skewY(-1.5deg);
+    transform-origin: 100% 0;
+    z-index: 1;
+  }
+}

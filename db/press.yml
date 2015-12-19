@@ -1,4 +1,118 @@
 posts:
+  - title: "Mairies 4.0 : Fluicity numérise la démocratie participative normande"
+    media: "L'Usine Digitale"
+    date: 2015-11-24
+    link: "http://www.usine-digitale.fr/article/mairies-4-0-fluicity-numerise-la-democratie-participative-normande.N363779"
+    image: logo-usinedigitale.jpg
+
+  - title: "Fluicity, l’application qui active la participation citoyenne"
+    media: "Le Monde"
+    date: 2015-11-18
+    link: "http://www.lemonde.fr/les-villes-d-un-monde-qui-change/article/2015/11/18/fluicity-l-application-qui-active-la-participation-citoyenne_4812724_4810823.html"
+    image: logo-lemonde.jpg
+
+  - title: "Mairies 4.0 : D'AlloMairie à TellMyCity, le projet-pilote de Saint-Quentin a conquis la France"
+    media: "L’Usine Digitale"
+    date: 2015-11-18
+    link: "http://www.usine-digitale.fr/article/mairies-4-0-d-allomairie-a-tellmycity-le-projet-pilote-de-saint-quentin-a-conquis-la-france.N358538"
+    image: logo-usinedigitale.jpg
+
+  - title: "Innovation : les habitants de Vernon mieux connectés avec leur Ville"
+    media: "Paris Normandie"
+    date: 2015-11-08
+    link: "http://www.paris-normandie.fr/detail_article/articles/4417591/innovation--les-habitants-de-vernon-mieux-connectes-avec-leur-ville#.VkCVOq4veRs"
+    image: logo-parisnormandie.jpg
+
+  - title: "Application citoyenne : une de plus !"
+    media: "Farenis"
+    date: 2015-11-02
+    link: "http://farenis.fr/nouvelle-appli-de-democratie-participative-locale/"
+    image: logo-farenis.jpg
+
+  - title: "L’appli qui donne la parole aux Vernonnais"
+    media: "Vernon Direct"
+    date: 2015-10-29
+    link: "http://www.vernon27.fr/Services-en-ligne/Espace-documentaire/Vernon-Direct/Vernon-Direct/(language)/fre-FR"
+    image: logo-vernon.jpg
+
+  - title: "[VIDÉO] Entrepreneurs sociaux : les applications mobiles de demain dans Tous Acteurs du Changement"
+    media: "LCI"
+    date: 2015-10-25
+    link: "http://lci.tf1.fr/videos/2015/entrepreneurs-sociaux-les-applications-mobiles-de-demain-dans-8674850.html?xtmc=applications&xtcr=1"
+    image: logo-lci.jpg
+
+  - title: "Démocratie participative : Vernon expérimente l’appli Fluicity"
+    media: "Forum pour la gestion des villes et des collectivités territoriales"
+    date: 2015-10-20
+    link: "http://www.forum-gv.com/2015/10/20/democratie-participative-vernon-experimente-lappli-fluicity/"
+    image: logo-forumgestion.jpg
+
+  - title: "Ces start-up qui veulent bonifier le monde"
+    media: "Le Figaro Madame"
+    date: 2015-10-04
+    link: "http://madame.lefigaro.fr/societe/huit-start-upen-quete-de-sens-300915-98623"
+    image: logo-figaromadame.jpg
+
+  - title: "[VIDÉO] Intervention de Julie de Pimodan au Forum Smart City Nantes"
+    media: "La Tribune"
+    date: 2015-10-02
+    link: "https://www.youtube.com/watch?v=rUzCOfLz6HY"
+    image: logo-latribune.jpg
+
+  - title: "Smart countries & cities congress : Prometigo, Fluicity et The Bubbles company primées"
+    media: "Le Journal du Grand Paris"
+    date: 2015-09-02
+    link: "https://www.lejournaldugrandparis.fr/smart-countries-cities-congress-prometigo-fluicicity-et-the-bubbles-company-primees/"
+    image: logo-grandparis.jpg
+
+  - title: "Du journalisme à MIT pour le prix “les 10 jeunes Français Les plus Innovants” – Julie de Pimodan"
+    media: "Femmes d’affaire"
+    date: 2015-08-27
+    link: "http://femmesdaffaires.net/du-journalisme-a-mit-pour-le-prix-les-10-jeunes-francais-les-plus-innovants-julie-de-pimodan/"
+    image: logo-femmesaffaires.jpg
+
+  - title: "Le numérique, fondement d’une action publique innovante"
+    media: "ERepublic 21"
+    date: 2015-08-27
+    link: "http://www.erepublique21.info/le-numerique-fondement-dune-action-publique-innovante/"
+    image: logo-erepublique.jpg
+
+  - title: "Testée dans l'Eure, une application pour créer du lien entre élus et habitants"
+    media: "Normandie-actu"
+    date: 2015-08-25
+    link: "http://www.normandie-actu.fr/une-application-qui-cree-du-dialogue-entre-les-elus-et-les-habitants-testee-dans-leure_152063/"
+    image: logo-normandie27actu.jpg
+
+  - title: "[VIDÉO] Une plateforme pour rapprocher élus et citoyens"
+    media: "TF1"
+    date: 2015-08-22
+    link: "http://lci.tf1.fr/jt-we/videos/2015/une-plateforme-pour-rapprocher-elus-et-citoyens-8647203.html"
+    image: logo-tf1.jpg
+
+  - title: "Fluicity : une application mobile en projet"
+    media: "Le Démocrate Vernonnais"
+    date: 2015-08-12
+    link: "http://www.ledemocratevernonnais.fr/2015/08/12/fluicity-une-application-mobile-en-projet/"
+    image: logo-democrateverronais.jpg
+
+  - title: "Une application mobile pour faire le lien entre les Vernonnais et la mairie"
+    media: "Paris-Normandie"
+    date: 2015-08-12
+    link: "http://www.paris-normandie.fr/detail_article/articles/3802526/une-application-mobile-pour-faire-le-lien-entre-les-vernonnais-et-la-mairie"
+    image: logo-parisnormandie.jpg
+
+  - title: "Participer à la Vie de sa Commune via une simple Application : Fluicity"
+    media: "E-RSE"
+    date: 2015-07-20
+    link: "http://e-rse.net/participer-vie-commune-application-fluicity-13977/"
+    image: logo-erse.jpg
+
+  - title: "[VIDÉO] Fluicity, le digital au service du dialogue citoyen"
+    media: "L’Echappée Volée"
+    date: 2015-07-11
+    link: "https://www.youtube.com/watch?v=62yZ_GjwBHA"
+    image: logo-echappeevolee.jpg
+
   - title: "[RADIO] Emission “Social Eco”"
     media: "Radio Classique"
     date: 2015-05-30

@@ -1,0 +1,113 @@
+.mockup {
+  position: relative;
+  background:asset-url('mockup/iphone.png') no-repeat center;
+  height: 700px;
+  width: 455px;
+  margin-top: 30px;
+
+  .screen {
+    position: absolute;
+    height: 351px;
+    //width: 199px;
+    //left: 182px;
+    top: 156px;
+    width: 44%;
+    left: 29%;
+    overflow: hidden;
+    list-style: none;
+
+    .slide {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+
+      -webkit-transform: translateY(100%);
+      -moz-transform: translateY(100%);
+      transform: translateY(100%);
+
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      transition: all 0.5s;
+    }
+
+    li { margin-bottom: 0; }
+    li.active {
+      img {
+        transform: translateY(0);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .mockup {
+    margin: 0 auto;
+    width: 320px;
+
+    .screen {
+      top: 147px;
+      width: 62%;
+      left: 20%;
+    }
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .mockup {
+    display: none;
+  }
+}
+
+.browser {
+  position: absolute;
+  background:asset-url('mockup/browser.png') no-repeat center left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 599px;
+  width: 900px;
+
+  .window {
+    position: absolute;
+    width: 701px;
+    height: 425px;
+    left: 95px;
+    top: 98px;
+    overflow: hidden;
+    list-style: none;
+  }
+
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #features {
+    .browser {
+      position: relative;
+      height: 450px;
+      width: 630px;
+      left: 50%;
+      transform: translateX(-54%);
+
+      .window {
+        width: 526px;
+        height: 319px;
+        left: 72px;
+        top: 74px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #features {
+    .browser {
+      display: none;
+    }
+  }
+}

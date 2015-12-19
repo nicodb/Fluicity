@@ -2,26 +2,35 @@
 <% meta_description %>
 <% meta_image %>
 
+<header id="#cover">
+  <div class="header-page">
+    <div class="shapes-top"></div>
+    <div class="header-cover">
+      <div class="container">
+        <div class="row header-content text-center">
+          <h1 class="index-description"><em class='highlight'><%= t 'press.press_header' %></em></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
 <section class="section-press">
-  <div class="press-cover">
-    <div class="container">
-      <ul>
-        <% @article[:posts].each do |post| %>
-        <li class="article">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-sm-2">
-                <img src="<%= image_url "press/#{post['image']}" %>" alt="logo" class="article-logo">
-              </div>
-              <div class="col-sm-10">
-                <span class="article-name"><a href= "<%= post['link'] %>" rel=""><%= post['title'] %></a></span>
-                <span class="article-date"><%= post['media'] %> - <%= t 'press.publication' %> <%= l post['date'], format: :default %></span>
+  <div class="container press-container">
+    <ul>
+      <% @article[:posts].each do |post| %>
+        <li>
+          <a href= "<%= post['link'] %>" rel="" class="animsition-link">
+            <div class="article-details">
+              <img src="<%= image_url "press/#{post['image']}" %>" alt="logo">
+              <div class="article-info">
+                <span class="article-name"><%= truncate(post['title'], length: 60) %></span>
+                <span class="article-date"><%= truncate(post['media'], length: 40) %> - <%= t 'press.press_publication' %> <%= l post['date'], format: :default %></span>
               </div>
             </div>
-          </div>
+          </a>
         </li>
-        <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
   </div>
 </section>

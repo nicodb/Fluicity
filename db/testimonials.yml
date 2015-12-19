@@ -1,0 +1,36 @@
+testimonials:
+  - firstname: Alain
+    lastname: Chouraqui
+    position: Directeur de recherche émérite au CNRS et président fondateur de la Fondation du Camp des Milles
+    picture: alain_chouraqui.jpg
+    content: "La commune est un champ infini d'interactions entre les individus, le terreau le plus solide de l'avenir de nos sociétés."
+
+  - firstname: Christophe
+    lastname: Girard
+    position: Maire du 4e arrondissement
+    picture: christophe_girard.jpg
+    content: "Fluicity va permettre à des gens de se responsabiliser en se rencontrant, en discutant de sujets importants, qui sont le destin commun et individuel dans la démocratie, dans la ville."
+
+  - firstname: Xavier
+    lastname: Fontanet
+    position: "Essayiste et membre du conseil d'administration du Groupe l'Oréal, Schneider Electric et du Centre des Professions Financières"
+    picture: xavier_fontanet.jpg
+    content: "Fluicity, c’est  réapprendre la démocratie par la démocratie locale, sur des petites choses : j’ai beaucoup fantasmé autour de votre idée, qui me semble très puissante."
+
+  - firstname: Kevin
+    lastname: Cardona
+    position: Directeur de l'Innovation et du Développement Durable BNP Paribas Real Estate
+    picture: kevin_cardona.jpg
+    content: "Nous préconisons que cette solution soit un outil à disposition de la ville afin d'organiser autour d'un seul canal, et d'un seul acteur, la concertation participative des espaces publics et des projets qui le composent."
+
+  - firstname: Sébastien
+    lastname: Lecornu
+    position: Président du Conseil Général de l'Eure
+    picture: sebastien_lecornu.jpg
+    content: "Les réunions sont traditionnellement organisées à la mairie le soir et le weekend, ce qui laisse beaucoup de citoyens de côté. Avec Fluicity, on peut vraiment faire des sondages en ligne et mettre des idées en test auprès de tous les habitants."
+
+  - firstname: Alexandre
+    lastname: Huau Armani
+    position: "Maire adjoint en charge de la Culture, du Tourisme et de la ville numérique à Vernon"
+    picture: alexandre_huauarmani.jpg
+    content: "Fluicity est l'une des briques avec laquelle nous construisons notre ville numérique. Nous avons ainsi l'ambition de devenir un laboratoire d'expérimentation digitale pour les villes de taille intermédiaire."

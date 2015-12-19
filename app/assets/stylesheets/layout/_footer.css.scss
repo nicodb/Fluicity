@@ -1,0 +1,41 @@
+footer {
+  position: relative;
+  padding: 50px 0;
+  line-height: 20px;
+  color: #fff;
+  background-color: #333;
+  z-index: 10;
+
+  ul {
+    list-style: none;
+    line-height: 2em;
+
+    li {
+      margin-left: 30px;
+      font-size: 14px;
+
+      a, a:focus, a:active, a:visited {
+        color: #fff;
+        &:hover {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .fa {
+    width: 20px;
+  }
+
+  .email {
+    text-transform: none;
+  }
+
+  .copyright {
+    padding-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+

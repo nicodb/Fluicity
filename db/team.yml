@@ -1,0 +1,36 @@
+members:
+  - firstname: Julie
+    lastname: de Pimodan
+    position: 'Fondatrice & CEO'
+    picture: julie.jpg
+    description: "Ancienne journaliste puis entrepreneur dans des groupes média, Julie a travaillé et vécu pendant 7 ans au Moyen Orient, notamment au Yémen, aux Emirats Arabes Unis et en Turquie. En plein dans la période des printemps arabes, cette expérience lui a ouvert les yeux sur le rôle important des nouvelles technologies dans l’évolution des processus démocratiques. Julie a ensuite rejoint Google au sein de l’équipe DoubleClick, où pendant quatre ans, elle a aidé des entreprises privées à analyser les données de leurs utilisateurs pour améliorer leur communication et leur prise de décision. Julie est fondatrice et CEO de Fluicity, elle a récemment reçu le prix des meilleurs innovateurs de moins de 35 ans en France, décerné par le Massachussets Institute of Technology (MIT)."
+
+  - firstname: Nicolas
+    lastname: de Briey
+    position: 'Finances & opérations'
+    picture: nicolas.jpg
+    description: "Nicolas, a été membre du barreau de Bruxelles pendant plus de quatre ans, et détaché à la banque européenne d’investissement en tant que consultant. Nicolas est passionné d’entrepreunariat, et s’est engagé dans différentes associations locales et nationales défendant une vision entrepreneuriale et solidaire de la société. Il apporte son expertise financière et juridique, notamment dans le cadre de la négociation avec les partenaires de Fluicity."
+
+  - firstname: Charles
+    lastname: Alzon
+    position: Business developer
+    picture: charles.jpg
+    description: "Diplômé d’un MSc (Grande école) à l’Iéseg, Charles a cumulé les expériences en développement commercial dans des secteurs aussi variés que l’investissement d’impact, les sociétés de conseil et la grande distribution. En charge du développement commercial auprès des collectivités, Charles passe du temps sur le terrain à analyser les leviers de participation citoyenne."
+
+  - firstname: Théo
+    lastname: Lazian
+    position: Business developer
+    picture: theo.jpg
+    description: "Diplômé en Droit public et administration publique, Théo a travaillé pour plusieurs grandes administrations. Du service juridique du Parlement européen jusqu’au service des achats de l’ONU en passant par la Région Ile-de-France, Théo s’est passionné par la relation entre les administrés et les pouvoirs publics. Tout en consacrant son temps libre à l’enseignement du judo, il rejoint l’équipe Fluicity pour s’occuper des partenariats avec les Collectivités locales, convaincu par l’idée que la construction de l’espace urbain et le rapport aux élus doit passer par les nouveaux outils numériques d’expression citoyenne."
+
+  - firstname: Jonathan
+    lastname: Pollak
+    position: Produit
+    picture: user.jpg
+    description: "Ingénieur, Jonathan s’est engagé dans l’équipe Fluicity pour mettre ses compétences au service de la démocratie locale. Après 3 ans passés dans le groupe Thales il est conscient des problématiques liées au numérique dans un contexte industriel de grande envergure. Investi dans la vie associative de sa ville où il est responsable d’une équipe de secours, il souhaite faciliter le dialogue entre l’ensemble des acteurs de la ville grâce au numérique."
+
+  - firstname: Louise
+    lastname: Rigollier
+    position: Éditorial et Communication
+    picture: louise.jpg
+    description: "Louise est diplômée de Philosophie politique et européenne à l’Université de Nantes ainsi que d’urbanisme à l'École d’Urbanisme de Paris. Passionnée par les questions de participation citoyenne et d’équité sociale, elle s’est engagée dans plusieurs associations défendant une vision du monde citoyenne et solidaire, comme le Mouvement du Nid ou OpenStreetMap. En s’occupant de la communication et de l’éditorial à Fluicity, elle apporte un message proche des habitants, des élus et des acteurs de la ville et du numérique."

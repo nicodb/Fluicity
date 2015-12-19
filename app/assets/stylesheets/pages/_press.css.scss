@@ -1,0 +1,107 @@
+.section-press {
+  position: relative;
+  padding: 60px 0 100px 0;
+
+  .press-container {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+
+    ul {
+       width: 100%;
+      list-style: none;
+      box-sizing: border-box;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        box-sizing: border-box;
+        padding: 0 10px;
+        width: 50%;
+        cursor: pointer;
+
+        .article-details {
+          box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          align-items: center;
+          padding: 10px;
+          margin: 20px 0;
+          width: 100%;
+          color: black;
+          background: white;
+          border-radius: 3px;
+          height: 110px;
+          -webkit-transition: box-shadow 0.2s ease;
+          transition: box-shadow 0.2s ease;
+
+          &:hover {
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+          }
+
+          img {
+            width: 75px;
+            border-radius: 50%;
+            border: 1px solid #f1f1f1;
+          }
+
+          .article-info {
+            display: flex;
+            flex-direction: column;
+            padding: 0 10px;
+
+            .article-name {
+              font-size: 13px;
+              font-weight: 600;
+              line-height: 1.4em;
+              color: #848484;
+              text-transform: uppercase;
+            }
+
+            .article-date {
+              font-size: 0.825em;
+              font-weight: 200;
+              line-height: 2em;
+              color: #333;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-press {
+    .press-container {
+      ul {
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section-press {
+    .press-container {
+      ul {
+        li {
+           .article-details {
+            .article-info {
+              .article-name,
+              .article-date {
+                font-size: 11px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

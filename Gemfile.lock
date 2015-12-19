@@ -173,6 +173,8 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    slick_rails (1.5.8)
+      railties (>= 3.1)
     social-share-button (0.1.8)
       coffee-rails
       sass-rails
@@ -224,6 +226,7 @@ DEPENDENCIES
   rails_12factor
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
+  slick_rails
   social-share-button
   spring
   turbolinks

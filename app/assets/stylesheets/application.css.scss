@@ -1,35 +1,43 @@
-$link-color: #2ecc71;
-$header-height: 100vh;
-
+// RAILS DEPENDENCIES
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "rails_bootstrap_forms";
-
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-@import "base";
-@import "navbar";
-@import "header";
-@import "newsletter";
-@import "carousel";
-@import "home";
-@import "timeline";
-@import "timeline2";
-@import "contact";
-@import "wish";
-@import "press";
-@import "faq";
-@import "thanks";
-@import "footer";
+// CONFIG
+@import "config/base";
 
+// VENDOR
+@import "vendor/slick";
+@import "vendor/slick-theme";
+@import "vendor/animsition";
+@import "vendor/fade";
 
-.form-button {
-    color: #FFCA00
-  }
+// LAYOUT
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/footer";
 
-.list-inline {
-  color: white;
-}
+// COMPONENTS
+@import "components/buttons";
+@import "components/mockup";
+@import "components/form";
+@import "components/next";
+@import "components/iframe";
+@import "components/newsletter";
+@import "components/mailchimp";
 
+// PAGES
+@import "pages/home";
+@import "pages/vision";
+@import "pages/features";
+@import "pages/survey";
+@import "pages/team";
+@import "pages/jobs";
+@import "pages/wish";
+@import "pages/press";
+@import "pages/faq";
+@import "pages/thanks";
+@import "pages/contact";
 

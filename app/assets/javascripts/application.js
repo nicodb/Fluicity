@@ -13,7 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
-//= require circle-progress
+//= require slick
 //= require_tree .
 
 // app/assets/javascripts/application.js

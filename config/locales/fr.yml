@@ -1,123 +1,225 @@
 fr:
   menu:
-    contact: "Newsletter"
-    wish: "Exprimez-vous"
+    home: "Accueil"
+    vision: "Vision"
+    features: "En détails"
+    team: "Notre équipe"
+    blog: "Blog"
+    contact: "Contact"
+    jobs: "Recrutement"
     press: "Presse"
     faq: "F.A.Q"
+    survey: "Questionnaire"
+    wish: "Exprimez-vous"
     language:
       french: "Français"
       english: "Anglais"
       dutch: "Néerlandais"
-  index:
-    catchline: "Données en ville"
-    description: "Fluicity utilise les technologies de l’information et la segmentation de données pour renforcer les liens entre les élus locaux et leurs citoyens."
-    button: "En savoir plus"
-    first_alarm:
-      stat: "39"
-      description: "des Français se sont abstenus de voter aux dernières élections municipales."
-      source: "Source : Baromètre de la confiance politique, Janvier 2014, Sciences Po, CEVIPOV-CNRS"
-    second_alarm:
-      stat: "82"
-      description: "des Belges considèrent que la corruption existe au sein des institutions fédérales."
-      source: "Source : Transparency International Belgium 2012"
-    third_alarm:
-      stat: "53"
-      description: "des Européens estiment que leur voix ne comptent pas dans l’Union Européenne."
-      source: "Source : Eurobaromètre Standard 82 Automne 2014"
-    award:
-      text: "Nous avons reçu le prix des 10 meilleures innovations françaises 2015, décerné par le MIT Technology Review."
-    calltoaction:
-      text: "Vous avez des idées pour votre ville ? Exprimez-vous !"
-      button: "Je souhaite..."
+
+  next:
+    features: "Découvrez l'application"
+    download: "Téléchargez l'application"
+    vision: "Notre vision"
+    contact: "Contactez-nous"
+
+  button:
+    download_apple: "Télécharger sur l'AppStore"
+    download_android: "Télécharger sur Google play"
+
   newsletter:
-    disclaimer: "Phase de test ouverte aux villes de + de 20.000 habitants"
-    placeholder:
-      email: "Email"
-      city: "Votre ville"
-    button: "Postulez !"
-  timeline:
-    introduction: "Comment ça marche ?"
-    citizen:
-      title: "Vous êtes citoyen"
-      step_1: "Recevez une information hyper locale personnalisée."
-      step_2: "Interagissez sur tous les sujets."
-      step_3: "Proposez des idées, signalez des problèmes."
-    representatives:
-      title: "Vous êtes élu"
-      step_1: "Communiquez facilement sur l'actualité de la commune."
-      step_2: "Recueilliez des données fiables et actionnables."
-      step_3: "Adaptez vos décisions."
+    newsletter_disclaimer: "Recevez chaque mois le résumé de toute l'actualité sur l'e-gouvernance et l'innovation civique."
+    newsletter_button: "S'inscrire"
+
+  footer:
+    link_team: "L'équipe"
+    link_legals: "Mentions Légales"
+    link_cgv: "CGV"
+    link_wish: "Exprimez-vous"
+    link_jobs: "Recrutement"
+    link_press: "Presse"
+    link_faq: "F.A.Q"
+    link_blog: "Blog"
+    link_contact: "Contact"
+    link_facebook: "Facebook"
+    link_twitter: "Twitter"
+    link_linkedin: "Linkedin"
+    copyright: "© 2015 - Fluicity"
+
+  home:
+    header:
+      title_part1: "Construisons ensemble"
+      title_part2: "La ville de demain"
+    vision:
+      vision_part1: "Recevez toute l’information hyper-locale en temps réel,"
+      vision_part2: "roposez vos idées et contribuez à l’amélioration de l’espace public,"
+      vision_part3: "Donnez votre avis et dialoguez facilement avec vos élus,"
+      vision_highlight: "Devenez un citoyen 3.0, rejoignez Fluicity !"
+      vision_button: "Notre vision"
+    features:
+      features_question1: "Fluicity c'est quoi ?"
+      features_answer1: "Une plate-forme de co-construction de l’espace public."
+      features_question2: "Son but ?"
+      features_answer2: "Faciliter la prise de décision collective grâce à la participation à l’échelle locale."
+      features_question2: "Comment ?"
+      features_answer3: "Grâce à une interface neutre et indépendante qui garantit la protection de vos données personnelles et l’accès gratuit pour tous."
+      features_button: "En savoir plus"
+    awards:
+      awards_mit_html: |
+        <p>Nous avons reçu le prix des<br><i class="highlight">10 meilleurs innovations françaises 2015</i>,<br>décerné par le <i class="highlight">MIT Technology Review</i></p>
+      awards_s3c_html: |
+        <p class="award-ref">Nous avons reçu le premier prix du<br><i class="highlight">S3C 2015</i></p>
+      awards_ted_html: |
+        <p class="award-ref">Nous avons reçu le premier prix du<br><i class="highlight">TED x Paris 2015</i></p>
+      awards_ev_html: |
+        <p class="award-ref">Nous avons reçu le premier prix de<br><i class="highlight">l'échappée volée 2015</i></p>
+      awards_button: "En détail"
+
+  vision:
+    vision_header: "Notre vision"
+    vision_title: "Fluicity est né d’un constat"
+    vision_content_html: |
+      <p>Les démocraties européennes vivent une période difficile et les chiffres parlent d’eux mêmes. En France, 40% des citoyens ne sont pas allés voter aux dernières municipales, un taux record qui frappe surtout les jeunes qui se sont abstenus à 61%.</p>
+      <p>Si les causes de ce “déficit démocratique” sont multiples et complexes, ses conséquences sont graves et pourraient être dévastatrices pour l’avenir.</p>
+      <blockquote>La démocratie commence en bas de chez soi.</blockquote>
+      <p>C’est donc à l’échelle de la ville, sur des sujets très concrets de la vie quotidienne, que nous voulons redonner envie aux gens de participer, de s’impliquer dans la construction de l’espace public.</p>
+      <p>Pour y arriver nous proposons à toutes les Collectivités une interface innovante et ludique qui offre :</p>
+      <ul>
+        <li>Une information locale positive et ciblée par centres d’intérêt</li>
+        <li>Une mise à contribution de l’intelligence collective sur des sujets du quotidien</li>
+        <li>Une meilleure compréhension des échanges, besoins et attentes des citoyens</li>
+      </ul>
+      <p>Fluicity est une plate-forme neutre et indépendante qui garantit la protection des données personnelles et le respect des libertés individuelles.</p>
+      <p>Notre équipe est jeune, passionnée par l’innovation civique et portée par une ambition partagée : mettre l’innovation technologique au service d’un impact social profond et durable.</p>
+    vision_videotitle: "En vidéo"
+
+  features:
+    features_header: "En détails"
+    features_title_section1: "Une information plus ciblée"
+    features_section1_html: |
+      <p>Pour donner envie de participer il faut commencer par mieux informer.</p>
+      <p>Fluicity met à disposition un fil d’actualité dynamique qui transmet de l’information hyper-locale en fonction de vos centres d’intérêt.</p>
+      <p>L’actualité est enrichie par de nombreux acteurs dont la Mairie, des acteurs privés, des associations, des médias locaux et tout membre actif de la société civile.</p>
+    features_title_section2: "Une interaction plus efficace"
+    features_section2_html: |
+      <p>Les citoyens se désintéressent car ils pensent que leur opinion n’est pas prise en compte.</p>
+      <p>Sur Fluicity, ils peuvent échanger en direct avec leurs élus : les élus posent des questions, les citoyens proposent leurs idées et la Mairie intègre les résultats dans des solutions adaptées.</p>
+    features_title_section3: "Une meilleure compréhension des échanges"
+    features_section3_html: |
+      <p>Nous proposons un moyen pour les Collectivités de mieux comprendre l’humeur citoyenne grâce à des outils de “big data” : des données fiables, quantifiables et actionnables.</p>
+      <p>La plate-forme est neutre, indépendante et protège les données personnelles sur des serveurs sécurisés.</p>
+
+  wish:
+    wish_header: "Exprimez-vous"
+    wish_surveytitle: "Questionnaire aux citoyens"
+    wish_survey_html: |
+      <p>Fluicity souhaite apporter une réponse concrète au déficit démocratique en redonnant sa voix au citoyen et en aidant les élus locaux à gouverner dans de meilleures conditions.</p>
+      <p>C’est pourquoi votre avis, vos idées et surtout vos actions sont à la base de notre démarche.</p><p>Aidez nous à améliorer Fluicity en répondant à ces quelques questions:</p>
+    wish_surveybutton: "Je participe"
+    wish_formtitle: "Faites un voeu !"
+    wish_formintro: "Chaque ville est spéciale, et c’est grâce à ses habitants. Partagez vos idées pour votre ville,  nous nous chargeons de les faire remonter auprès des personnes concernées."
+    wish_placeholder_email: "Email"
+    wish_placeholder_city: "Nom de votre ville"
+    wish_placeholder_message: "Décrivez votre voeux, aidez vos élus à améliorer votre ville"
+    wish_formbutton: "Envoyer"
+
+  team:
+    team_header: "Notre équipe"
+    team_jointeam_button: "Rejoignez Fluicity"
+
+  press:
+    press_header: "Presse"
+    press_publication: "Publié le"
+
   contact:
-    disclaimer: "Recevez chaque mois le résumé de toute l'actualité sur l'e-gouvernance et l'innovation civique. N'hésitez pas à nous écrire via le formulaire ci-dessous ou directement par email : info@flui.city"
+    contact_header: "Nous contacter"
+    contact_visit_title: "Rendez-nous visite"
+    contact_visit_address_html: |
+      <strong>Fluicity</strong><br>
+      26, rue du chemin vert<br>
+      75011 Paris<br>
+      <abbr title="Phone">P:</abbr> 01.44.88.91.57
+    contact_form_title: "Contactez-nous"
+    contact_disclaimer: "N'hésitez pas à nous écrire via le formulaire ci-dessous ou directement par email : info@flui.city"
     select:
       firstoption: "Je suis citoyen"
       secondoption: "Je suis un élu"
       thirdoption: "Je représente une organisation"
-    placeholder:
-      email: "Votre email"
-      city: "Votre ville"
-      message: "Votre message (optionnel)"
-    button: "Je m'inscris"
-  wishform:
-    maintitle:
-      survey: "Exprimez-vous !"
-      wish: "Vous avez des idées pour votre ville ?"
-    subtitle:
-      survey: "Nous voulons en savoir plus."
-      wish: "Aidez-nous à y être présents."
-    survey:
-      citizen: "Questionnaire aux citoyens"
-      representatives: "Questionnaire aux élus"
-    placeholder:
-      email: "Email"
-      city: "Nom de la ville concernée"
-      message: "Décrivez votre voeux, aidez vos élus à améliorer votre ville."
-    button: "Faites un voeu !"
+    contact_placeholder_email: "Votre email"
+    contact_placeholder_city: "Votre ville"
+    contact_placeholder_message: "Votre message (optionnel)"
+    contact_formbutton: "Envoyer"
+
   thanks:
-    maintitle: "Fluicity vous remercie pour votre intérêt !"
-    subtitle: "Nous vous avons envoyé un email d'information"
-    button: "Retour à l'accueil"
-  press:
-    publication: "Publié le"
+    thanks_header: "L'équipe Fluicity vous remercie !"
+    thanks_disclaimer: "Un email d'information vous a été envoyé"
+    thanks_button: "Retour à l'accueil"
+
+  jobs:
+    jobs_header: "Recrutement"
+    jobs_mission_title: "Notre Mission"
+    job_mission_part1_html: |
+      <p>Les démocraties européennes vivent une période difficile et les chiffres parlent d’eux mêmes. En France par exemple, 40% des citoyens n’ont pas été voter aux dernières municipales, un taux record qui frappe surtout les jeunes qui se sont abstenus à 61%.</p>
+      <p>Si les causes de ce “déficit démocratique” sont multiples et complexes, ses conséquences sont graves et pourraient être dévastatrices pour l’avenir.</p>
+      <p>Fluicity est née d’un constat; la démocratie ça commence en bas de chez soi. C’est donc à l’échelle de la ville, sur des sujets très concrets de la vie quotidienne, que l’on veut redonner envie aux gens de participer, de s’impliquer dans la construction de l’espace publique.</p>
+    job_mission_part2_html: |
+      <p>Pour y arriver nous proposons à toutes les collectivités une interface innovante et ludique qui offre:</p>
+      <ul>
+        <li>Une information locale mieux ciblée, par centre d’intérêt</li>
+        <li>Une interaction plus efficace entre tous les membres de la société civile</li>
+        <li>Une meilleure compréhension des besoins et attentes des citoyens</li>
+      </ul>
+    jobs_modal_context_title: "Le contexte"
+    jobs_modal_context_html: |
+      <p>Fluicity est une start-up innovante dans le domaine du “civic tech” qui a pour but de réinventer la participation citoyenne à l’échelle locale. Fluicity vient de recevoir le prix des 10 meilleures innovations françaises 2015, décerné par le "MIT Technology Review".</p>
+      <p>La plate-forme s’inspire des technologies de pointe utilisées dans le marketing digital - segmentation, contextualisation, lecture sémantique de données, algorithme de prédiction - et s’applique aux besoins de la gouvernance locale.</p>
+      <p>Nous avons déjà un MVP et sommes actuellement en phase de test sur des villes de différentes tailles (Vernon, Mairie du 9e arrondissement) et sommes à la recherche d’un Junior Developer pour nous accompagner dans cet ambitieux projet.</p>
+      <p>Nos challenges techniques se situent principalement autour de la production et à l’analyse de données, l’intégration aux outils “smart city” existants et à la lecture sémantique des idées et remontées citoyennes.</p>
 
   faq:
-    question_1: "Qu’est-ce que Fluicity ?"
-    answer_1_html: "<p>Fluicity est une société qui a pour but de recréer du lien entre les citoyens et les élus grâce aux technologies de l’information et à l’analyse de données.</p><p>Nous fournissons des outils numériques à destination des organismes publics, principalement les Collectivités locales : Mairies, Communautés de communes, Départements.</p>"
+    faq_header: "F.A.Q"
+    question_1: "Quel est le modèle d’affaires?"
+    answer_1_html: |
+      <p>Fluicity propose un accès gratuit aux citoyens et une interface payante pour les acteurs publics, semi-publics et privés de la smartcity, telles que les collectivités et les sociétés de l’urbanisme. Nous offrons une gamme de fonctionnalités et de services incluant les consultations, l’agenda collaboratif, l’accès à la visualisation des données collectées, la modération sur base de lecture sémantique et l’animation de communauté.</p>
+      <p>Ce modèle d’affaires permet de garantir que la plate-forme soit dépourvue de publicités, ou que les informations personnelles soient réutilisées par des entreprises commerciales.</p>
     question_2: "En quoi sommes-nous différents ?"
-    answer_2_html: "<p>Fluicity crée un canal de communication constant entre citoyens, élus et le reste des acteurs de la vie citoyenne locale.</p><ul><li><strong>Information locale, divertissante, non-partisane :</strong> Nous voulons que chaque utilisateur soit fier de sa communauté. Nous proposons une plate-forme pour communiquer sur les initiatives citoyennes à impact positif, qu’elles soient sociales, civiques ou commerciales.</li><li><strong>Accompagnement autour de l’outil :</strong> Nous savons que l’outil numérique est un moyen et non une fin en soi. Nous aidons les Collectivités à communiquer sur leurs événements et initiatives de concertation citoyennes tout en fournissant un travail de modération et d’animation de communauté.</li><li><strong>Recherche et développement :</strong> Nous axons nos efforts sur l’amélioration constante de la technologie de collecte, d’analyse de données et de reconnaissance sémantique. Nous voulons que la Collectivité économise du temps et de l’argent grâce au service Fluicity.</li></ul>"
-    question_3: "Quelle forme prend le service ?"
-    answer_3_html: "<p>Nous nous chargeons de créer des partenariats avec les Collectivités et des éditeurs de contenu afin de diffuser de l’information ciblée et divertissante sur tout ce qu’il se passe près de chez vous. L’information est non-partisane et les éditeurs validés par la Collectivité. Associations et commerçants peuvent également communiquer sur leurs actions.</p><p>Les citoyens peuvent faire remonter idées et problèmes auxquels la Collectivité fournit une réponse. Ils peuvent aussi proposer des événements et répondre à des consultations sur des sujets locaux.</p><p>Nous fournissons la collecte et l'analyse de données tangibles et actionnables afin d'aider la Collectivité dans la gestion de son administration. A cela s’ajoute un service de diffusion, de modération, d'édition de contenu et d'animation de communauté.<p>"
-    question_4: "Quels sont les supports ?"
-    answer_4_html: "<p>Le service prend la forme d’une application mobile à destination des utilisateurs et d’un tableau de bord numérique à destination des administrateurs des Collectivités.</p><p>L’application mobile gratuite est disponible sur l’Appstore (iOS) et le Playstore (Android).</p>"
-    question_5: "Que contient l’application mobile ?"
-    answer_5_html: "<p>Un fil d’actualités qui sont filtrées par centres d’intérêts et un onglet dédié à la remontée d’information par les utilisateurs : idées, billets d’humeur, événements, problèmes.</p><p>Également un onglet dédié aux consultations émises par la Collectivité et un profil citoyen contenant le score citoyen, les centres d’intérêts et quelques informations sur l’utilisateur.</p>"
-    question_6: "Que contient le tableau de bord ?"
-    answer_6_html: "<p>Les onglets de gestion des actualités, des informations remontées et des consultations ainsi que des graphiques regroupant les données collectées dans une forme lisible et agréable.</p>"
-    question_7: "Quels sont les avantages pour la Collectivité ?"
-    answer_7_html: "<p>Fluicity fournit aux Collectivités des données tangibles et actionnables concernant leurs administrés, et permet d’instaurer un climat propice à la communication. Le service permet de toucher des publics jeunes et en périphérie de la participation citoyenne en utilisant leur outil de communication privilégié, le smartphone.</p><p>Il permet également d’optimiser les dépenses de communication en fournissant des consultations incluses et le tri dans les informations remontées.</p><p><strong>Un exemple :</strong> La Mairie de Marne-la-Data souhaite changer les horaires d’ouverture de la piscine municipale afin de dégager du budget. Elle envoie une consultation ciblée aux utilisateurs de la piscine. Ceux-ci renseignent les horaires qui les arrangent et où ils aimeraient voir le bugdet restant affecté. La Mairie s’inspire des données collectées et des retours des citoyens. Nous produisons ensuite une infographie qui servira à démontrer les retombées du projet.</p>"
-    question_8: "Quels sont les avantages pour les utilisateurs ?"
-    answer_8_html: "<p><strong>Citoyens :</strong> Fluicity permet de recevoir de l’information non partisane et ciblée par centres d’intérêts sur tout ce qu’il se passe au niveau local. Elle permet également de faire remonter de l’information à sa Collectivité et d’obtenir une réponse personnalisée.</p><p><strong>Associations :</strong> Les associations ont la possibilité de communiquer sur leurs événements ayant un champ d’action local (ex: brocante, don du sang …) mais aussi leurs demandes de subventions. Leur présence sur Fluicity leur fournit de la visibilité, de nouveaux participants aux événements organisés et un support spécifique pour leur demandes vis-à-vis des Collectivités.</p><p><strong>Commerçants et entreprises :</strong> Fluicity permet de donner de la visibilité aux acteurs commerciaux de la vie locale (nouveau restaurant, vernissage, dégustations …).</p>"
-    question_9: "D’où provient l’information diffusée ?"
-    answer_9_html: "<p><strong>Les Informations de la Mairie :</strong> Sur Fluicity se retrouve toute l’information que la Mairie veut partager avec le citoyen (appels à la participations,  calendrier culturel, les propositions du conseil, idées ou signalements citoyens, alertes ...).</p><p><strong>Les Informations des éditeurs de contenu :</strong> L’utilisateur a accès à des nouvelles qui mélangent des événements, des bons plans, des projets d’associations, des informations civiques et bien d’autres encore.</p><p><strong>Nos informations :</strong> Fluicity veut rendre la citoyenneté locale plus cool et éveiller le citoyen qui sommeille en nous en publiant des informations civiques, divertissantes et instructives. Le but est aussi d’améliorer la connaissance sur les responsabilités de chaque Collectivité.</p>"
-    question_10: "Comment récoltons-nous l’information ?"
-    answer_10_html: "<p><strong>Manuellement</strong>, en fournissant des droits de publications aux partenaires du service (administrateurs et partenaires éditeurs).</p><p><strong>Automatiquement</strong>, en nous connectant aux <a href='https://fr.wikipedia.org/wiki/Interface_de_programmation' rel='nofollow'>APIs</a> des supports numériques.</p>"
-    question_11: "Qui sont les éditeurs de contenu ?"
-    answer_11_html: "<p>Les éditeurs de contenu sont des diffuseurs neutres d’informations culturelles, civiques et divertissantes tels que des associations à champ d’action local, des journaux communiquant sur les bons plans, des portails de données ouvertes, des organismes dédiés à la culture, des écoles ...</p>"
-    question_12: "Qui valide les éditeurs de contenu ?"
-    answer_12_html: "<p>Fluicity propose une liste d’éditeurs de contenu qui est ensuite validée par la Collectivité partenaire. Cette dernière peut également ajouter ceux qu’elle juge pertinents.</p>"
-    question_13: "Qui s’occupe de la modération ?"
-    answer_13_html: "<p>Nous fournissons le travail de modération autour de l’outil, suivant des principes déontologiques (voir “principes déontologiques”).</p><p>Lorsqu’un utilisateur fait remonter de l’information, une boite de discussion s’ouvre. Un premier message est envoyé pour dire que sa demande est prise en compte. Un second (ou une simple notification) est ensuite envoyé quand l'information a passé la modération et est transmise à la Collectivité. Cette dernière obtient l’ensemble des idées, signalements, billets d’humeur et événements préalablement modérés.</p>"
-    question_14: "Sur quels principes déontologiques est basée la modération ?"
-    answer_14_html: "<p>Nous nous engageons à garantir la liberté d’expression à tous les individus, dans la limite de la loi. Nous n’autorisons aucune distinction sur la base des critères suivants : niveau d’éducation, race, couleur, sexe, langue, religion, opinions politiques ou autres, origines nationales ou sociales, biens, naissance ou tout autre statut.</p><p>Nous nous donnons le droit de modérer tout propos :<ul><li>portant atteinte à la vie privée et au droit à l’image d’autrui</li><li>incitant à la haine raciale, ethnique ou religieuse, l’apologie de crimes de guerre, les propos discriminatoires à raison d’orientations sexuelles ou d’un handicap, l’incitation à l’usage de produits stupéfiants, le négationisme</li><li>diffamatoire</li><li>injurieux</li><li>à caractère sexuel</li><li>trahissant le secret professionnel, le secret des affaires et le secret défense.</li></ul><p>Nous mettrons en avant  les idées constructives, participant au débat citoyen, suffisamment claires et complètes pour pouvoir être étudiées de manière sérieuse par la collectivité.</p>"
-    question_15: "Qui pilote le programme (administrateur Mairie) ?"
-    answer_15_html: "<p>Nous envoyons quotidiennement les idées et signalements à l’administrateur du programme à la Mairie, qui valide, répartit et fournit les réponses aux utilisateurs (légales, opérationnelles, budgétaires…). La Collectivité définit un administrateur, qui sera l’interlocuteur entre les utilisateurs et les différents services.</p><p>Afin d’éviter les redondances, nous travaillons au développement d’un service d’analyse sémantique permettant de fournir des redirections automatiques vers des réponses préalablement fournies.</p>"
-    question_16: "Comment diffusons-nous ?"
-    answer_16_html: "<p>Nous distribuons à la Collectivité un pack de communication comprenant des affiches, des dépliants, des “goodies” et des communiqués de presse. Nous fournissons également des encadrés destinés aux supports de communication de la Collectivité (journal, affiches, site internet…).</p><p>Nous faisons appel à des ambassadeurs de la vie citoyenne locale, séduis par le projet, afin de nous aider dans la diffusion de l’application aux autres citoyens.</p>"
-    question_17: "Quel est le modèle d’affaires ?"
-    answer_17_html: "<p>Les Collectivités payent annuellement pour le service et le prix varie en fonction du nombre d’administrés.</p><p>Une Collectivité de 20 000 administrés est facturée 12 300€ HT par an. Par comparaison une  Collectivité de plus de 150 000 administrés est facturée 19 200€ HT.</p><p>Une campagne de financement participatif est également mise en place. Celle-ci servira à faire supporter une partie du service par la communauté d’utilisateurs et à faciliter la diffusion de l’application.</p><p>Nous garantissons que la plate-forme sera dépourvue de publicités personnalisées en fonction des préférences des utilisateurs.</p>"
-    question_18: "Qui est propriétaire des outils ?"
-    answer_18_html: "<p>L’entreprise Fluicity reste propriétaire de la marque et des plates-formes numériques, même en cas de rupture de contrat non conventionnelle.</p><p>Nous nous engageons à constamment améliorer la technologie de modération, de collecte et d’analyse des données ainsi que de fournir une maintenance réactive en cas de défaut de l’application ou des autres outils numériques.</p>"
-    question_19: "Le service est-il fournit en marque blanche (application Mairie) ?"
-    answer_19_html: "<p>La pérennité du projet, notamment la fidélisation d’une communauté d’utilisateurs, passe par une marque neutre garantissant une information non-partisane et variée. Le risque de perte d’utilisateurs est élevé lors de la création d’une “marque blanche” spécifique pour une Collectivité partenaire (on perd une partie des répondants aux consultations, notamment les “opposants” à la liste en place).</p><p>Dans le cadre du développement d’une application spécifique pour une Collectivité (c’est à dire aux couleurs de la Collectivité), Nous facturerons des coûts relatifs aux charges imposées par cette démarche : développement de modules sur demande, maintenance spécifique, mises à jours complexifiées au cas par cas.</p>"
-    question_20: "Que deviennent les données collectées ?"
-    answer_20_html: "<p>Les données collectées sont soumises à <a href='http://www.cnil.fr/documentation/textes-fondateurs/loi78-17/' rel='nofollow'>la loi informatique et libertés (78-17)</a> et chaque utilisateur a un droit de regard et de modification sur celles-ci. Les données collectées sont la propriété de Fluicity et sont stockées sur des serveurs hébergés en France (serveur <a href='https://scalingo.com/about' rel='nofollow'>SCALINGO</a>). Nous gérons l’exploitation de celles-ci au profit de la Collectivité.</p><p>L’analyse des données collectées est faite de façon anonyme, sans publicité. Dans le cadre d’une utilisation commerciale des données au profit d’un autre type d’organisme que les organismes publics, seules les tendances dégagées sur le volume total des données sont monétisées.</p>"
+    answer_2_html: |
+      <p>Fluicity est une société spécialisée dans la participation citoyenne. Notre mission est de mettre la technologie au service de l’amélioration de l’espace public.</p>
+      <p>Trois axes font notre force :</p>
+      <ul>
+        <li>Une information locale comme vecteur de participation</li>
+        <li>Une intégration de plusieurs canaux au sein d’une même application citoyenne</li>
+        <li>Une identité propre, un tiers de confiance entre les organismes et les citoyens</li>
+      </ul>
+    question_3: "A quoi ressemble le service?"
+    answer_3_html: |
+      <p><strong>Côté citoyen :</strong> une interface mobile et web qui offre des informations locales en fonction des centres d’intérêt et un canal de communication direct avec les élus, organismes et les autres membres actifs de la communauté.</p>
+      <p><strong>Coté Mairie/organisme :</strong> une interface d’administration permettant de gérer différents outils comme les campagnes de consultations, les messages avec les administrés, l’information transmise à la communauté et l’analyse des données collectées.</p>
+    question_4: "Quels sont les avantages pour les Collectivités ou les Sociétés ?"
+    answer_4_html: |
+      <ul>
+        <li><strong>Se différencier</strong> en instaurant un climat propice à la participation 2.0, touchant un public jeune et sensible à la communication en réseaux</li>
+        <li><strong>Réduire ses coûts</strong> en communication grâce à une information ciblée et intelligente</li>
+        <li><strong>Gérer les risques</strong> de recours en informant sa communauté des étapes de réalisation d’un projet avant, pendant et après son développement</li>
+        <li><strong>Mieux comprendre</strong> les usagers grâce à la visualisation de données tangibles et actionnables</li>
+      </ul>
+    question_5: "Quels sont les avantages pour les utilisateurs ?"
+    answer_5_html: |
+      <ul>
+        <li><strong>Une citoyenneté accessible en temps réel</strong>, sur des outils en phase avec son temps</li>
+        <li><strong>De l’information locale</strong>, un sentiment d’appartenance à sa vie quartier</li>
+        <li>Le moyen de <strong>faire entendre sa voix</strong>, et obtenir une réponse personnalisée de la part de l’entité responsable</li>
+        <li><strong>Une intégration rapide</strong> dans le tissu socio-économique local</li>
+      </ul>
+    question_6: "Le contenu de la plate-forme est-il modéré ?"
+    answer_6_html: |
+      <p>Fluicity se réserve le droit de modérer dans le cas d’une atteinte à l’image de la plate-forme.</p>
+    question_7: "Qui opère la plate-forme ?"
+    answer_7_html: |
+      <p>La Collectivité ou la société définit un ou plusieurs administrateurs qui valident, répartissent et fournissent les réponses aux utilisateurs.</p>
+    question_8: "Qui est propriétaire des outils ?"
+    answer_8_html: |
+      <p>Fluicity met à disposition ses outils principalement en mode SaaS (Software as a Service), c’est à dire en licence. L’entreprise Fluicity reste propriétaire de la technologie et de la base de données.</p>
+      <p>Nous nous engageons à améliorer constamment le design, l’ergonomie, les fonctionnalités de la plate-forme et la qualité de collecte et d’analyse des données. Nous fournissons une maintenance réactive en cas de défaut de l’application ou des autres outils numériques.</p>
+    question_9: "Que deviennent les données collectées ?"
+    answer_9_html: |
+      <p>Les données collectées sont la propriété de Fluicity et sont stockées sur des serveurs protégés et hébergés en France. Nous gérons l’exploitation de celles-ci au profit des utilisateurs de la plate-forme et de nos services. L’analyse des données collectées préserve l’anonymat de l’utilisateur. Nous n’utilisons pas les données à des fins publicitaires.</p>

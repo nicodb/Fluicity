@@ -2,15 +2,26 @@
 <% meta_description %>
 <% meta_image %>
 
+<!-- HOME | HEADER + CTA DOWNLOADS -->
 <header id="#cover">
   <div class="header-background">
+    <div class="shapes-top"></div>
     <div class="header-cover">
       <div class="container">
         <div class="row header-content text-center">
-            <h1><%= t 'index.catchline' %></h1>
-            <p class="index-description"><%= t "index.description"%></p>
-            <%= render "shared/newsletter"%>
-            <a href="#timeline" alt="Timeline"><%= t 'index.button' %></a>
+            <!-- <img src="<#%= image_url 'logo/logo-fluicity-white.png' %>"> -->
+            <h1 class="home-description">
+              <%= t 'home.header.title_part1' %><br>
+              <em class='highlight'><%= t 'home.header.title_part2' %></em>
+            </h1>
+            <button href="#" class="button button-download appstore">
+              <i class="devicon-apple-original"></i>
+              <span><%= t 'button.download_apple' %></span>
+            </button>
+            <button href="https://play.google.com/store/apps/details?id=city.flui.android" class="button button-download playstore">
+              <i class="devicon-android-plain"></i>
+              <span><%= t 'button.download_android' %></span>
+            </button>
           </div>
         </div>
       </div>
@@ -18,72 +29,122 @@
   </div>
 </header>
 
-<section class="home-section">
+<!-- SECTION 1 | VISION -->
+<section class="vision">
   <div class="container">
     <div class="row">
-      <div class="col-sx-12 col-sm-4">
-        <div class="home-issue">
-          <div id="circle1"></div>
-          <span class="issue-stat count"><%= t 'index.first_alarm.stat' %></span>
-          <p class="issue-description"><%= t 'index.first_alarm.description' %></p>
-          <span class="issue-source"><%= t 'index.first_alarm.source' %></span>
-        </div>
+      <div class="col-md-12">
+        <span class="description">
+          <%= t 'home.vision.vision_part1' %><br>
+          <%= t 'home.vision.vision_part2' %><br>
+          <%= t 'home.vision.vision_part3' %>
+        </span>
+        <span class="description enhance"><%= t 'home.vision.vision_highlight' %></span>
+        <!-- Link to Vision Page -->
+        <%= link_to I18n.translate('home.vision.vision_button'), vision_path, class: "button button-vision animsition-link" %>
       </div>
-      <div class = "col-sx-12 col-sm-4">
-        <div class="home-issue">
-          <div id="circle2"></div>
-          <span class="issue-stat count"><%= t 'index.second_alarm.stat' %></span>
-          <p class="issue-description"><%= t 'index.second_alarm.description' %></p>
-          <span class="issue-source"><%= t 'index.second_alarm.source' %></span>
-        </div>
+    </div>
+  </div>
+  <div class="shapes-bottom"></div>
+</section>
+
+<!-- SECTION 2 | FEATURES -->
+<section class="features">
+  <!-- Blured Background Image -->
+  <div class="features-cover"></div>
+  <!-- Darken filter -->
+  <div class="features-overlay"></div>
+  <!-- Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <!-- Features items -->
+        <ul id="item-list" class="item-list">
+          <li id="item-1" class="item active">
+            <i class="question"><%= t 'home.features.features_question1' %></i><%= t 'home.features.features_answer1' %>
+          </li>
+          <li id="item-2" class="item">
+            <i class="question"><%= t 'home.features.features_question2' %></i><%= t 'home.features.features_answer2' %>
+          </li>
+          <li id="item-3" class="item">
+            <i class="question"><%= t 'home.features.features_question3' %></i><%= t 'home.features.features_answer3' %>
+          </li>
+          <%= link_to I18n.translate('home.features.features_button'), features_path, class: "btn-features animsition-link" %>
+        </ul>
       </div>
-      <div class = "col-sx-12 col-sm-4">
-        <div class="home-issue">
-          <div id="circle3"></div>
-          <span class="issue-stat count"><%= t 'index.third_alarm.stat' %></span>
-          <p class="issue-description"><%= t 'index.third_alarm.description' %></p>
-          <span class="issue-source"><%= t 'index.third_alarm.source' %></span>
+      <div class="col-sm-6">
+        <!-- Mockup & screenshots -->
+        <div class="mockup">
+          <ul id="screen" class="screen">
+            <li id="slide_1" class="active"><img class="slide" src="<%= image_url 'mockup/slide_1.jpg' %>"></li>
+            <li id="slide_2"><img class="slide" src="<%= image_url 'mockup/slide_2.jpg' %>"></li>
+            <li id="slide_3"><img class="slide" src="<%= image_url 'mockup/slide_3.jpg' %>"></li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<div class="cut-quote">
-  <div class="cut-cover">
-    <div class="container text-center">
-      <blockquote><%= t 'index.award.text' %></blockquote>
-      <% if I18n.locale == :en || :nl %>
-      <a href="http://innovatorsunder35.com/innovator/julie-de-pimodan" rel="" target="_blank"><img class="award-logo" src="<%= image_url 'logo-mit-en.png' %>" alt="logo"></a>
-      <% else %>
-      <a href="http://innovatorsunder35.com/innovator/julie-de-pimodan" rel="" target="_blank"><img class="award-logo" src="<%= image_url 'logo-mit.png' %>" alt="logo"></a>
+<!-- SECTION 3 | AWARDS -->
+<section class="awards">
+  <div class="container">
+    <!-- Awards carousel -->
+    <div class="row">
+      <ul id="awards-list" class="awards-list">
+        <li id="award-1" class="active"><img class="award" src="<%= image_url 'awards/award_mit.jpg' %>"></li>
+        <li id="award-2"><img class="award" src="<%= image_url 'awards/award_s3c.jpg' %>"></li>
+        <li id="award-3"><img class="award" src="<%= image_url 'awards/award_ted.jpg' %>"></li>
+        <li id="award-4"><img class="award" src="<%= image_url 'awards/award_ev.jpg' %>"></li>
+      </ul>
+    </div>
+    <!-- Awards infos -->
+    <div class="row">
+      <ul id="awards-ref-list" class="awards-ref-list">
+        <li id="award-ref-1" class="active">
+          <div class="award-ref">
+            <%= t 'home.awards.awards_mit_html' %>
+            <a href="http://innovatorsunder35.com/innovator/julie-de-pimodan" class="btn-award"><%= t 'home.awards.awards_button' %></a>
+          </div>
+        </li>
+        <li id="award-ref-2">
+          <div class="award-ref">
+            <%= t 'home.awards.awards_s3c_html' %>
+            <a href="#" class="btn-award animsition-link"><%= t 'home.awards.awards_button' %></a>
+          </div>
+        </li>
+        <li id="award-ref-3">
+          <div class="award-ref">
+            <%= t 'home.awards.awards_ted_html' %>
+            <a href="#" class="btn-award animsition-link"><%= t 'home.awards.awards_button' %></a>
+          </div>
+        </li>
+        <li id="award-ref-4">
+          <div class="award-ref">
+            <%= t 'home.awards.awards_ev_html' %>
+            <a href="https://www.youtube.com/watch?v=62yZ_GjwBHA" class="btn-award animsition-link"><%= t 'home.awards.awards_button' %></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 4 | TESTIMONIALS -->
+<section class="testimonials">
+  <div class="testimonials-cover"></div>
+  <div class="testimonials-overlay"></div>
+  <div class="container">
+    <div class="slick-testimonials">
+      <!-- From db/testimonials.yml -->
+      <% @testimonials[:testimonials].each do |testimonial| %>
+        <div>
+          <img class="testimonial-witness" src="<%= image_url "testimonials/#{testimonial['picture'] }" %>" alt="logo">
+          <span class="testimonial-opinion">"<%= testimonial['content'] %>"</span>
+          <span class="testimonial-name"><%= testimonial['firstname'] %> <%= testimonial['lastname'] %></span>
+          <span class="testimonial-position"><%= testimonial['position'] %></span>
+        </div>
       <% end %>
     </div>
-  </div>
-</div>
-
-<%= render "shared/timeline2"%>
-
-<section class="section-video">
-
-
-<div class="cut-video">
-  <div class="cut-cover">
-    <div class="container-video">
-      <div class="cut-scene-video">
-        <div class="video-wrapper">
-          <iframe width="560" height="315" src="//www.youtube.com/embed/MxribCVXRuI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<section class="home-wish">
-  <div class="container">
-    <h2><%= t 'index.calltoaction.text' %></h2>
-    <%= link_to new_wish_path do %>
-     <%= t 'index.calltoaction.button' %>
-    <% end %>
   </div>
 </section>

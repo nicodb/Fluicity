@@ -1,16 +1,18 @@
-<section class="newsletter form-inline">
-  <div class="container text-center">
-    <div class="row">
-      <div class="col-xs-12">
-        <span><%= t 'newsletter.disclaimer' %></span>
-        <%= form_for(@user) do |f| %>
-        <%= f.text_field :email, placeholder: I18n.translate('newsletter.placeholder.email'), class: 'form-control' %>
-        <!-- Include Google Maps JS API -->
-        <input id="user_input_autocomplete_address" name="city" placeholder="<%= t 'newsletter.placeholder.city' %>" class="form-control">
-        <!-- <%= f.collection_select :role, @roles, :value, :text, {}, { class: "form-control" } %>-->
-        <%=  f.button I18n.translate('newsletter.button') , class: "btn btn-newsletter"  %>
-        <% end %>
-      </div>
+<!-- MAILCHIMP FORM -->
+<section class="mailchimp-form">
+  <p><%= t 'newsletter.newsletter_disclaimer' %></p>
+  <form action="//city.us10.list-manage.com/subscribe/post?u=930ff67f0f64c7f9f4a454392&amp;id=bf3545400d" method="post" class="validate" target="_blank" novalidate>
+    <input type="email" name="EMAIL" class="" placeholder="john@doe.com" required>
+    <!-- FORM VALIDATION -->
+    <div id="mce-responses" class="clear">
+      <div class="response" id="mce-error-response" style="display:none"></div>
+      <div class="response" id="mce-success-response" style="display:none"></div>
     </div>
-  </div>
+    <!-- ANTI BOT SIGNUPS -->
+    <input class="bot-remover" type="text" name="b_930ff67f0f64c7f9f4a454392_bf3545400d" tabindex="-1">
+    <button type="submit" value="s'inscrire" name="subscribe" class=""><%= t 'newsletter.newsletter_button' %></button>
+  </form>
 </section>
+
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>

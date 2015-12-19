@@ -1,0 +1,84 @@
+<% title "Features" %>
+<% meta_description %>
+<% meta_image %>
+
+<header id="#cover">
+  <div class="header-page">
+    <div class="shapes-top"></div>
+    <div class="header-cover">
+      <div class="container">
+        <div class="row header-content text-center">
+          <h1 class="index-description"><em class='highlight'><%= t 'features.features_header' %></em></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="features">
+
+  <div class="container-fluid information">
+    <div class="shapes-top"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 content">
+          <h2><%= t 'features.features_title_section1' %></h2>
+          <%= t 'features.features_section1_html' %>
+        </div>
+        <div class="col-sm-6">
+          <div class="mockup">
+            <ul id="screen" class="screen">
+              <li class="active"><img class="slide" src="<%= image_url 'slide_1.jpg' %>"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid interactivity">
+    <div class="shapes-top"></div>
+    <div class="overlay-interactivity"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 content">
+          <h2><%= t 'features.features_title_section2' %></h2>
+          <%= t 'features.features_section2_html' %>
+        </div>
+        <div class="col-md-6">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container understanding">
+    <div class="row">
+      <div class="col-md-6 content">
+        <h2><%= t 'features.features_title_section3' %></h2>
+        <%= t 'features.features_section3_html' %>
+      </div>
+      <div class="col-md-6">
+        <div class="browser">
+          <ul id="window" class="window">
+            <li><img src="<%= image_url 'mockup/mockup_admin.jpg' %>"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="next-page">
+  <div class="next-overlay"></div>
+  <span><%= t 'next.download' %></span>
+  <div class="next-content">
+    <button href="#" class="button button-download appstore">
+      <i class="devicon-apple-original"></i>
+      <span><%= t 'button.download_apple' %></span>
+    </button>
+    <button href="#" class="button button-download playstore">
+      <i class="devicon-android-plain"></i>
+      <span><%= t 'button.download_android' %></span>
+    </button>
+  </div>
+</div>

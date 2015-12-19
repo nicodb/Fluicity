@@ -1,10 +1,64 @@
 <footer>
- <div class="container text-center">
-   <div class="row">
-      <div class="col-lg-12 footer-col">
-        <span class="copyright"><span class="email">info@flui.city</span> - © Fluicity 2015<span>
+  <div class="container">
+    <div class="row">
+      <%= render 'shared/newsletter' %>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="col-sm-3">
+          <ul>
+            <li><%= link_to I18n.translate('footer.link_team'), team_path, class: "animsition-link" %></li>
+            <li><%= link_to I18n.translate('footer.link_legals'), faq_path, class: "animsition-link" %></li>
+            <li><%= link_to I18n.translate('footer.link_cgv'), faq_path, class: "animsition-link" %></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <ul>
+            <li><%= link_to I18n.translate('footer.link_wish'), new_wish_path, class: "animsition-link" %></li>
+            <li><%= link_to I18n.translate('footer.link_jobs'), jobs_path, class: "animsition-link" %></li>
+            <li><%= link_to I18n.translate('footer.link_press'), press_path, class: "animsition-link" %></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <ul>
+            <li><%= link_to I18n.translate('footer.link_faq'), faq_path, class: "animsition-link" %></li>
+            <li>
+              <%= link_to "https://medium.com/@Fluicities", :class => "animsition-link" do %>
+                <%= t 'footer.link_blog' %>
+              <% end %>
+            </li>
+            <li><%= link_to I18n.translate('footer.link_contact'), contact_path, class: "animsition-link" %></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <ul>
+            <li>
+              <i class="fa fa-facebook"></i>
+              <%= link_to "https://www.facebook.com/fluicity/", :class => "animsition-link" do %>
+                <%= t 'footer.link_facebook' %>
+              <% end %>
+            </li>
+            <li>
+            <i class="fa fa-twitter"></i>
+              <%= link_to "https://www.twitter.com/fluicities/", :class => "animsition-link" do %>
+                <%= t 'footer.link_twitter' %>
+              <% end %>
+            </li>
+            <li>
+              <i class="fa fa-linkedin"></i>
+              <%= link_to "https://www.linkedin.com/company/fluicity", :class => "animsition-link" do %>
+                <%= t 'footer.link_linkedin' %>
+              <% end %>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
+     <div class="row">
+        <div class="col-md-12 copyright">
+          <span><%= t 'footer.copyright' %></span>
+        </div>
+      </div>
   </div>
 </footer>
 

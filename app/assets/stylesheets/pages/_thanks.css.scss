@@ -1,0 +1,27 @@
+.section-thanks {
+  min-height: 200px;
+  color: white;
+  position: relative;
+}
+
+.newsletter-confirmation {
+  position: relative;
+  color: #fff;
+  width: 100%;
+  border-left: 4px solid #fff;
+
+  span {
+    display: block;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    padding: 0 0 20px 0;
+
+    small {
+      text-transform: none;
+      font-size: 0.8em;
+    }
+  }
+}

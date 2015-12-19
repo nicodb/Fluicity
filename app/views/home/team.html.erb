@@ -1,0 +1,61 @@
+<% title "Team" %>
+<% meta_description %>
+<% meta_image %>
+
+<header id="#cover">
+  <div class="header-page">
+    <div class="shapes-top"></div>
+    <div class="header-cover">
+      <div class="container">
+        <div class="row header-content text-center">
+          <h1 class="index-description"><em class='highlight'><%= t 'team.team_header' %></em></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section-team">
+    <div class="container">
+      <div class="team-container">
+        <ul id="members">
+          <% @team[:members].each do |member| %>
+            <li id="member-card">
+              <div class="member-info">
+                <img src="<%= image_url "team/#{member['picture']}" %>" alt="logo" class="article-logo">
+                <div class="member-details">
+                  <h3><%= member['firstname'] + " " + member['lastname'] %></h3>
+                  <span><%= member['position'] %></span>
+                </div>
+              </div>
+              <div id="member-description" class="member-description description-hidden">
+              <div class="shapes-member"></div>
+              <img src="<%= image_url "team/#{member['picture']}" %>" alt="logo" class="article-logo">
+                <h3><%= member['firstname'] + " " + member['lastname'] %></h3>
+                <span><%= member['position'] %></span>
+                <p><%= member['description'] %></p>
+              </div>
+            </li>
+          <% end %>
+        </ul>
+        <div class="join-team">
+          <div class="join-team-cover">
+            <%= link_to jobs_path, :class => "animsition-link" do %>
+              <div class="join-overlay"></div>
+              <h4><%= t 'team.team_jointeam_button' %></h4>
+            <% end %>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%= link_to contact_path do %>
+  <div class="next-page">
+    <div class="next-overlay"></div>
+      <span><%= t 'next.contact' %></span>
+    </div>
+  </a>
+<% end %>

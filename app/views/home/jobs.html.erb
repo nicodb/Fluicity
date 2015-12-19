@@ -1,0 +1,77 @@
+<% title "Jobs" %>
+<% meta_description %>
+<% meta_image %>
+
+<header id="#cover">
+  <div class="header-page">
+    <div class="shapes-top"></div>
+    <div class="header-cover">
+      <div class="container">
+        <div class="row header-content text-center">
+          <h1 class="index-description"><em class='highlight'><%= t 'jobs.jobs_header' %></em></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section-jobs">
+  <div class="container">
+    <h2><%= t 'jobs.jobs_mission_title' %></h2>
+    <div class="row">
+      <div class="col-md-6">
+        <%= t 'jobs.job_mission_part1_html' %>
+      </div>
+      <div class="col-md-6">
+        <%= t 'jobs.job_mission_part2_html' %>
+      </div>
+    </div>
+    <h2>Job board</h2>
+    <div class="offers-container">
+      <ul id="members">
+        <% @job[:offers].each do |offer| %>
+          <li id="member-card" data-toggle="modal" data-target="#<%= offer['id'] %>">
+            <div class="member-info">
+              <img src="<%= image_url offer['icon'] %>" class="article-logo">
+              <div class="member-details">
+                <h3><%= offer['position'] %></h3>
+                <span><%= offer['contract'] %> - <%= offer['duration'] %></span>
+              </div>
+            </div>
+          </li>
+          <!-- MODAL - JOB OFFER DESCRIPTION -->
+          <div id="<%= offer['id'] %>" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-md">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title"><%= offer['position'] %></h3>
+                  <span><%= offer['contract'] %> - <%= offer['duration'] %></span>
+                </div>
+                <div class="modal-body">
+                  <h4><%= t 'jobs.jobs_modal_context_title' %></h4>
+                  <%= t 'jobs.jobs_modal_context_html' %>
+                  <h4>Votre rôle</h4>
+                  <%= offer['mission_html'].html_safe %>
+                  <h4>Qualifications</h4>
+                  <%= offer['qualifications'].html_safe %>
+                </div>
+                <div class="modal-footer">
+                  <p>Envoyez votre candidature :<br><strong>info@flui.city</strong></p>
+                  <button type="button" class="modal-close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<%= link_to contact_path do %>
+  <div class="next-page">
+    <div class="next-overlay"></div>
+      <span><%= t 'next.contact' %></span>
+    </div>
+  </a>
+<% end %>

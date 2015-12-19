@@ -1,5 +1,5 @@
-<% if params[:action] == 'press' || 'faq' %>
-  <nav class="navbar navbar-default navbar-fixed-top navbar-wagon press-color" role="navigation" id="navbar">
+<% if params[:action] == 'survey' %>
+  <nav class="navbar navbar-default navbar-fixed-top navbar-wagon survey" role="navigation" id="navbar">
 <% else %>
   <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation" id="navbar">
 <% end %>
@@ -12,8 +12,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">
-        <%= image_tag "fluicity_2.png", id: "logo" %>
+      <a id="brand" class="navbar-brand animsition-link" href="/">
+        <%= image_tag "logo/fluicity_logo.png", id: "logo" %>
       </a>
     </div>
 
@@ -21,57 +21,58 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <%= link_to contact_path do %>
-            <i class="fa fa-envelope-o"></i><%= t 'menu.contact'%>
+          <%= link_to "/", :class => "animsition-link" do %>
+            <%= t 'menu.home' %>
           <% end %>
         </li>
-      <ul class="nav navbar-nav navbar-middle">
         <li>
-          <%= link_to new_wish_path do %>
-            <i class="fa fa-quote-left"></i><%= t 'menu.wish'%>
+          <%= link_to vision_path, :class => "animsition-link" do %>
+            <%= t 'menu.vision' %>
           <% end %>
         </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-middle">
         <li>
-          <%= link_to press_path do %>
-            <i class="fa fa-bookmark"></i><%= t 'menu.press'%>
+          <%= link_to features_path, :class => "animsition-link" do %>
+            <%= t 'menu.features' %>
           <% end %>
         </li>
-      </ul>
-      <% if I18n.locale == :fr %>
-      <ul class="nav navbar-nav navbar-middle">
         <li>
-          <%= link_to faq_path do %>
-            <i class="fa fa-cog"></i><%= t 'menu.faq'%>
+          <%= link_to new_wish_path, :class => "animsition-link" do %>
+            <%= t 'menu.wish' %>
           <% end %>
         </li>
-      </ul>
-      <% end %>
-      <ul class="nav navbar-nav">
-        <li class="dropdown" id="last-link">
+        <li>
+          <%= link_to team_path, :class => "animsition-link" do %>
+            <%= t 'menu.team' %>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to "https://medium.com/@Fluicities", :class => "animsition-link" do %>
+            <%= t 'menu.blog' %>
+          <% end %>
+        </li>
+         <li>
+          <%= link_to contact_path, :class => "animsition-link" do %>
+            <%= t 'menu.contact' %>
+          <% end %>
+        </li>
+        <!-- <li class="dropdown" id="last-link">
           <a href="#" class="dropdown-toggle free" data-toggle="dropdown">
             <i class="fa fa-globe"></i>
             <span class="caret"></span>
           </a>
           <ul class="dropdown-menu" role="menu">
             <li>
-              <a href="/"><%= t 'menu.language.french' %></a>
+              <a href="/"><#%= t 'menu.language.french' %></a>
             </li>
             <li>
-              <a href="/en"><%= t 'menu.language.english' %></a>
+              <a href="/en"><#%= t 'menu.language.english' %></a>
             </li>
             <li>
-              <a href="/nl"><%= t 'menu.language.dutch' %></a>
+              <a href="/nl"><#%= t 'menu.language.dutch' %></a>
             </li>
           </ul>
-        </li>
+        </li> -->
       </ul>
-      <div class="nav navbar-nav navbar-middle social">
-        <a href="https://www.facebook.com/fluicity" target="_blank" rel="nofollow" alt="Facebook Fluicity"><i class="fa fa-facebook-square fa-2x"></i></a>
-        <a href="https://twitter.com/fluicities" target="_blank" rel="nofollow" alt="Twitter Fluicity"><i class="fa fa-twitter-square fa-2x"></i></a>
-        <a href="https://www.linkedin.com/company/fluicity" target="_blank" rel="nofollow" alt="Linkedin Fluicity"><i class="fa fa-linkedin-square fa-2x"></i></a>
-      </div>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>

@@ -1,0 +1,100 @@
+/* COMMON STYLE ***************************************************************/
+.button {
+  text-decoration: none;
+  background: transparent;
+  border-radius: 4px;
+
+  @include transition(all, 0.3s, ease-in-out);
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+/* HEADER HOME - DOWNLOAD BUTTONS *********************************************/
+.button-download {
+  margin: 40px 5px 0;
+  padding: 0 10px;
+  min-width: 270px;
+  height: 55px;
+  line-height: 55px;
+
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 16px;
+
+  z-index: 2;
+
+  &:hover {
+    background-color: #fff;
+    color: #222;
+
+    .devicon-apple-original,
+    .devicon-android-plain {
+      color: #ffc70b;
+    }
+  }
+
+  .devicon-apple-original,
+  .devicon-android-plain {
+    position: relative;
+    top: 4px;
+    margin-right: 5px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 592px) {
+  .button-download {
+    margin: 10px 5px 0;
+  }
+}
+
+/* HOME - SECTION | VISION ****************************************************/
+.button-vision {
+  display: block;
+  margin: 50px auto 0 auto;
+  width: 300px;
+  padding: 20px 70px;
+  font-size: 18px;
+  color: #898484;
+  border: 1px solid #898484;
+  border-radius: 4px;
+
+  &:hover {
+    color: #fff;
+    background-color: #222;
+  }
+}
+
+/* WISH - FORM SUBMISSION **************************************************/
+.button-wish {
+  display: block;
+  padding: 10px 30px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #222;
+  border: 1px solid #222;
+  border-radius: 4px;
+
+  &:hover {
+    color: #222;
+    background-color: #fff;
+  }
+}
+
+/* CONTACT - FORM SUBMISSION **************************************************/
+.button-contact {
+  display: block;
+  padding: 10px 30px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #222;
+  border: 1px solid #222;
+  border-radius: 4px;
+
+  &:hover {
+    color: #222;
+    background-color: #fff;
+  }
+}
