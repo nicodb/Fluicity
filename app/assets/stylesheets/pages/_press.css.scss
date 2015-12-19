@@ -86,3 +86,22 @@
     }
   }
 }
+
+@media screen and (max-width: 375px) {
+  .section-press {
+    .press-container {
+      ul {
+        li {
+           .article-details {
+            .article-info {
+              .article-name,
+              .article-date {
+                font-size: 11px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

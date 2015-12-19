@@ -224,3 +224,22 @@
 @media screen and (max-width: 767px) {
   .section-team ul { width: 100% }
 }
+
+@media screen and (max-width: 375px) {
+  .section-team ul li .member-description {
+    padding: 100px 20px 40px 110px;
+  }
+
+  .section-team {
+    ul {
+      li {
+        .member-info {
+          .member-details {
+            h3 { font-size: 14px; }
+            span { font-size: 12px; }
+          }
+        }
+      }
+    }
+  }
+}

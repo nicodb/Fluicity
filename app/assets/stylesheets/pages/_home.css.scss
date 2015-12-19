@@ -34,7 +34,7 @@
 
   .features-cover {
     position: absolute;
-    background:asset-url('home_v3.jpg') no-repeat top center fixed;
+    background:asset-url('background/fluicity_main.jpg') no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -118,6 +118,10 @@
       color: #222;
       background-color: #fff;
       border: 1px solid #222;
+    }
+
+    @media screen and (max-width: 360px) {
+      padding: 20px 50px;
     }
   }
 }
@@ -298,7 +302,7 @@
 
   .testimonials-cover {
     position: absolute;
-    background:asset-url('home_v3.jpg') no-repeat top center fixed;
+    background:asset-url('background/fluicity_main.jpg') no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

@@ -1,6 +1,6 @@
 .mockup {
   position: relative;
-  background:asset-url('iphone.png') no-repeat center;
+  background:asset-url('mockup/iphone.png') no-repeat center;
   height: 700px;
   width: 455px;
   margin-top: 30px;
@@ -60,7 +60,7 @@
 
 .browser {
   position: absolute;
-  background:asset-url('browser.png') no-repeat center left;
+  background:asset-url('mockup/browser.png') no-repeat center left;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

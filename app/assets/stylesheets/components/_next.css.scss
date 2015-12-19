@@ -1,6 +1,6 @@
 .next-page {
   position: relative;
-  background:asset-url('home_v3.jpg') no-repeat top center;
+  background:asset-url('background/fluicity_main.jpg') no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -46,6 +46,7 @@
 
   span {
     z-index: 1;
+    text-align: center;
   }
 
   .next-content {
